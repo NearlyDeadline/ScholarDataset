@@ -1,0 +1,5636 @@
+{
+    "INTERNATIONAL JOURNAL OF COMPUTER VISION": {
+        "Journal Impact Factor": "11.541",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE": {
+        "Journal Impact Factor": "9.455",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE Transactions on Cybernetics": {
+        "Journal Impact Factor": "8.803",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, CYBERNETICS",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE TRANSACTIONS ON FUZZY SYSTEMS": {
+        "Journal Impact Factor": "8.415",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE TRANSACTIONS ON EVOLUTIONARY COMPUTATION": {
+        "Journal Impact Factor": "8.124",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE Transactions on Neural Networks and Learning Systems": {
+        "Journal Impact Factor": "7.982",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 1
+            }
+        ]
+    },
+    "NEURAL NETWORKS": {
+        "Journal Impact Factor": "7.197",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            }
+        ]
+    },
+    "Information Fusion": {
+        "Journal Impact Factor": "6.639",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE Computational Intelligence Magazine": {
+        "Journal Impact Factor": "6.611",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            }
+        ]
+    },
+    "MEDICAL IMAGE ANALYSIS": {
+        "Journal Impact Factor": "5.356",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE TRANSACTIONS ON IMAGE PROCESSING": {
+        "Journal Impact Factor": "5.072",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE Transactions on Affective Computing": {
+        "Journal Impact Factor": "4.585",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, CYBERNETICS",
+                "Rank": 1
+            }
+        ]
+    },
+    "International Journal of Neural Systems": {
+        "Journal Impact Factor": "4.580",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            }
+        ]
+    },
+    "KNOWLEDGE-BASED SYSTEMS": {
+        "Journal Impact Factor": "4.396",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            }
+        ]
+    },
+    "NEURAL COMPUTING & APPLICATIONS": {
+        "Journal Impact Factor": "4.215",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            }
+        ]
+    },
+    "PATTERN RECOGNITION": {
+        "Journal Impact Factor": "3.965",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            }
+        ]
+    },
+    "APPLIED SOFT COMPUTING": {
+        "Journal Impact Factor": "3.907",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 1
+            }
+        ]
+    },
+    "Swarm and Evolutionary Computation": {
+        "Journal Impact Factor": "3.818",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 1
+            }
+        ]
+    },
+    "ARTIFICIAL INTELLIGENCE REVIEW": {
+        "Journal Impact Factor": "3.814",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            }
+        ]
+    },
+    "EXPERT SYSTEMS WITH APPLICATIONS": {
+        "Journal Impact Factor": "3.768",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            }
+        ]
+    },
+    "INTEGRATED COMPUTER-AIDED ENGINEERING": {
+        "Journal Impact Factor": "3.667",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 1
+            }
+        ]
+    },
+    "JOURNAL OF INTELLIGENT MANUFACTURING": {
+        "Journal Impact Factor": "3.667",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            }
+        ]
+    },
+    "DECISION SUPPORT SYSTEMS": {
+        "Journal Impact Factor": "3.565",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "Cognitive Computation": {
+        "Journal Impact Factor": "3.479",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            }
+        ]
+    },
+    "INTERNATIONAL JOURNAL OF INTELLIGENT SYSTEMS": {
+        "Journal Impact Factor": "3.363",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            }
+        ]
+    },
+    "ADVANCED ENGINEERING INFORMATICS": {
+        "Journal Impact Factor": "3.358",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            }
+        ]
+    },
+    "NEUROCOMPUTING": {
+        "Journal Impact Factor": "3.241",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            }
+        ]
+    },
+    "ARTIFICIAL INTELLIGENCE": {
+        "Journal Impact Factor": "3.034",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            }
+        ]
+    },
+    "ACM Transactions on Intelligent Systems and Technology": {
+        "Journal Impact Factor": "2.973",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE Transactions on Autonomous Mental Development": {
+        "Journal Impact Factor": "2.889",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            }
+        ]
+    },
+    "ARTIFICIAL INTELLIGENCE IN MEDICINE": {
+        "Journal Impact Factor": "2.879",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            }
+        ]
+    },
+    "ENGINEERING APPLICATIONS OF ARTIFICIAL INTELLIGENCE": {
+        "Journal Impact Factor": "2.819",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE TRANSACTIONS ON KNOWLEDGE AND DATA ENGINEERING": {
+        "Journal Impact Factor": "2.775",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "CHEMOMETRICS AND INTELLIGENT LABORATORY SYSTEMS": {
+        "Journal Impact Factor": "2.701",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            }
+        ]
+    },
+    "International Journal of Machine Learning and Cybernetics": {
+        "Journal Impact Factor": "2.692",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            }
+        ]
+    },
+    "ROBOTICS AND AUTONOMOUS SYSTEMS": {
+        "Journal Impact Factor": "2.638",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            }
+        ]
+    },
+    "Frontiers in Neurorobotics": {
+        "Journal Impact Factor": "2.606",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            }
+        ]
+    },
+    "IEEE INTELLIGENT SYSTEMS": {
+        "Journal Impact Factor": "2.596",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            }
+        ]
+    },
+    "IEEE Transactions on Human-Machine Systems": {
+        "Journal Impact Factor": "2.563",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, CYBERNETICS",
+                "Rank": 2
+            }
+        ]
+    },
+    "DATA MINING AND KNOWLEDGE DISCOVERY": {
+        "Journal Impact Factor": "2.481",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "MECHATRONICS": {
+        "Journal Impact Factor": "2.423",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            }
+        ]
+    },
+    "International Journal of Fuzzy Systems": {
+        "Journal Impact Factor": "2.396",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            }
+        ]
+    },
+    "COMPUTER VISION AND IMAGE UNDERSTANDING": {
+        "Journal Impact Factor": "2.391",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            }
+        ]
+    },
+    "EVOLUTIONARY COMPUTATION": {
+        "Journal Impact Factor": "2.388",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 1
+            }
+        ]
+    },
+    "SOFT COMPUTING": {
+        "Journal Impact Factor": "2.367",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 2
+            }
+        ]
+    },
+    "SIAM Journal on Imaging Sciences": {
+        "Journal Impact Factor": "2.361",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 1
+            }
+        ]
+    },
+    "JOURNAL OF MACHINE LEARNING RESEARCH": {
+        "Journal Impact Factor": "2.281",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            }
+        ]
+    },
+    "International Journal of Bio-Inspired Computation": {
+        "Journal Impact Factor": "2.266",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 1
+            }
+        ]
+    },
+    "KNOWLEDGE AND INFORMATION SYSTEMS": {
+        "Journal Impact Factor": "2.247",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "AUTONOMOUS ROBOTS": {
+        "Journal Impact Factor": "2.244",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            }
+        ]
+    },
+    "Semantic Web": {
+        "Journal Impact Factor": "2.224",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 1
+            }
+        ]
+    },
+    "IMAGE AND VISION COMPUTING": {
+        "Journal Impact Factor": "2.159",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 1
+            }
+        ]
+    },
+    "Fuzzy Optimization and Decision Making": {
+        "Journal Impact Factor": "2.022",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            }
+        ]
+    },
+    "International Journal of Computational Intelligence Systems": {
+        "Journal Impact Factor": "2.000",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 2
+            }
+        ]
+    },
+    "APPLIED INTELLIGENCE": {
+        "Journal Impact Factor": "1.983",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            }
+        ]
+    },
+    "PATTERN RECOGNITION LETTERS": {
+        "Journal Impact Factor": "1.954",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            }
+        ]
+    },
+    "IEEE Transactions on Cognitive and Developmental Systems": {
+        "Journal Impact Factor": "1.952",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            }
+        ]
+    },
+    "Wiley Interdisciplinary Reviews-Data Mining and Knowledge Discovery": {
+        "Journal Impact Factor": "1.939",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 2
+            }
+        ]
+    },
+    "JOURNAL OF MATHEMATICAL IMAGING AND VISION": {
+        "Journal Impact Factor": "1.927",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 2
+            }
+        ]
+    },
+    "Memetic Computing": {
+        "Journal Impact Factor": "1.925",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            }
+        ]
+    },
+    "MACHINE LEARNING": {
+        "Journal Impact Factor": "1.855",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            }
+        ]
+    },
+    "IET Biometrics": {
+        "Journal Impact Factor": "1.836",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            }
+        ]
+    },
+    "NEURAL PROCESSING LETTERS": {
+        "Journal Impact Factor": "1.787",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            }
+        ]
+    },
+    "COMPUTER SPEECH AND LANGUAGE": {
+        "Journal Impact Factor": "1.776",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            }
+        ]
+    },
+    "INTERNATIONAL JOURNAL OF APPROXIMATE REASONING": {
+        "Journal Impact Factor": "1.766",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            }
+        ]
+    },
+    "INTERNATIONAL JOURNAL OF INFORMATION TECHNOLOGY & DECISION MAKING": {
+        "Journal Impact Factor": "1.755",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 3
+            }
+        ]
+    },
+    "International Journal of Applied Mathematics and Computer Science": {
+        "Journal Impact Factor": "1.694",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            }
+        ]
+    },
+    "NEURAL COMPUTATION": {
+        "Journal Impact Factor": "1.651",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            }
+        ]
+    },
+    "JOURNAL OF INTELLIGENT & ROBOTIC SYSTEMS": {
+        "Journal Impact Factor": "1.583",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            }
+        ]
+    },
+    "Journal of Real-Time Image Processing": {
+        "Journal Impact Factor": "1.574",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            }
+        ]
+    },
+    "Swarm Intelligence": {
+        "Journal Impact Factor": "1.520",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            }
+        ]
+    },
+    "JOURNAL OF CHEMOMETRICS": {
+        "Journal Impact Factor": "1.500",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            }
+        ]
+    },
+    "DATA & KNOWLEDGE ENGINEERING": {
+        "Journal Impact Factor": "1.467",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            }
+        ]
+    },
+    "Genetic Programming and Evolvable Machines": {
+        "Journal Impact Factor": "1.455",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 2
+            }
+        ]
+    },
+    "EXPERT SYSTEMS": {
+        "Journal Impact Factor": "1.430",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 2
+            }
+        ]
+    },
+    "JOURNAL OF INTELLIGENT & FUZZY SYSTEMS": {
+        "Journal Impact Factor": "1.426",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            }
+        ]
+    },
+    "Cognitive Systems Research": {
+        "Journal Impact Factor": "1.425",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            }
+        ]
+    },
+    "Journal of Ambient Intelligence and Humanized Computing": {
+        "Journal Impact Factor": "1.423",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            }
+        ]
+    },
+    "IET Image Processing": {
+        "Journal Impact Factor": "1.401",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            }
+        ]
+    },
+    "COMPUTATIONAL INTELLIGENCE": {
+        "Journal Impact Factor": "1.352",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            }
+        ]
+    },
+    "Journal of Web Semantics": {
+        "Journal Impact Factor": "1.348",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 2
+            }
+        ]
+    },
+    "JOURNAL OF AUTOMATED REASONING": {
+        "Journal Impact Factor": "1.321",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            }
+        ]
+    },
+    "COMPUTATIONAL LINGUISTICS": {
+        "Journal Impact Factor": "1.319",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 3
+            }
+        ]
+    },
+    "MACHINE VISION AND APPLICATIONS": {
+        "Journal Impact Factor": "1.306",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, CYBERNETICS",
+                "Rank": 2
+            }
+        ]
+    },
+    "International Journal on Document Analysis and Recognition": {
+        "Journal Impact Factor": "1.298",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            }
+        ]
+    },
+    "PATTERN ANALYSIS AND APPLICATIONS": {
+        "Journal Impact Factor": "1.281",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            }
+        ]
+    },
+    "JOURNAL OF ARTIFICIAL INTELLIGENCE RESEARCH": {
+        "Journal Impact Factor": "1.257",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            }
+        ]
+    },
+    "ACM Transactions on Autonomous and Adaptive Systems": {
+        "Journal Impact Factor": "1.216",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 2
+            }
+        ]
+    },
+    "AUTONOMOUS AGENTS AND MULTI-AGENT SYSTEMS": {
+        "Journal Impact Factor": "1.176",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            }
+        ]
+    },
+    "INTERNATIONAL JOURNAL OF UNCERTAINTY FUZZINESS AND KNOWLEDGE-BASED SYSTEMS": {
+        "Journal Impact Factor": "1.159",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            }
+        ]
+    },
+    "Journal on Multimodal User Interfaces": {
+        "Journal Impact Factor": "1.140",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, CYBERNETICS",
+                "Rank": 3
+            }
+        ]
+    },
+    "JOURNAL OF HEURISTICS": {
+        "Journal Impact Factor": "1.129",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 3
+            }
+        ]
+    },
+    "JOURNAL OF INTELLIGENT INFORMATION SYSTEMS": {
+        "Journal Impact Factor": "1.107",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            }
+        ]
+    },
+    "IET Computer Vision": {
+        "Journal Impact Factor": "1.087",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            }
+        ]
+    },
+    "KNOWLEDGE ENGINEERING REVIEW": {
+        "Journal Impact Factor": "1.070",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            }
+        ]
+    },
+    "AI EDAM-ARTIFICIAL INTELLIGENCE FOR ENGINEERING DESIGN ANALYSIS AND MANUFACTURING": {
+        "Journal Impact Factor": "1.045",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            }
+        ]
+    },
+    "AI MAGAZINE": {
+        "Journal Impact Factor": "1.032",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            }
+        ]
+    },
+    "INTERNATIONAL JOURNAL OF PATTERN RECOGNITION AND ARTIFICIAL INTELLIGENCE": {
+        "Journal Impact Factor": "1.029",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            }
+        ]
+    },
+    "JOURNAL OF EXPERIMENTAL & THEORETICAL ARTIFICIAL INTELLIGENCE": {
+        "Journal Impact Factor": "1.011",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 3
+            }
+        ]
+    },
+    "ADAPTIVE BEHAVIOR": {
+        "Journal Impact Factor": "1.000",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            }
+        ]
+    },
+    "CONNECTION SCIENCE": {
+        "Journal Impact Factor": "0.933",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 3
+            }
+        ]
+    },
+    "ANNALS OF MATHEMATICS AND ARTIFICIAL INTELLIGENCE": {
+        "Journal Impact Factor": "0.899",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            }
+        ]
+    },
+    "ARTIFICIAL LIFE": {
+        "Journal Impact Factor": "0.897",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 3
+            }
+        ]
+    },
+    "IEEE Transactions on Computational Intelligence and AI in Games": {
+        "Journal Impact Factor": "0.897",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 4
+            }
+        ]
+    },
+    "Journal of Ambient Intelligence and Smart Environments": {
+        "Journal Impact Factor": "0.878",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            }
+        ]
+    },
+    "Statistical Analysis and Data Mining": {
+        "Journal Impact Factor": "0.865",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            }
+        ]
+    },
+    "Natural Computing": {
+        "Journal Impact Factor": "0.860",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 3
+            }
+        ]
+    },
+    "MINDS AND MACHINES": {
+        "Journal Impact Factor": "0.842",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            }
+        ]
+    },
+    "Information Technology and Control": {
+        "Journal Impact Factor": "0.800",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            }
+        ]
+    },
+    "Natural Language Engineering": {
+        "Journal Impact Factor": "0.800",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            }
+        ]
+    },
+    "International Journal on Semantic Web and Information Systems": {
+        "Journal Impact Factor": "0.793",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            }
+        ]
+    },
+    "Biologically Inspired Cognitive Architectures": {
+        "Journal Impact Factor": "0.787",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            }
+        ]
+    },
+    "Applied Ontology": {
+        "Journal Impact Factor": "0.774",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 3
+            }
+        ]
+    },
+    "NETWORK-COMPUTATION IN NEURAL SYSTEMS": {
+        "Journal Impact Factor": "0.706",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            }
+        ]
+    },
+    "Advances in Electrical and Computer Engineering": {
+        "Journal Impact Factor": "0.699",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            }
+        ]
+    },
+    "Intelligent Data Analysis": {
+        "Journal Impact Factor": "0.691",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            }
+        ]
+    },
+    "CONSTRAINTS": {
+        "Journal Impact Factor": "0.660",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 4
+            }
+        ]
+    },
+    "INTELLIGENT AUTOMATION AND SOFT COMPUTING": {
+        "Journal Impact Factor": "0.652",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            }
+        ]
+    },
+    "Malaysian Journal of Computer Science": {
+        "Journal Impact Factor": "0.650",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 4
+            }
+        ]
+    },
+    "APPLIED ARTIFICIAL INTELLIGENCE": {
+        "Journal Impact Factor": "0.587",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            }
+        ]
+    },
+    "Turkish Journal of Electrical Engineering and Computer Sciences": {
+        "Journal Impact Factor": "0.580",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            }
+        ]
+    },
+    "International Journal on Artificial Intelligence Tools": {
+        "Journal Impact Factor": "0.565",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            }
+        ]
+    },
+    "JOURNAL OF COMPUTER AND SYSTEMS SCIENCES INTERNATIONAL": {
+        "Journal Impact Factor": "0.554",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, CYBERNETICS",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 4
+            }
+        ]
+    },
+    "Journal of Logic Language and Information": {
+        "Journal Impact Factor": "0.536",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            }
+        ]
+    },
+    "Neural Network World": {
+        "Journal Impact Factor": "0.500",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            }
+        ]
+    },
+    "International Arab Journal of Information Technology": {
+        "Journal Impact Factor": "0.466",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            }
+        ]
+    },
+    "AI COMMUNICATIONS": {
+        "Journal Impact Factor": "0.461",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            }
+        ]
+    },
+    "JOURNAL OF MULTIPLE-VALUED LOGIC AND SOFT COMPUTING": {
+        "Journal Impact Factor": "0.437",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 4
+            }
+        ]
+    },
+    "COMPUTING AND INFORMATICS": {
+        "Journal Impact Factor": "0.410",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            }
+        ]
+    },
+    "INTERNATIONAL JOURNAL OF SOFTWARE ENGINEERING AND KNOWLEDGE ENGINEERING": {
+        "Journal Impact Factor": "0.397",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 4
+            }
+        ]
+    },
+    "ACM Transactions on Asian and Low-Resource Language Information Processing": {
+        "Journal Impact Factor": "0.339",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            }
+        ]
+    },
+    "Traitement du Signal": {
+        "Journal Impact Factor": "0.057",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "Rank": 4
+            }
+        ]
+    },
+    "IEEE Transactions on Systems Man Cybernetics-Systems": {
+        "Journal Impact Factor": "5.135",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, CYBERNETICS",
+                "Rank": 1
+            }
+        ]
+    },
+    "HUMAN-COMPUTER INTERACTION": {
+        "Journal Impact Factor": "3.379",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, CYBERNETICS",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 1
+            }
+        ]
+    },
+    "USER MODELING AND USER-ADAPTED INTERACTION": {
+        "Journal Impact Factor": "2.808",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, CYBERNETICS",
+                "Rank": 1
+            }
+        ]
+    },
+    "INTERNATIONAL JOURNAL OF HUMAN-COMPUTER STUDIES": {
+        "Journal Impact Factor": "2.300",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, CYBERNETICS",
+                "Rank": 2
+            }
+        ]
+    },
+    "IEEE Transactions on Haptics": {
+        "Journal Impact Factor": "1.869",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, CYBERNETICS",
+                "Rank": 2
+            }
+        ]
+    },
+    "BIOLOGICAL CYBERNETICS": {
+        "Journal Impact Factor": "1.440",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, CYBERNETICS",
+                "Rank": 2
+            }
+        ]
+    },
+    "BEHAVIOUR & INFORMATION TECHNOLOGY": {
+        "Journal Impact Factor": "1.380",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, CYBERNETICS",
+                "Rank": 2
+            }
+        ]
+    },
+    "INTERNATIONAL JOURNAL OF HUMAN-COMPUTER INTERACTION": {
+        "Journal Impact Factor": "1.259",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, CYBERNETICS",
+                "Rank": 3
+            }
+        ]
+    },
+    "CYBERNETICS AND SYSTEMS": {
+        "Journal Impact Factor": "1.197",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, CYBERNETICS",
+                "Rank": 3
+            }
+        ]
+    },
+    "Universal Access in the Information Society": {
+        "Journal Impact Factor": "1.176",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, CYBERNETICS",
+                "Rank": 3
+            }
+        ]
+    },
+    "KYBERNETES": {
+        "Journal Impact Factor": "0.980",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, CYBERNETICS",
+                "Rank": 3
+            }
+        ]
+    },
+    "ACM Transactions on Computer-Human Interaction": {
+        "Journal Impact Factor": "0.972",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, CYBERNETICS",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            }
+        ]
+    },
+    "INTERACTING WITH COMPUTERS": {
+        "Journal Impact Factor": "0.809",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, CYBERNETICS",
+                "Rank": 4
+            }
+        ]
+    },
+    "MODELING IDENTIFICATION AND CONTROL": {
+        "Journal Impact Factor": "0.667",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, CYBERNETICS",
+                "Rank": 4
+            }
+        ]
+    },
+    "KYBERNETIKA": {
+        "Journal Impact Factor": "0.632",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, CYBERNETICS",
+                "Rank": 4
+            }
+        ]
+    },
+    "PRESENCE-TELEOPERATORS AND VIRTUAL ENVIRONMENTS": {
+        "Journal Impact Factor": "0.426",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, CYBERNETICS",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 4
+            }
+        ]
+    },
+    "IEEE WIRELESS COMMUNICATIONS": {
+        "Journal Impact Factor": "9.202",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE NETWORK": {
+        "Journal Impact Factor": "7.197",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE Transactions on Dependable and Secure Computing": {
+        "Journal Impact Factor": "4.410",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 1
+            }
+        ]
+    },
+    "JOURNAL OF NETWORK AND COMPUTER APPLICATIONS": {
+        "Journal Impact Factor": "3.991",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE-ACM TRANSACTIONS ON NETWORKING": {
+        "Journal Impact Factor": "3.110",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 1
+            }
+        ]
+    },
+    "COMMUNICATIONS OF THE ACM": {
+        "Journal Impact Factor": "3.063",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE TRANSACTIONS ON COMPUTERS": {
+        "Journal Impact Factor": "3.052",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 1
+            }
+        ]
+    },
+    "Journal of Optical Communications and Networking": {
+        "Journal Impact Factor": "2.742",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "IEEE TRANSACTIONS ON RELIABILITY": {
+        "Journal Impact Factor": "2.729",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 1
+            }
+        ]
+    },
+    "VLDB JOURNAL": {
+        "Journal Impact Factor": "2.689",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "Computer Networks": {
+        "Journal Impact Factor": "2.522",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "MOBILE NETWORKS & APPLICATIONS": {
+        "Journal Impact Factor": "2.497",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "IEEE TRANSACTIONS ON COMPUTER-AIDED DESIGN OF INTEGRATED CIRCUITS AND SYSTEMS": {
+        "Journal Impact Factor": "2.089",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 2
+            }
+        ]
+    },
+    "INTERNATIONAL JOURNAL OF HIGH PERFORMANCE COMPUTING APPLICATIONS": {
+        "Journal Impact Factor": "2.015",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 2
+            }
+        ]
+    },
+    "COMPUTER": {
+        "Journal Impact Factor": "1.940",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE MICRO": {
+        "Journal Impact Factor": "1.913",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 2
+            }
+        ]
+    },
+    "IEEE MULTIMEDIA": {
+        "Journal Impact Factor": "1.898",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 2
+            }
+        ]
+    },
+    "PERFORMANCE EVALUATION": {
+        "Journal Impact Factor": "1.786",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 2
+            }
+        ]
+    },
+    "COMPUTERS & ELECTRICAL ENGINEERING": {
+        "Journal Impact Factor": "1.747",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 3
+            }
+        ]
+    },
+    "IEEE TRANSACTIONS ON VERY LARGE SCALE INTEGRATION (VLSI) SYSTEMS": {
+        "Journal Impact Factor": "1.744",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 2
+            }
+        ]
+    },
+    "JOURNAL OF THE ACM": {
+        "Journal Impact Factor": "1.744",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 2
+            }
+        ]
+    },
+    "ACM Journal on Emerging Technologies in Computing Systems": {
+        "Journal Impact Factor": "1.672",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 2
+            }
+        ]
+    },
+    "IEEE Design & Test": {
+        "Journal Impact Factor": "1.538",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 2
+            }
+        ]
+    },
+    "JOURNAL OF SUPERCOMPUTING": {
+        "Journal Impact Factor": "1.532",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 2
+            }
+        ]
+    },
+    "IEEE Computer Architecture Letters": {
+        "Journal Impact Factor": "1.521",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 2
+            }
+        ]
+    },
+    "Advances in Computers": {
+        "Journal Impact Factor": "1.514",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 2
+            }
+        ]
+    },
+    "JOURNAL OF COMPUTER AND SYSTEM SCIENCES": {
+        "Journal Impact Factor": "1.497",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 2
+            }
+        ]
+    },
+    "COMPUTER STANDARDS & INTERFACES": {
+        "Journal Impact Factor": "1.465",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 2
+            }
+        ]
+    },
+    "IEEE Consumer Electronics Magazine": {
+        "Journal Impact Factor": "1.434",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 3
+            }
+        ]
+    },
+    "Sustainable Computing-Informatics & Systems": {
+        "Journal Impact Factor": "1.196",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            }
+        ]
+    },
+    "DISPLAYS": {
+        "Journal Impact Factor": "1.175",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 3
+            }
+        ]
+    },
+    "ACM Transactions on Embedded Computing Systems": {
+        "Journal Impact Factor": "1.156",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 3
+            }
+        ]
+    },
+    "ACM Transactions on Architecture and Code Optimization": {
+        "Journal Impact Factor": "1.131",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 2
+            }
+        ]
+    },
+    "NETWORKS": {
+        "Journal Impact Factor": "1.121",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 3
+            }
+        ]
+    },
+    "MICROPROCESSORS AND MICROSYSTEMS": {
+        "Journal Impact Factor": "1.049",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 3
+            }
+        ]
+    },
+    "ACM Transactions on Reconfigurable Technology and Systems": {
+        "Journal Impact Factor": "1.014",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 3
+            }
+        ]
+    },
+    "CANADIAN JOURNAL OF ELECTRICAL AND COMPUTER ENGINEERING-REVUE CANADIENNE DE GENIE ELECTRIQUE ET INFORMATIQUE": {
+        "Journal Impact Factor": "0.973",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 3
+            }
+        ]
+    },
+    "IBM JOURNAL OF RESEARCH AND DEVELOPMENT": {
+        "Journal Impact Factor": "0.962",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 3
+            }
+        ]
+    },
+    "ACM Transactions on Storage": {
+        "Journal Impact Factor": "0.927",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 3
+            }
+        ]
+    },
+    "JOURNAL OF SYSTEMS ARCHITECTURE": {
+        "Journal Impact Factor": "0.913",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 3
+            }
+        ]
+    },
+    "INTEGRATION-THE VLSI JOURNAL": {
+        "Journal Impact Factor": "0.906",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 4
+            }
+        ]
+    },
+    "JOURNAL OF COMPUTER SCIENCE AND TECHNOLOGY": {
+        "Journal Impact Factor": "0.878",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 4
+            }
+        ]
+    },
+    "ACM TRANSACTIONS ON DESIGN AUTOMATION OF ELECTRONIC SYSTEMS": {
+        "Journal Impact Factor": "0.870",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 4
+            }
+        ]
+    },
+    "COMPUTER SYSTEMS SCIENCE AND ENGINEERING": {
+        "Journal Impact Factor": "0.855",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 3
+            }
+        ]
+    },
+    "ANALOG INTEGRATED CIRCUITS AND SIGNAL PROCESSING": {
+        "Journal Impact Factor": "0.800",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 4
+            }
+        ]
+    },
+    "COMPUTER JOURNAL": {
+        "Journal Impact Factor": "0.792",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 3
+            }
+        ]
+    },
+    "NEW GENERATION COMPUTING": {
+        "Journal Impact Factor": "0.722",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 4
+            }
+        ]
+    },
+    "IET Computers and Digital Techniques": {
+        "Journal Impact Factor": "0.639",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 4
+            }
+        ]
+    },
+    "JOURNAL OF CIRCUITS SYSTEMS AND COMPUTERS": {
+        "Journal Impact Factor": "0.595",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 4
+            }
+        ]
+    },
+    "DESIGN AUTOMATION FOR EMBEDDED SYSTEMS": {
+        "Journal Impact Factor": "0.516",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 4
+            }
+        ]
+    },
+    "IEICE TRANSACTIONS ON FUNDAMENTALS OF ELECTRONICS COMMUNICATIONS AND COMPUTER SCIENCES": {
+        "Journal Impact Factor": "0.337",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            }
+        ]
+    },
+    "IEEE Communications Surveys and Tutorials": {
+        "Journal Impact Factor": "20.230",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE Transactions on Cloud Computing": {
+        "Journal Impact Factor": "7.928",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE Internet of Things Journal": {
+        "Journal Impact Factor": "5.874",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "MIS QUARTERLY": {
+        "Journal Impact Factor": "5.430",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "JOURNAL OF INFORMATION TECHNOLOGY": {
+        "Journal Impact Factor": "4.535",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE Transactions on Services Computing": {
+        "Journal Impact Factor": "4.418",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE Systems Journal": {
+        "Journal Impact Factor": "4.337",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "JOURNAL OF STRATEGIC INFORMATION SYSTEMS": {
+        "Journal Impact Factor": "4.313",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "INFORMATION SCIENCES": {
+        "Journal Impact Factor": "4.305",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "JOURNAL OF THE AMERICAN MEDICAL INFORMATICS ASSOCIATION": {
+        "Journal Impact Factor": "4.270",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE TRANSACTIONS ON MOBILE COMPUTING": {
+        "Journal Impact Factor": "4.098",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE TRANSACTIONS ON MULTIMEDIA": {
+        "Journal Impact Factor": "3.977",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 1
+            }
+        ]
+    },
+    "Journal of Cheminformatics": {
+        "Journal Impact Factor": "3.893",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 1
+            }
+        ]
+    },
+    "INFORMATION & MANAGEMENT": {
+        "Journal Impact Factor": "3.890",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE Journal of Biomedical and Health Informatics": {
+        "Journal Impact Factor": "3.850",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 1
+            }
+        ]
+    },
+    "Internet Research": {
+        "Journal Impact Factor": "3.838",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "Journal of Chemical Information and Modeling": {
+        "Journal Impact Factor": "3.804",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE Transactions on Emerging Topics in Computing": {
+        "Journal Impact Factor": "3.626",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "ACM SIGCOMM Computer Communication Review": {
+        "Journal Impact Factor": "3.577",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE Access": {
+        "Journal Impact Factor": "3.557",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "INFORMATION PROCESSING & MANAGEMENT": {
+        "Journal Impact Factor": "3.444",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE Transactions on Network and Service Management": {
+        "Journal Impact Factor": "3.286",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "INFORMATION SYSTEMS FRONTIERS": {
+        "Journal Impact Factor": "3.232",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 1
+            }
+        ]
+    },
+    "EUROPEAN JOURNAL OF INFORMATION SYSTEMS": {
+        "Journal Impact Factor": "3.197",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "Ad Hoc Networks": {
+        "Journal Impact Factor": "3.151",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "Foundations and Trends in Information Retrieval": {
+        "Journal Impact Factor": "3.125",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE Wireless Communications Letters": {
+        "Journal Impact Factor": "3.096",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE PERVASIVE COMPUTING": {
+        "Journal Impact Factor": "3.022",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "Pervasive and Mobile Computing": {
+        "Journal Impact Factor": "2.974",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "INTERNATIONAL JOURNAL OF MEDICAL INFORMATICS": {
+        "Journal Impact Factor": "2.957",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE Cloud Computing": {
+        "Journal Impact Factor": "2.912",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 1
+            }
+        ]
+    },
+    "Journal of the Association for Information Systems": {
+        "Journal Impact Factor": "2.839",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 1
+            }
+        ]
+    },
+    "Journal of the Association for Information Science and Technology": {
+        "Journal Impact Factor": "2.835",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "Journal of Grid Computing": {
+        "Journal Impact Factor": "2.800",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 1
+            }
+        ]
+    },
+    "JOURNAL OF MANAGEMENT INFORMATION SYSTEMS": {
+        "Journal Impact Factor": "2.744",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "COMPUTERS & SECURITY": {
+        "Journal Impact Factor": "2.650",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "INFORMATION AND SOFTWARE TECHNOLOGY": {
+        "Journal Impact Factor": "2.627",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 1
+            }
+        ]
+    },
+    "COMPUTER COMMUNICATIONS": {
+        "Journal Impact Factor": "2.613",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "Business & Information Systems Engineering": {
+        "Journal Impact Factor": "2.596",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "ACM Transactions on Information and System Security": {
+        "Journal Impact Factor": "2.591",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "Electronic Commerce Research and Applications": {
+        "Journal Impact Factor": "2.582",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 2
+            }
+        ]
+    },
+    "INFORMATION SYSTEMS": {
+        "Journal Impact Factor": "2.551",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "INTERNATIONAL JOURNAL OF GEOGRAPHICAL INFORMATION SCIENCE": {
+        "Journal Impact Factor": "2.370",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "ACM Transactions on Sensor Networks": {
+        "Journal Impact Factor": "2.313",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "Science China-Information Sciences": {
+        "Journal Impact Factor": "2.188",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "IEEE TRANSACTIONS ON INFORMATION THEORY": {
+        "Journal Impact Factor": "2.187",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "International Journal of Critical Infrastructure Protection": {
+        "Journal Impact Factor": "2.150",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "GEOINFORMATICA": {
+        "Journal Impact Factor": "2.091",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "ACM Transactions on Multimedia Computing Communications and Applications": {
+        "Journal Impact Factor": "2.019",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 2
+            }
+        ]
+    },
+    "WIRELESS NETWORKS": {
+        "Journal Impact Factor": "1.981",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "Human-centric Computing and Information Sciences": {
+        "Journal Impact Factor": "1.967",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "JOURNAL OF INFORMATION SCIENCE": {
+        "Journal Impact Factor": "1.939",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "Personal and Ubiquitous Computing": {
+        "Journal Impact Factor": "1.924",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "JOURNAL OF VISUAL COMMUNICATION AND IMAGE REPRESENTATION": {
+        "Journal Impact Factor": "1.836",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 2
+            }
+        ]
+    },
+    "International Journal of Distributed Sensor Networks": {
+        "Journal Impact Factor": "1.787",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "Digital Investigation": {
+        "Journal Impact Factor": "1.771",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 3
+            }
+        ]
+    },
+    "ACM TRANSACTIONS ON INFORMATION SYSTEMS": {
+        "Journal Impact Factor": "1.767",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "Journal of Network and Systems Management": {
+        "Journal Impact Factor": "1.750",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            }
+        ]
+    },
+    "REQUIREMENTS ENGINEERING": {
+        "Journal Impact Factor": "1.750",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 2
+            }
+        ]
+    },
+    "ACM Transactions on Internet Technology": {
+        "Journal Impact Factor": "1.727",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 2
+            }
+        ]
+    },
+    "MULTIMEDIA SYSTEMS": {
+        "Journal Impact Factor": "1.703",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 2
+            }
+        ]
+    },
+    "Enterprise Information Systems": {
+        "Journal Impact Factor": "1.683",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            }
+        ]
+    },
+    "ONLINE INFORMATION REVIEW": {
+        "Journal Impact Factor": "1.675",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            }
+        ]
+    },
+    "International Journal of Information Security": {
+        "Journal Impact Factor": "1.658",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 2
+            }
+        ]
+    },
+    "IT Professional": {
+        "Journal Impact Factor": "1.618",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 2
+            }
+        ]
+    },
+    "Cluster Computing-The Journal of Networks Software Tools and Applications": {
+        "Journal Impact Factor": "1.601",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 2
+            }
+        ]
+    },
+    "JOURNAL OF COMPUTER INFORMATION SYSTEMS": {
+        "Journal Impact Factor": "1.557",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            }
+        ]
+    },
+    "MULTIMEDIA TOOLS AND APPLICATIONS": {
+        "Journal Impact Factor": "1.541",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 2
+            }
+        ]
+    },
+    "METHODS OF INFORMATION IN MEDICINE": {
+        "Journal Impact Factor": "1.531",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            }
+        ]
+    },
+    "Peer-to-Peer Networking and Applications": {
+        "Journal Impact Factor": "1.514",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            }
+        ]
+    },
+    "ACM Transactions on Knowledge Discovery from Data": {
+        "Journal Impact Factor": "1.489",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 2
+            }
+        ]
+    },
+    "Information Retrieval Journal": {
+        "Journal Impact Factor": "1.488",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            }
+        ]
+    },
+    "Aslib Journal of Information Management": {
+        "Journal Impact Factor": "1.461",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            }
+        ]
+    },
+    "JOURNAL OF ORGANIZATIONAL COMPUTING AND ELECTRONIC COMMERCE": {
+        "Journal Impact Factor": "1.421",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 3
+            }
+        ]
+    },
+    "INFORMATICA": {
+        "Journal Impact Factor": "1.386",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            }
+        ]
+    },
+    "TSINGHUA SCIENCE AND TECHNOLOGY": {
+        "Journal Impact Factor": "1.365",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 2
+            }
+        ]
+    },
+    "International Journal of Network Management": {
+        "Journal Impact Factor": "1.340",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            }
+        ]
+    },
+    "Journal of Internet Technology": {
+        "Journal Impact Factor": "1.301",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            }
+        ]
+    },
+    "International Journal of Computers Communications & Control": {
+        "Journal Impact Factor": "1.290",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            }
+        ]
+    },
+    "SIGMOD RECORD": {
+        "Journal Impact Factor": "1.261",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 3
+            }
+        ]
+    },
+    "INFORMATION SYSTEMS MANAGEMENT": {
+        "Journal Impact Factor": "1.255",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            }
+        ]
+    },
+    "JOURNAL OF COMMUNICATIONS AND NETWORKS": {
+        "Journal Impact Factor": "1.252",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            }
+        ]
+    },
+    "IEEE SECURITY & PRIVACY": {
+        "Journal Impact Factor": "1.239",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 3
+            }
+        ]
+    },
+    "PHOTONIC NETWORK COMMUNICATIONS": {
+        "Journal Impact Factor": "1.203",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            }
+        ]
+    },
+    "PROGRAM-ELECTRONIC LIBRARY AND INFORMATION SYSTEMS": {
+        "Journal Impact Factor": "1.170",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            }
+        ]
+    },
+    "ACM Transactions on the Web": {
+        "Journal Impact Factor": "1.163",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 3
+            }
+        ]
+    },
+    "WORLD WIDE WEB-INTERNET AND WEB INFORMATION SYSTEMS": {
+        "Journal Impact Factor": "1.150",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 3
+            }
+        ]
+    },
+    "Optical Switching and Networking": {
+        "Journal Impact Factor": "1.113",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            }
+        ]
+    },
+    "Frontiers of Computer Science": {
+        "Journal Impact Factor": "1.105",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 3
+            }
+        ]
+    },
+    "Journal of Signal Processing Systems for Signal Image and Video Technology": {
+        "Journal Impact Factor": "1.088",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            }
+        ]
+    },
+    "International Journal of Web and Grid Services": {
+        "Journal Impact Factor": "1.071",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 3
+            }
+        ]
+    },
+    "ACM TRANSACTIONS ON DATABASE SYSTEMS": {
+        "Journal Impact Factor": "1.000",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 3
+            }
+        ]
+    },
+    "New Review of Hypermedia and Multimedia": {
+        "Journal Impact Factor": "1.000",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            }
+        ]
+    },
+    "INFORMATION TECHNOLOGY AND LIBRARIES": {
+        "Journal Impact Factor": "0.968",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            }
+        ]
+    },
+    "Mobile Information Systems": {
+        "Journal Impact Factor": "0.958",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            }
+        ]
+    },
+    "DISTRIBUTED AND PARALLEL DATABASES": {
+        "Journal Impact Factor": "0.925",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 3
+            }
+        ]
+    },
+    "Frontiers of Information Technology & Electronic Engineering": {
+        "Journal Impact Factor": "0.910",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 4
+            }
+        ]
+    },
+    "Security and Communication Networks": {
+        "Journal Impact Factor": "0.904",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            }
+        ]
+    },
+    "IET Information Security": {
+        "Journal Impact Factor": "0.890",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 3
+            }
+        ]
+    },
+    "ACTA INFORMATICA": {
+        "Journal Impact Factor": "0.886",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            }
+        ]
+    },
+    "International Journal of Sensor Networks": {
+        "Journal Impact Factor": "0.878",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            }
+        ]
+    },
+    "WIRELESS COMMUNICATIONS & MOBILE COMPUTING": {
+        "Journal Impact Factor": "0.869",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            }
+        ]
+    },
+    "INFORMATION PROCESSING LETTERS": {
+        "Journal Impact Factor": "0.793",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            }
+        ]
+    },
+    "Ad Hoc & Sensor Wireless Networks": {
+        "Journal Impact Factor": "0.753",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            }
+        ]
+    },
+    "Journal of Organizational and End User Computing": {
+        "Journal Impact Factor": "0.744",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            }
+        ]
+    },
+    "International Journal of Ad Hoc and Ubiquitous Computing": {
+        "Journal Impact Factor": "0.648",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            }
+        ]
+    },
+    "Computer Science and Information Systems": {
+        "Journal Impact Factor": "0.613",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 4
+            }
+        ]
+    },
+    "KSII Transactions on Internet and Information Systems": {
+        "Journal Impact Factor": "0.611",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            }
+        ]
+    },
+    "IEEE Latin America Transactions": {
+        "Journal Impact Factor": "0.502",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            }
+        ]
+    },
+    "IEICE TRANSACTIONS ON INFORMATION AND SYSTEMS": {
+        "Journal Impact Factor": "0.500",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 4
+            }
+        ]
+    },
+    "ACM Transactions on Privacy and Security": {
+        "Journal Impact Factor": "0.444",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            }
+        ]
+    },
+    "International Journal of Web Services Research": {
+        "Journal Impact Factor": "0.405",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 4
+            }
+        ]
+    },
+    "RAIRO-THEORETICAL INFORMATICS AND APPLICATIONS": {
+        "Journal Impact Factor": "0.350",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            }
+        ]
+    },
+    "JOURNAL OF INFORMATION SCIENCE AND ENGINEERING": {
+        "Journal Impact Factor": "0.327",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            }
+        ]
+    },
+    "INFOR": {
+        "Journal Impact Factor": "0.257",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            }
+        ]
+    },
+    "JOURNAL OF DATABASE MANAGEMENT": {
+        "Journal Impact Factor": "0.231",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 4
+            }
+        ]
+    },
+    "INTERNATIONAL JOURNAL OF COOPERATIVE INFORMATION SYSTEMS": {
+        "Journal Impact Factor": "0.200",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "Rank": 4
+            }
+        ]
+    },
+    "Journal of Statistical Software": {
+        "Journal Impact Factor": "22.737",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 1
+            }
+        ]
+    },
+    "ARCHIVES OF COMPUTATIONAL METHODS IN ENGINEERING": {
+        "Journal Impact Factor": "6.605",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE TRANSACTIONS ON MEDICAL IMAGING": {
+        "Journal Impact Factor": "6.131",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 1
+            }
+        ]
+    },
+    "COMPUTER-AIDED CIVIL AND INFRASTRUCTURE ENGINEERING": {
+        "Journal Impact Factor": "5.475",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE Transactions on Industrial Informatics": {
+        "Journal Impact Factor": "5.430",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 1
+            }
+        ]
+    },
+    "COMPUTERS & EDUCATION": {
+        "Journal Impact Factor": "4.538",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 1
+            }
+        ]
+    },
+    "ENVIRONMENTAL MODELLING & SOFTWARE": {
+        "Journal Impact Factor": "4.177",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 1
+            }
+        ]
+    },
+    "NEUROINFORMATICS": {
+        "Journal Impact Factor": "3.852",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 1
+            }
+        ]
+    },
+    "COMPUTER PHYSICS COMMUNICATIONS": {
+        "Journal Impact Factor": "3.748",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 1
+            }
+        ]
+    },
+    "Journal of Informetrics": {
+        "Journal Impact Factor": "3.484",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 1
+            }
+        ]
+    },
+    "ROBOTICS AND COMPUTER-INTEGRATED MANUFACTURING": {
+        "Journal Impact Factor": "3.464",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 1
+            }
+        ]
+    },
+    "SOCIAL SCIENCE COMPUTER REVIEW": {
+        "Journal Impact Factor": "3.253",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 1
+            }
+        ]
+    },
+    "ADVANCES IN ENGINEERING SOFTWARE": {
+        "Journal Impact Factor": "3.198",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 1
+            }
+        ]
+    },
+    "COMPUTERS & INDUSTRIAL ENGINEERING": {
+        "Journal Impact Factor": "3.195",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 1
+            }
+        ]
+    },
+    "COMPUTERS AND GEOTECHNICS": {
+        "Journal Impact Factor": "3.138",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 1
+            }
+        ]
+    },
+    "COMPUTERS & CHEMICAL ENGINEERING": {
+        "Journal Impact Factor": "3.113",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 1
+            }
+        ]
+    },
+    "COMPUTERS & OPERATIONS RESEARCH": {
+        "Journal Impact Factor": "2.962",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 1
+            }
+        ]
+    },
+    "INDUSTRIAL MANAGEMENT & DATA SYSTEMS": {
+        "Journal Impact Factor": "2.948",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 1
+            }
+        ]
+    },
+    "COMPUTERS & STRUCTURES": {
+        "Journal Impact Factor": "2.887",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 2
+            }
+        ]
+    },
+    "JOURNAL OF BIOMEDICAL INFORMATICS": {
+        "Journal Impact Factor": "2.882",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 2
+            }
+        ]
+    },
+    "STRUCTURAL AND MULTIDISCIPLINARY OPTIMIZATION": {
+        "Journal Impact Factor": "2.876",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 2
+            }
+        ]
+    },
+    "JOURNAL OF COMPUTATIONAL PHYSICS": {
+        "Journal Impact Factor": "2.864",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 2
+            }
+        ]
+    },
+    "COMPUTERS IN INDUSTRY": {
+        "Journal Impact Factor": "2.850",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 2
+            }
+        ]
+    },
+    "Astronomy and Computing": {
+        "Journal Impact Factor": "2.754",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 2
+            }
+        ]
+    },
+    "COMPUTATIONAL GEOSCIENCES": {
+        "Journal Impact Factor": "2.726",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 2
+            }
+        ]
+    },
+    "COMPUTER METHODS AND PROGRAMS IN BIOMEDICINE": {
+        "Journal Impact Factor": "2.674",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 1
+            }
+        ]
+    },
+    "MATCH-COMMUNICATIONS IN MATHEMATICAL AND IN COMPUTER CHEMISTRY": {
+        "Journal Impact Factor": "2.580",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 2
+            }
+        ]
+    },
+    "COMPUTERS & GEOSCIENCES": {
+        "Journal Impact Factor": "2.567",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 2
+            }
+        ]
+    },
+    "IEEE-ACM Transactions on Computational Biology and Bioinformatics": {
+        "Journal Impact Factor": "2.428",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 2
+            }
+        ]
+    },
+    "COMPUTERS AND ELECTRONICS IN AGRICULTURE": {
+        "Journal Impact Factor": "2.427",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 2
+            }
+        ]
+    },
+    "JOURNAL OF COMPUTER-AIDED MOLECULAR DESIGN": {
+        "Journal Impact Factor": "2.356",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 2
+            }
+        ]
+    },
+    "SAR AND QSAR IN ENVIRONMENTAL RESEARCH": {
+        "Journal Impact Factor": "2.227",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 2
+            }
+        ]
+    },
+    "COMPUTERS & FLUIDS": {
+        "Journal Impact Factor": "2.221",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 2
+            }
+        ]
+    },
+    "SCIENTOMETRICS": {
+        "Journal Impact Factor": "2.173",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 2
+            }
+        ]
+    },
+    "COMPUTERS IN BIOLOGY AND MEDICINE": {
+        "Journal Impact Factor": "2.115",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 2
+            }
+        ]
+    },
+    "SIMULATION MODELLING PRACTICE AND THEORY": {
+        "Journal Impact Factor": "2.092",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 2
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 1
+            }
+        ]
+    },
+    "INTERNATIONAL JOURNAL OF COMPUTER INTEGRATED MANUFACTURING": {
+        "Journal Impact Factor": "1.995",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 2
+            }
+        ]
+    },
+    "COMPUTER METHODS IN BIOMECHANICS AND BIOMEDICAL ENGINEERING": {
+        "Journal Impact Factor": "1.974",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 2
+            }
+        ]
+    },
+    "MEDICAL & BIOLOGICAL ENGINEERING & COMPUTING": {
+        "Journal Impact Factor": "1.971",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 2
+            }
+        ]
+    },
+    "Molecular Informatics": {
+        "Journal Impact Factor": "1.955",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 3
+            }
+        ]
+    },
+    "ENGINEERING WITH COMPUTERS": {
+        "Journal Impact Factor": "1.951",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 3
+            }
+        ]
+    },
+    "Journal of Computational Science": {
+        "Journal Impact Factor": "1.925",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 2
+            }
+        ]
+    },
+    "JOURNAL OF MOLECULAR GRAPHICS & MODELLING": {
+        "Journal Impact Factor": "1.885",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 3
+            }
+        ]
+    },
+    "IEEE Transactions on Learning Technologies": {
+        "Journal Impact Factor": "1.869",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 3
+            }
+        ]
+    },
+    "JOURNAL OF COMPUTING IN CIVIL ENGINEERING": {
+        "Journal Impact Factor": "1.798",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 3
+            }
+        ]
+    },
+    "JOURNAL OF HYDROINFORMATICS": {
+        "Journal Impact Factor": "1.797",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 3
+            }
+        ]
+    },
+    "INTERNATIONAL JOURNAL FOR NUMERICAL METHODS IN FLUIDS": {
+        "Journal Impact Factor": "1.673",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 3
+            }
+        ]
+    },
+    "Computers and Concrete": {
+        "Journal Impact Factor": "1.637",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 3
+            }
+        ]
+    },
+    "Earth Science Informatics": {
+        "Journal Impact Factor": "1.628",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 3
+            }
+        ]
+    },
+    "JOURNAL OF COMPUTING AND INFORMATION SCIENCE IN ENGINEERING": {
+        "Journal Impact Factor": "1.588",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 3
+            }
+        ]
+    },
+    "SPEECH COMMUNICATION": {
+        "Journal Impact Factor": "1.585",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 3
+            }
+        ]
+    },
+    "JOURNAL OF MOLECULAR MODELING": {
+        "Journal Impact Factor": "1.507",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 3
+            }
+        ]
+    },
+    "Big Data": {
+        "Journal Impact Factor": "1.489",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 2
+            }
+        ]
+    },
+    "MATHEMATICS AND COMPUTERS IN SIMULATION": {
+        "Journal Impact Factor": "1.476",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 2
+            }
+        ]
+    },
+    "CONCURRENT ENGINEERING-RESEARCH AND APPLICATIONS": {
+        "Journal Impact Factor": "1.456",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 3
+            }
+        ]
+    },
+    "COMPUTATIONAL BIOLOGY AND CHEMISTRY": {
+        "Journal Impact Factor": "1.412",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 3
+            }
+        ]
+    },
+    "INFORMS JOURNAL ON COMPUTING": {
+        "Journal Impact Factor": "1.392",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 3
+            }
+        ]
+    },
+    "VIRTUAL REALITY": {
+        "Journal Impact Factor": "1.375",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 2
+            }
+        ]
+    },
+    "R Journal": {
+        "Journal Impact Factor": "1.371",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 3
+            }
+        ]
+    },
+    "INTERNATIONAL JOURNAL OF RF AND MICROWAVE COMPUTER-AIDED ENGINEERING": {
+        "Journal Impact Factor": "1.306",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 3
+            }
+        ]
+    },
+    "Journal of Simulation": {
+        "Journal Impact Factor": "1.218",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            }
+        ]
+    },
+    "JOURNAL OF COMPUTATIONAL BIOLOGY": {
+        "Journal Impact Factor": "1.191",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            }
+        ]
+    },
+    "COMPUTATIONAL STATISTICS & DATA ANALYSIS": {
+        "Journal Impact Factor": "1.181",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            }
+        ]
+    },
+    "ENGINEERING COMPUTATIONS": {
+        "Journal Impact Factor": "1.177",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            }
+        ]
+    },
+    "QUEUEING SYSTEMS": {
+        "Journal Impact Factor": "1.171",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            }
+        ]
+    },
+    "COMPUTER APPLICATIONS IN ENGINEERING EDUCATION": {
+        "Journal Impact Factor": "1.153",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            }
+        ]
+    },
+    "COMPUTING IN SCIENCE & ENGINEERING": {
+        "Journal Impact Factor": "1.074",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            }
+        ]
+    },
+    "CIN-COMPUTERS INFORMATICS NURSING": {
+        "Journal Impact Factor": "1.056",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            }
+        ]
+    },
+    "JOURNAL OF NEW MUSIC RESEARCH": {
+        "Journal Impact Factor": "0.979",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            }
+        ]
+    },
+    "JOURNAL OF VISUALIZATION": {
+        "Journal Impact Factor": "0.971",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            }
+        ]
+    },
+    "SIMULATION-TRANSACTIONS OF THE SOCIETY FOR MODELING AND SIMULATION INTERNATIONAL": {
+        "Journal Impact Factor": "0.940",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 3
+            }
+        ]
+    },
+    "ACM Transactions on Modeling and Computer Simulation": {
+        "Journal Impact Factor": "0.931",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            }
+        ]
+    },
+    "JOURNAL OF COMBINATORIAL OPTIMIZATION": {
+        "Journal Impact Factor": "0.927",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            }
+        ]
+    },
+    "INTERNATIONAL JOURNAL OF MODERN PHYSICS C": {
+        "Journal Impact Factor": "0.919",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            }
+        ]
+    },
+    "JOURNAL OF STATISTICAL COMPUTATION AND SIMULATION": {
+        "Journal Impact Factor": "0.869",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            }
+        ]
+    },
+    "Current Computer-Aided Drug Design": {
+        "Journal Impact Factor": "0.770",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            }
+        ]
+    },
+    "Computer Supported Cooperative Work-The Journal of Collaborative Computing": {
+        "Journal Impact Factor": "0.725",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            }
+        ]
+    },
+    "Language Resources and Evaluation": {
+        "Journal Impact Factor": "0.656",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            }
+        ]
+    },
+    "Computational and Mathematical Organization Theory": {
+        "Journal Impact Factor": "0.641",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            }
+        ]
+    },
+    "MATHEMATICAL AND COMPUTER MODELLING OF DYNAMICAL SYSTEMS": {
+        "Journal Impact Factor": "0.586",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            }
+        ]
+    },
+    "COMPUTER MUSIC JOURNAL": {
+        "Journal Impact Factor": "0.568",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            }
+        ]
+    },
+    "COMPEL-THE INTERNATIONAL JOURNAL FOR COMPUTATION AND MATHEMATICS IN ELECTRICAL AND ELECTRONIC ENGINEERING": {
+        "Journal Impact Factor": "0.534",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            }
+        ]
+    },
+    "ACM Journal on Computing and Cultural Heritage": {
+        "Journal Impact Factor": "0.529",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            }
+        ]
+    },
+    "APPLICABLE ALGEBRA IN ENGINEERING COMMUNICATION AND COMPUTING": {
+        "Journal Impact Factor": "0.464",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 4
+            }
+        ]
+    },
+    "ACM TRANSACTIONS ON GRAPHICS": {
+        "Journal Impact Factor": "4.384",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE TRANSACTIONS ON SOFTWARE ENGINEERING": {
+        "Journal Impact Factor": "3.331",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS": {
+        "Journal Impact Factor": "3.078",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 1
+            }
+        ]
+    },
+    "COMPUTER-AIDED DESIGN": {
+        "Journal Impact Factor": "2.947",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 1
+            }
+        ]
+    },
+    "EMPIRICAL SOFTWARE ENGINEERING": {
+        "Journal Impact Factor": "2.933",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 1
+            }
+        ]
+    },
+    "ACM TRANSACTIONS ON MATHEMATICAL SOFTWARE": {
+        "Journal Impact Factor": "2.905",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE SOFTWARE": {
+        "Journal Impact Factor": "2.879",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 1
+            }
+        ]
+    },
+    "MATHEMATICAL PROGRAMMING": {
+        "Journal Impact Factor": "2.665",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 1
+            }
+        ]
+    },
+    "INTERNATIONAL JOURNAL OF ELECTRONIC COMMERCE": {
+        "Journal Impact Factor": "2.514",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 1
+            }
+        ]
+    },
+    "JOURNAL OF SYSTEMS AND SOFTWARE": {
+        "Journal Impact Factor": "2.278",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 1
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 1
+            }
+        ]
+    },
+    "COMPUTER GRAPHICS FORUM": {
+        "Journal Impact Factor": "2.046",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 1
+            }
+        ]
+    },
+    "ACM TRANSACTIONS ON SOFTWARE ENGINEERING AND METHODOLOGY": {
+        "Journal Impact Factor": "1.946",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE INTERNET COMPUTING": {
+        "Journal Impact Factor": "1.929",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 1
+            }
+        ]
+    },
+    "COMPUTER LANGUAGES SYSTEMS & STRUCTURES": {
+        "Journal Impact Factor": "1.840",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 2
+            }
+        ]
+    },
+    "Automated Software Engineering": {
+        "Journal Impact Factor": "1.806",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 2
+            }
+        ]
+    },
+    "Software and Systems Modeling": {
+        "Journal Impact Factor": "1.722",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 2
+            }
+        ]
+    },
+    "IEEE COMPUTER GRAPHICS AND APPLICATIONS": {
+        "Journal Impact Factor": "1.640",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 2
+            }
+        ]
+    },
+    "SOFTWARE QUALITY JOURNAL": {
+        "Journal Impact Factor": "1.596",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 2
+            }
+        ]
+    },
+    "SOFTWARE TESTING VERIFICATION & RELIABILITY": {
+        "Journal Impact Factor": "1.556",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 2
+            }
+        ]
+    },
+    "COMPUTER AIDED GEOMETRIC DESIGN": {
+        "Journal Impact Factor": "1.522",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 2
+            }
+        ]
+    },
+    "BIT NUMERICAL MATHEMATICS": {
+        "Journal Impact Factor": "1.425",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 2
+            }
+        ]
+    },
+    "Scientific Programming": {
+        "Journal Impact Factor": "1.344",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 2
+            }
+        ]
+    },
+    "SOFTWARE-PRACTICE & EXPERIENCE": {
+        "Journal Impact Factor": "1.338",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 3
+            }
+        ]
+    },
+    "COMPUTERS & GRAPHICS-UK": {
+        "Journal Impact Factor": "1.200",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 3
+            }
+        ]
+    },
+    "OPTIMIZATION METHODS & SOFTWARE": {
+        "Journal Impact Factor": "1.183",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 3
+            }
+        ]
+    },
+    "Journal of Software-Evolution and Process": {
+        "Journal Impact Factor": "1.167",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 3
+            }
+        ]
+    },
+    "CONCURRENCY AND COMPUTATION-PRACTICE & EXPERIENCE": {
+        "Journal Impact Factor": "1.114",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 3
+            }
+        ]
+    },
+    "International Journal on Software Tools for Technology Transfer": {
+        "Journal Impact Factor": "1.077",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 3
+            }
+        ]
+    },
+    "JOURNAL OF UNIVERSAL COMPUTER SCIENCE": {
+        "Journal Impact Factor": "1.066",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 3
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 3
+            }
+        ]
+    },
+    "VISUAL COMPUTER": {
+        "Journal Impact Factor": "1.036",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 3
+            }
+        ]
+    },
+    "GRAPHICAL MODELS": {
+        "Journal Impact Factor": "1.019",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 3
+            }
+        ]
+    },
+    "RANDOM STRUCTURES & ALGORITHMS": {
+        "Journal Impact Factor": "0.985",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 3
+            }
+        ]
+    },
+    "JOURNAL OF VISUAL LANGUAGES AND COMPUTING": {
+        "Journal Impact Factor": "0.971",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 3
+            }
+        ]
+    },
+    "ACM Transactions on Applied Perception": {
+        "Journal Impact Factor": "0.962",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 3
+            }
+        ]
+    },
+    "IET Software": {
+        "Journal Impact Factor": "0.947",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 3
+            }
+        ]
+    },
+    "Information Visualization": {
+        "Journal Impact Factor": "0.923",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 3
+            }
+        ]
+    },
+    "THEORY AND PRACTICE OF LOGIC PROGRAMMING": {
+        "Journal Impact Factor": "0.875",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 3
+            }
+        ]
+    },
+    "FORMAL ASPECTS OF COMPUTING": {
+        "Journal Impact Factor": "0.845",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 4
+            }
+        ]
+    },
+    "International Journal of Data Warehousing and Mining": {
+        "Journal Impact Factor": "0.781",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 4
+            }
+        ]
+    },
+    "ACM TRANSACTIONS ON PROGRAMMING LANGUAGES AND SYSTEMS": {
+        "Journal Impact Factor": "0.759",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 4
+            }
+        ]
+    },
+    "SCIENCE OF COMPUTER PROGRAMMING": {
+        "Journal Impact Factor": "0.740",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 4
+            }
+        ]
+    },
+    "FUNDAMENTA INFORMATICAE": {
+        "Journal Impact Factor": "0.725",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 4
+            }
+        ]
+    },
+    "JOURNAL OF FUNCTIONAL PROGRAMMING": {
+        "Journal Impact Factor": "0.703",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 4
+            }
+        ]
+    },
+    "COMPUTER ANIMATION AND VIRTUAL WORLDS": {
+        "Journal Impact Factor": "0.697",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 4
+            }
+        ]
+    },
+    "ALGORITHMICA": {
+        "Journal Impact Factor": "0.667",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 4
+            }
+        ]
+    },
+    "DISCRETE MATHEMATICS AND THEORETICAL COMPUTER SCIENCE": {
+        "Journal Impact Factor": "0.569",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 4
+            }
+        ]
+    },
+    "International Journal of Wavelets Multiresolution and Information Processing": {
+        "Journal Impact Factor": "0.540",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 4
+            }
+        ]
+    },
+    "ICGA JOURNAL": {
+        "Journal Impact Factor": "0.313",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 4
+            }
+        ]
+    },
+    "Journal of Web Engineering": {
+        "Journal Impact Factor": "0.311",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 4
+            },
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 4
+            }
+        ]
+    },
+    "PROGRAMMING AND COMPUTER SOFTWARE": {
+        "Journal Impact Factor": "0.267",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "Rank": 4
+            }
+        ]
+    },
+    "IEEE Transactions on Information Forensics and Security": {
+        "Journal Impact Factor": "5.824",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 1
+            }
+        ]
+    },
+    "ACM COMPUTING SURVEYS": {
+        "Journal Impact Factor": "5.550",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 1
+            }
+        ]
+    },
+    "Future Generation Computer Systems-The International Journal of eScience": {
+        "Journal Impact Factor": "4.639",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 1
+            }
+        ]
+    },
+    "IEEE TRANSACTIONS ON PARALLEL AND DISTRIBUTED SYSTEMS": {
+        "Journal Impact Factor": "3.971",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 1
+            }
+        ]
+    },
+    "FOUNDATIONS OF COMPUTATIONAL MATHEMATICS": {
+        "Journal Impact Factor": "3.056",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 1
+            }
+        ]
+    },
+    "INTERNATIONAL JOURNAL OF GENERAL SYSTEMS": {
+        "Journal Impact Factor": "2.931",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 1
+            }
+        ]
+    },
+    "FUZZY SETS AND SYSTEMS": {
+        "Journal Impact Factor": "2.675",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 1
+            }
+        ]
+    },
+    "INTERNATIONAL JOURNAL OF SYSTEMS SCIENCE": {
+        "Journal Impact Factor": "2.185",
+        "Rank": 1,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 1
+            }
+        ]
+    },
+    "MULTIDIMENSIONAL SYSTEMS AND SIGNAL PROCESSING": {
+        "Journal Impact Factor": "2.088",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 2
+            }
+        ]
+    },
+    "STATISTICS AND COMPUTING": {
+        "Journal Impact Factor": "1.851",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 2
+            }
+        ]
+    },
+    "JOURNAL OF PARALLEL AND DISTRIBUTED COMPUTING": {
+        "Journal Impact Factor": "1.815",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 2
+            }
+        ]
+    },
+    "ACM TRANSACTIONS ON COMPUTER SYSTEMS": {
+        "Journal Impact Factor": "1.760",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 2
+            }
+        ]
+    },
+    "COMPUTING": {
+        "Journal Impact Factor": "1.654",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 2
+            }
+        ]
+    },
+    "QUANTUM INFORMATION & COMPUTATION": {
+        "Journal Impact Factor": "1.601",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 2
+            }
+        ]
+    },
+    "REAL-TIME SYSTEMS": {
+        "Journal Impact Factor": "1.595",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 2
+            }
+        ]
+    },
+    "Cryptography and Communications-Discrete-Structures Boolean Functions and Sequences": {
+        "Journal Impact Factor": "1.213",
+        "Rank": 2,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 2
+            }
+        ]
+    },
+    "DESIGNS CODES AND CRYPTOGRAPHY": {
+        "Journal Impact Factor": "1.114",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 3
+            }
+        ]
+    },
+    "MATHEMATICAL STRUCTURES IN COMPUTER SCIENCE": {
+        "Journal Impact Factor": "1.094",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 3
+            }
+        ]
+    },
+    "INFORMATION AND COMPUTATION": {
+        "Journal Impact Factor": "1.077",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 3
+            }
+        ]
+    },
+    "JOURNAL OF CRYPTOLOGY": {
+        "Journal Impact Factor": "1.056",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 3
+            }
+        ]
+    },
+    "International Journal of Unconventional Computing": {
+        "Journal Impact Factor": "1.022",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 3
+            }
+        ]
+    },
+    "PARALLEL COMPUTING": {
+        "Journal Impact Factor": "0.938",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 3
+            }
+        ]
+    },
+    "SIAM JOURNAL ON COMPUTING": {
+        "Journal Impact Factor": "0.902",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 3
+            }
+        ]
+    },
+    "INTERNATIONAL JOURNAL OF PARALLEL PROGRAMMING": {
+        "Journal Impact Factor": "0.897",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 3
+            }
+        ]
+    },
+    "DISTRIBUTED COMPUTING": {
+        "Journal Impact Factor": "0.840",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 3
+            }
+        ]
+    },
+    "FORMAL METHODS IN SYSTEM DESIGN": {
+        "Journal Impact Factor": "0.825",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 3
+            }
+        ]
+    },
+    "THEORETICAL COMPUTER SCIENCE": {
+        "Journal Impact Factor": "0.772",
+        "Rank": 3,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 3
+            }
+        ]
+    },
+    "JOURNAL OF SYMBOLIC COMPUTATION": {
+        "Journal Impact Factor": "0.755",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 4
+            }
+        ]
+    },
+    "JOURNAL OF LOGIC AND COMPUTATION": {
+        "Journal Impact Factor": "0.740",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 4
+            }
+        ]
+    },
+    "INTERNATIONAL JOURNAL OF QUANTUM INFORMATION": {
+        "Journal Impact Factor": "0.738",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 4
+            }
+        ]
+    },
+    "ACM Transactions on Computational Logic": {
+        "Journal Impact Factor": "0.731",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 4
+            }
+        ]
+    },
+    "COMBINATORICS PROBABILITY & COMPUTING": {
+        "Journal Impact Factor": "0.705",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 4
+            }
+        ]
+    },
+    "DISCRETE & COMPUTATIONAL GEOMETRY": {
+        "Journal Impact Factor": "0.672",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 4
+            }
+        ]
+    },
+    "ACM Transactions on Algorithms": {
+        "Journal Impact Factor": "0.652",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 4
+            }
+        ]
+    },
+    "Journal of Logical and Algebraic Methods in Programming": {
+        "Journal Impact Factor": "0.634",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 4
+            }
+        ]
+    },
+    "IEEE ANNALS OF THE HISTORY OF COMPUTING": {
+        "Journal Impact Factor": "0.619",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 4
+            }
+        ]
+    },
+    "Advances in Mathematics of Communications": {
+        "Journal Impact Factor": "0.564",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 4
+            }
+        ]
+    },
+    "Journal of Cellular Automata": {
+        "Journal Impact Factor": "0.511",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 4
+            }
+        ]
+    },
+    "Logical Methods in Computer Science": {
+        "Journal Impact Factor": "0.508",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 4
+            }
+        ]
+    },
+    "COMPUTATIONAL COMPLEXITY": {
+        "Journal Impact Factor": "0.487",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 4
+            }
+        ]
+    },
+    "THEORY OF COMPUTING SYSTEMS": {
+        "Journal Impact Factor": "0.458",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 4
+            }
+        ]
+    },
+    "Problems of Information Transmission": {
+        "Journal Impact Factor": "0.359",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 4
+            }
+        ]
+    },
+    "INTERNATIONAL JOURNAL OF FOUNDATIONS OF COMPUTER SCIENCE": {
+        "Journal Impact Factor": "0.353",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 4
+            }
+        ]
+    },
+    "CRYPTOLOGIA": {
+        "Journal Impact Factor": "0.326",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 4
+            }
+        ]
+    },
+    "Romanian Journal of Information Science and Technology": {
+        "Journal Impact Factor": "0.288",
+        "Rank": 4,
+        "Field Rank": [
+            {
+                "Field Name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "Rank": 4
+            }
+        ]
+    }
+}

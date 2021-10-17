@@ -1,0 +1,603 @@
+索引,CCF简称,全称,出版社,网址,领域,评级,DBLP简称
+ieeeacmtransactionsonnetworking,TON,IEEE/ACM Transactions on Networking,"IEEE, ACM",http://dblp.uni-trier.de/db/journals/ton/,计算机网络,A,ton
+ieeejournalofselectedareasincommunications,JSAC,IEEE Journal of Selected Areas in Communications,IEEE,http://dblp.uni-trier.de/db/journals/jsac/,计算机网络,A,jsac
+ieeetransactionsonmobilecomputing,TMC,IEEE Transactions on Mobile Computing,IEEE,http://dblp.uni-trier.de/db/journals/tmc/,计算机网络,A,tmc
+acmtransactionsoninternettechnology,TOIT,ACM Transactions on Internet Technology,ACM,http://dblp.uni-trier.de/db/journals/toit/,计算机网络,B,toit
+acmtransactionsonmultimediacomputingcommunicationsandapplications,TOMCCAP,"ACM Transactions on Multimedia Computing, Communications and Applications",ACM,http://dblp.uni-trier.de/db/journals/tomccap/,计算机网络,B,tomccap
+acmtransactionsonsensornetworks,TOSN,ACM Transactions on Sensor Networks,ACM,http://dblp.uni-trier.de/db/journals/tosn/,计算机网络,B,tosn
+computernetworks,CN,Computer Networks,Elsevier,http://dblp.uni-trier.de/db/journals/cn/,计算机网络,B,cn
+ieeetransactionsoncommunications,TOC,IEEE Transactions on Communications,IEEE,http://dblp.uni-trier.de/db/journals/tcom/,计算机网络,B,tcom
+ieeetransactionsonwirelesscommunications,TWC,IEEE Transactions on Wireless Communications,IEEE,http://dblp.uni-trier.de/db/journals/twc/,计算机网络,B,twc
+adhocnetworks,,Ad hoc Networks,Elsevier,http://dblp.uni-trier.de/db/journals/adhoc/,计算机网络,C,adhoc
+computercommunications,CC,Computer Communications,Elsevier,http://dblp.uni-trier.de/db/journals/comcom/,计算机网络,C,comcom
+ieeetransactionsonnetworkandservicemanagement,TNSM,IEEE Transactions on Network and Service Management,IEEE,http://dblp.uni-trier.de/db/journals/tnsm/,计算机网络,C,tnsm
+ietcommunications,,IET Communications,IET,http://dblp.uni-trier.de/db/journals/iet-com/,计算机网络,C,iet-com
+journalofnetworkandcomputerapplications,JNCA,Journal of Network and Computer Applications,Elsevier,http://dblp.uni-trier.de/db/journals/jnca/,计算机网络,C,jnca
+mobilenetworksapplications,MONET,Mobile Networks & Applications,Springer,http://dblp.uni-trier.de/db/journals/monet/,计算机网络,C,monet
+networks,,Networks,Wiley,http://dblp.uni-trier.de/db/journals/networks/,计算机网络,C,networks
+peertopeernetworkingandapplications,PPNA,Peer-to-Peer Networking and Applications,Springer,http://dblp.uni-trier.de/db/journals/ppna/,计算机网络,C,ppna
+wirelesscommunicationsmobilecomputing,WCMC,Wireless Communications & Mobile Computing,Wiley.,http://dblp.uni-trier.de/db/journals/wicomm/,计算机网络,C,wicomm
+wirelessnetworks,,Wireless Networks,Springer,http://dblp.uni-trier.de/db/journals/winet/,计算机网络,C,winet
+acminternationalconferenceonmobilecomputingandnetworking,MOBICOM,ACM International Conference on Mobile Computing and Networking,ACM,http://dblp.uni-trier.de/db/conf/mobicom/,计算机网络,A,mobicom
+acminternationalconferenceontheapplicationstechnologiesarchitecturesandprotocolsforcomputercommunication,SIGCOMM,"ACM International Conference on the applications, technologies, architectures, and protocols for computer communication",ACM,http://dblp.uni-trier.de/db/conf/sigcomm/index.html,计算机网络,A,sigcomm
+ieeeinternationalconferenceoncomputercommunications,INFOCOM,IEEE International Conference on Computer Communications,IEEE,http://dblp.uni-trier.de/db/conf/infocom/,计算机网络,A,infocom
+acmconferenceonembeddednetworkedsensorsystems,SenSys,ACM Conference on Embedded Networked Sensor Systems,ACM,http://dblp.uni-trier.de/db/conf/sensys/,计算机网络,B,sensys
+acminternationalconferenceonemergingnetworkingexperimentsandtechnologies,CoNEXT,ACM International Conference on emerging Networking EXperiments and Technologies,ACM,http://dblp.uni-trier.de/db/conf/conext/,计算机网络,B,conext
+ieeecommunicationssocietyconferenceonsensorandadhoccommunicationsandnetworks,SECON,IEEE Communications Society Conference on Sensor and Ad Hoc Communications and Networks,IEEE,http://dblp.uni-trier.de/db/conf/secon/,计算机网络,B,secon
+internationalconferenceoninformationprocessinginsensornetworks,IPSN,International Conference on Information Processing in Sensor Networks,IEEE/ACM,http://dblp.uni-trier.de/db/conf/ipsn/,计算机网络,B,ipsn
+internationalconferenceonnetworkprotocols,ICNP,International Conference on Network Protocols,IEEE,http://dblp.uni-trier.de/db/conf/icnp/,计算机网络,B,icnp
+internationalsymposiumonmobileadhocnetworkingandcomputing,MobiHoc,International Symposium on Mobile Ad Hoc Networking and Computing,ACM/IEEE,http://dblp.uni-trier.de/db/conf/mobihoc/,计算机网络,B,mobihoc
+internationalconferenceonmobilesystemsapplicationsandservices,MobiSys,"International Conference on Mobile Systems, Applications, and Services",ACM,http://dblp.uni-trier.de/db/conf/mobisys/,计算机网络,B,mobisys
+internationalworkshoponqualityofservice,IWQoS,International Workshop on Quality of Service,IEEE,http://dblp.uni-trier.de/db/conf/iwqos/,计算机网络,B,iwqos
+internetmeasurementconference,IMC,Internet Measurement Conference,ACM/USENIX,http://dblp.uni-trier.de/db/conf/imc/,计算机网络,B,imc
+networkandoperatingsystemsupportfordigitalaudioandvideo,NOSSDAV,Network and Operating System Support for Digital Audio and Video,ACM,http://dblp.uni-trier.de/db/conf/nossdav/,计算机网络,B,nossdav
+symposiumonnetworksystemdesignandimplementation,NSDI,Symposium on Network System Design and Implementation,USENIX,http://dblp.uni-trier.de/db/conf/nsdi/,计算机网络,B,nsdi
+architecturesfornetworkingandcommunicationssystems,ANCS,Architectures for Networking and Communications Systems,ACM/IEEE,http://dblp.uni-trier.de/db/conf/ancs/,计算机网络,C,ancs
+formaltechniquesfornetworkedanddistributedsystems,FORTE,Formal Techniques for Networked and Distributed Systems,Springer,http://dblp.uni-trier.de/db/conf/forte/,计算机网络,C,forte
+ieeeconferenceonlocalcomputernetworks,LCN,IEEE Conference on Local Computer Networks,IEEE,http://dblp.uni-trier.de/db/conf/lcn/,计算机网络,C,lcn
+ieeeglobalcommunicationsconferenceincorporatingtheglobalinternetsymposium,Globecom,"IEEE Global Communications Conference, incorporating the Global Internet Symposium",IEEE,http://dblp.uni-trier.de/db/conf/globecom/,计算机网络,C,globecom
+ieeeinternationalconferenceoncommunications,ICC,IEEE International Conference on Communications,IEEE,http://dblp.uni-trier.de/db/conf/icc/,计算机网络,C,icc
+ieeeinternationalconferenceoncomputercommunicationsandnetworks,ICCCN,IEEE International Conference on Computer Communications and Networks,IEEE,http://dblp.uni-trier.de/db/conf/icccn/,计算机网络,C,icccn
+ieeeinternationalconferenceonmobileadhocandsensorsystems,MASS,IEEE International Conference on Mobile Ad hoc and Sensor Systems,IEEE,http://dblp.uni-trier.de/db/conf/mass/index.html,计算机网络,C,mass
+ieeeinternationalconferenceonppcomputing,P2P,IEEE International Conference on P2P Computing,IEEE,http://dblp.uni-trier.de/db/conf/p2p/,计算机网络,C,p2p
+ieeeinternationalperformancecomputingandcommunicationsconference,IPCCC,IEEE International Performance Computing and Communications Conference,IEEE,http://dblp.uni-trier.de/db/conf/ipccc/,计算机网络,C,ipccc
+ieeeinternationalsymposiumonaworldofwirelessmobileandmultimedianetworks,WoWMoM,IEEE International Symposium on a World of Wireless Mobile and Multimedia Networks,IEEE,http://dblp.uni-trier.de/db/conf/wowmom/,计算机网络,C,wowmom
+ieeesymposiumoncomputersandcommunications,ISCC,IEEE Symposium on Computers and Communications,IEEE,http://dblp.uni-trier.de/db/conf/iscc/,计算机网络,C,iscc
+ieeewirelesscommunicationsnetworkingconference,WCNC,IEEE Wireless Communications & Networking Conference,IEEE,http://dblp.uni-trier.de/db/conf/wcnc/,计算机网络,C,wcnc
+ifipinternationalconferencesonnetworking,Networking,IFIP International Conferences on Networking,IFIP,http://dblp.uni-trier.de/db/conf/networking/index.html,计算机网络,C,networking
+ifipieeeinternationalsymposiumonintegratednetworkmanagement,IM,IFIP/IEEE International Symposium on Integrated Network Management,IFIP/IEEE,http://dblp.uni-trier.de/db/conf/im/index.html,计算机网络,C,im
+internationalconferenceonmodelinganalysisandsimulationofwirelessandmobilesystems,MSWiM,"International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems",ACM,http://dblp.uni-trier.de/db/conf/mswim/,计算机网络,C,mswim
+asiapacificnetworkoperationsandmanagementsymposium,NOMS,Asia-Pacific Network Operations and Management Symposium,IFIP/IEEE,http://dblp.uni-trier.de/db/conf/apnoms/,计算机网络,C,apnoms
+theworkshoponhottopicsinnetworks,HotNets,The Workshop on Hot Topics in Networks,ACM,http://dblp.uni-trier.de/db/conf/hotnets/,计算机网络,C,hotnets
+internationalconferenceonwirelessalgorithmssystemsandapplications,WASA,"International Conference on Wireless Algorithms, Systems, and Applications",Springer,http://dblp.uni-trier.de/db/conf/wasa/,计算机网络,C,wasa
+ieeetransactionsondependableandsecurecomputing,TDSC,IEEE Transactions on Dependable and Secure Computing,IEEE,http://dblp.uni-trier.de/db/journals/tdsc/,网络与信息安全,A,tdsc
+ieeetransactionsoninformationforensicsandsecurity,TIFS,IEEE Transactions on Information Forensics and Security,IEEE,http://dblp.uni-trier.de/db/journals/tifs/,网络与信息安全,A,tifs
+journalofcryptology,,Journal of Cryptology,Springer,http://dblp.uni-trier.de/db/journals/joc/,网络与信息安全,A,joc
+acmtransactionsoninformationandsystemsecurity,TISSEC,ACM Transactions on Information and System Security,ACM,http://dblp.uni-trier.de/db/journals/tissec/,网络与信息安全,B,tissec
+computerssecurity,,Computers & Security,Elsevier,http://dblp.uni-trier.de/db/journals/compsec/,网络与信息安全,B,compsec
+designscodesandcryptography,,"Designs, Codes and Cryptography",Springer,http://dblp.uni-trier.de/db/journals/dcc/,网络与信息安全,B,dcc
+journalofcomputersecurity,JCS,Journal of Computer Security,IOS Press,http://dblp.uni-trier.de/db/journals/jcs/,网络与信息安全,B,jcs
+computerlawandsecurityreports,CLSR,Computer Law and Security Reports,Elsevier,http://www.journals.elsevier.com/computer-law-and-security-review/,网络与信息安全,C,
+eurasipjournaloninformationsecurity,,EURASIP Journal on Information Security,Springer,http://dblp.uni-trier.de/db/journals/ejisec/,网络与信息安全,C,ejisec
+ietinformationsecurity,,IET Information Security,IET,http://dblp.uni-trier.de/db/journals/iet-ifs/,网络与信息安全,C,iet-ifs
+informationmanagementcomputersecurity,IMCS,Information Management & Computer Security,Emerald,http://dblp.uni-trier.de/db/journals/imcs/,网络与信息安全,C,imcs
+informationsecuritytechnicalreport,ISTR,Information Security Technical Report,Elsevier,http://dblp.uni-trier.de/db/journals/istr/,网络与信息安全,C,istr
+internationaljournalofinformationsecurityandprivacy,IJISP,International Journal of Information Security and Privacy,Idea Group Inc,http://dblp.uni-trier.de/db/journals/ijisp/,网络与信息安全,C,ijisp
+internationaljournalofinformationandcomputersecurity,IJICS,International Journal of Information and Computer Security,Inderscience,http://dblp.uni-trier.de/db/journals/ijics/,网络与信息安全,C,ijics
+securityandcommunicationnetworks,SCN,Security and Communication Networks,Wiley,http://dblp.uni-trier.de/db/journals/scn/,网络与信息安全,C,scn
+acmconferenceoncomputerandcommunicationssecurity,CCS,ACM Conference on Computer and Communications Security,ACM,http://dblp.uni-trier.de/db/conf/ccs/,网络与信息安全,A,ccs
+internationalcryptologyconference,CRYPTO,International Cryptology Conference,Springer,http://dblp.uni-trier.de/db/conf/crypto/,网络与信息安全,A,crypto
+europeancryptologyconference,EUROCRYPT,European Cryptology Conference,Springer,http://dblp.uni-trier.de/db/conf/eurocrypt/,网络与信息安全,A,eurocrypt
+ieeesymposiumonsecurityandprivacy,S&P,IEEE Symposium on Security and Privacy,IEEE,http://dblp.uni-trier.de/db/conf/sp/,网络与信息安全,A,sp
+usenixsecuritysymposium,USENIX Security,Usenix Security Symposium,USENIX Association,http://dblp.uni-trier.de/db/conf/uss/,网络与信息安全,A,uss
+annualcomputersecurityapplicationsconference,ACSAC,Annual Computer Security Applications Conference,IEEE,http://dblp.uni-trier.de/db/conf/acsac/,网络与信息安全,B,acsac
+annualinternationalconferenceonthetheoryandapplicationofcryptologyandinformationsecurity,ASIACRYPT,Annual International Conference on the Theory and Application of Cryptology and Information Security,Springer,http://dblp.uni-trier.de/db/conf/asiacrypt/,网络与信息安全,B,asiacrypt
+europeansymposiumonresearchincomputersecurity,ESORICS,European Symposium on Research in Computer Security,Springer,http://dblp.uni-trier.de/db/conf/esorics/,网络与信息安全,B,esorics
+fastsoftwareencryption,FSE,Fast Software Encryption,Springer,http://dblp.uni-trier.de/db/conf/fse/,网络与信息安全,B,fse
+isocnetworkanddistributedsystemsecuritysymposium,NDSS,ISOC Network and Distributed System Security Symposium,ISOC,http://dblp.uni-trier.de/db/conf/ndss/,网络与信息安全,B,ndss
+ieeecomputersecurityfoundationsworkshop,CSFW,IEEE Computer Security Foundations Workshop,IEEE,http://dblp.uni-trier.de/db/conf/csfw/,网络与信息安全,B,csfw
+internationalsymposiumonrecentadvancesinintrusiondetection,RAID,International Symposium on Recent Advances in Intrusion Detection,Springer,http://dblp.uni-trier.de/db/conf/raid/,网络与信息安全,B,raid
+internationalworkshoponpracticeandtheoryinpublickeycryptography,PKC,International Workshop on Practice and Theory in Public Key Cryptography,Springer,http://dblp.uni-trier.de/db/conf/pkc/,网络与信息安全,B,pkc
+theinternationalconferenceondependablesystemsandnetworks,DSN,The International Conference on Dependable Systems and Networks,IEEE/IFIP,http://dblp.uni-trier.de/db/conf/dsn/,网络与信息安全,B,dsn
+theoryofcryptographyconference,TCC,Theory of Cryptography Conference,Springer,http://dblp.uni-trier.de/db/conf/tcc/,网络与信息安全,B,tcc
+ieeeinternationalsymposiumonreliabledistributedsystems,SRDS,IEEE International Symposium on Reliable Distributed Systems,IEEE,http://dblp.uni-trier.de/db/conf/srds/,网络与信息安全,B,srds
+workshoponcryptographichardwareandembeddedsystems,CHES,Workshop on Cryptographic Hardware and Embedded Systems,Springer,http://dblp.uni-trier.de/db/conf/ches/,网络与信息安全,B,ches
+acmconferenceonsecurityandprivacyinwirelessandmobilenetworks,WiSec,ACM Conference on Security and Privacy in Wireless and Mobile Networks,ACM,http://dblp.uni-trier.de/db/conf/wisec/,网络与信息安全,C,wisec
+acmworkshoponinformationhidingandmultimediasecurity,IH&MMSec,ACM Workshop on Information Hiding and Multimedia Security,ACM,http://dblp.uni-trier.de/db/conf/ih/,网络与信息安全,C,ih
+acmsymposiumonaccesscontrolmodelsandtechnologies,SACMAT,ACM Symposium on Access Control Models and Technologies,ACM,http://dblp.uni-trier.de/db/conf/sacmat/,网络与信息安全,C,sacmat
+acmsymposiumoninformationcomputerandcommunicationssecurity,ASIACCS,"ACM Symposium on Information, Computer and Communications Security",ACM,http://dblp.uni-trier.de/db/conf/ccs/,网络与信息安全,C,ccs
+acmworkshopondigitalrightsmanagement,DRM,ACM Workshop on Digital Rights Management,ACM,http://dblp.uni-trier.de/db/conf/drm/,网络与信息安全,C,drm
+appliedcryptographyandnetworksecurity,ACNS,Applied Cryptography and Network Security,Springer,http://dblp.uni-trier.de/db/conf/acns/,网络与信息安全,C,acns
+australasiaconferenceoninformationsecurityandprivacy,ACISP,Australasia Conference on Information Security and Privacy,Springer,http://dblp.uni-trier.de/db/conf/acisp/,网络与信息安全,C,acisp
+digitalforensicresearchworkshop,DFRWS,Digital Forensic Research Workshop,Elsevier,http://dblp.uni-trier.de/db/conf/dfrws/,网络与信息安全,C,dfrws
+financialcryptographyanddatasecurity,FC,Financial Cryptography and Data Security,Springer,http://dblp.uni-trier.de/db/conf/fc/,网络与信息安全,C,fc
+detectionofintrusionsandmalwarevulnerabilityassessment,DIMVA,Detection of Intrusions and Malware & Vulnerability Assessment,,http://dblp.uni-trier.de/db/conf/dimva/,网络与信息安全,C,dimva
+ifipinternationalinformationsecurityconference,SEC,IFIP International Information Security Conference,Springer,http://dblp.uni-trier.de/db/conf/sec/,网络与信息安全,C,sec
+ifipwginternationalconferenceondigitalforensics,IFIP WG 11.9,IFIP WG 11.9 International Conference on Digital Forensics,Springer,http://www.ifip119.org/Conferences/,网络与信息安全,C,
+informationsecurityconference,ISC,Information Security Conference,Springer,http://dblp.uni-trier.de/db/conf/isw/,网络与信息安全,C,isw
+internationalconferenceoninformationandcommunicationssecurity,ICICS,International Conference on Information and Communications Security,Springer,http://dblp.uni-trier.de/db/conf/icics/,网络与信息安全,C,icics
+internationalconferenceonsecurityandprivacyincommunicationnetworks,SecureComm,International Conference on Security and Privacy in Communication Networks,ACM,http://dblp.uni-trier.de/db/conf/securecomm/,网络与信息安全,C,securecomm
+newsecurityparadigmsworkshop,NSPW,New Security Paradigms Workshop,ACM,http://dblp.uni-trier.de/db/conf/nspw/,网络与信息安全,C,nspw
+rsaconferencecryptographerstrack,CT-RSA,"RSA Conference, Cryptographers' Track",Springer,http://dblp.uni-trier.de/db/conf/ctrsa/,网络与信息安全,C,ctrsa
+symposiumonusableprivacyandsecurity,SOUPS,Symposium On Usable Privacy and Security,ACM,http://dblp.uni-trier.de/db/conf/soups/,网络与信息安全,C,soups
+usenixworkshoponhottopicsinsecurity,HotSec,USENIX Workshop on Hot Topics in Security,USENIX,http://www.usenix.org/events/,网络与信息安全,C,
+selectedareasincryptography,SAC,Selected Areas in Cryptography,Springer,http://dblp.uni-trier.de/db/conf/sacrypt/,网络与信息安全,C,sacrypt
+ieeeinternationalconferenceontrustsecurityandprivacyincomputingandcommunications,TrustCom,"IEEE International Conference on Trust, Security and Privacy in Computing and Communications",IEEE,http://dblp.uni-trier.de/db/conf/trustcom/,网络与信息安全,C,trustcom
+passiveandactivemeasurementconference,PAM,Passive and Active Measurement Conference,Springer,http://dblp.uni-trier.de/db/conf/pam/,网络与信息安全,C,pam
+privacyenhancingtechnologiessymposium,PETS,Privacy Enhancing Technologies Symposium,Springer,http://dblp.uni-trier.de/db/conf/pet/,网络与信息安全,C,pet
+internationalconferenceondigitalforensicscybercrime,ICDF2C,International Conference on Digital Forensics & Cyber Crime,Springer,http://dblp.uni-trier.de/db/conf/icdf2c/,网络与信息安全,C,icdf2c
+acmtransactionsonprogramminglanguagessystems,TOPLAS,ACM Transactions on Programming Languages & Systems,ACM,http://dblp.uni-trier.de/db/journals/toplas/,软件工程/系统软件/程序设计语言,A,toplas
+acmtransactionsonsoftwareengineeringmethodology,TOSEM,ACM Transactions on Software Engineering Methodology,ACM,http://dblp.uni-trier.de/db/journals/tosem/,软件工程/系统软件/程序设计语言,A,tosem
+ieeetransactionsonsoftwareengineering,TSE,IEEE Transactions on Software Engineering,IEEE,http://dblp.uni-trier.de/db/journals/tse/,软件工程/系统软件/程序设计语言,A,tse
+automatedsoftwareengineering,ASE,Automated Software Engineering,Springer,http://dblp.uni-trier.de/db/journals/ase/,软件工程/系统软件/程序设计语言,B,ase
+empiricalsoftwareengineering,ESE,Empirical Software Engineering,Springer,http://dblp.uni-trier.de/db/journals/ese/,软件工程/系统软件/程序设计语言,B,ese
+ieeetransactionsonservicecomputing,TSC,IEEE Transactions on Service Computing,IEEE,http://dblp.uni-trier.de/db/journals/tsc/,软件工程/系统软件/程序设计语言,B,tsc
+ietsoftware,IETS,IET Software,IET,http://dblp.uni-trier.de/db/journals/iee/index.html,软件工程/系统软件/程序设计语言,B,iee
+informationandsoftwaretechnology,IST,Information and Software Technology,Elsevier,http://dblp.uni-trier.de/db/journals/infsof/index.html,软件工程/系统软件/程序设计语言,B,infsof
+journaloffunctionalprogramming,JFP,Journal of Functional Programming,Cambridge University Press,http://dblp.uni-trier.de/db/journals/jfp/,软件工程/系统软件/程序设计语言,B,jfp
+journalofsoftwareevolutionandprocess,,Journal of Software: Evolution and Process,Wiley,http://dblp.uni-trier.de/db/journals/smr/,软件工程/系统软件/程序设计语言,B,smr
+journalofsystemsandsoftware,JSS,Journal of Systems and Software,Elsevier,http://dblp.uni-trier.de/db/journals/jss/,软件工程/系统软件/程序设计语言,B,jss
+requirementsengineering,RE,Requirements Engineering,Springer,http://dblp.uni-trier.de/db/journals/re/,软件工程/系统软件/程序设计语言,B,re
+scienceofcomputerprogramming,SCP,Science of Computer Programming,Elsevier,http://dblp.uni-trier.de/db/journals/scp/,软件工程/系统软件/程序设计语言,B,scp
+softwareandsystemmodeling,SoSyM,Software and System Modeling,Springer,http://dblp.uni-trier.de/db/journals/sosym/,软件工程/系统软件/程序设计语言,B,sosym
+softwarepracticeandexperience,SPE,Software: Practice and Experience,Wiley,http://dblp.uni-trier.de/db/journals/spe/,软件工程/系统软件/程序设计语言,B,spe
+softwaretestingverificationandreliability,STVR,"Software Testing, Verification and Reliability",Wiley,http://dblp.uni-trier.de/db/journals/stvr/index.html,软件工程/系统软件/程序设计语言,B,stvr
+computerlanguagessystemsandstructures,CL,"Computer Languages, Systems and Structures",Elsevier,http://dblp.uni-trier.de/db/journals/cl/index.html,软件工程/系统软件/程序设计语言,C,cl
+internationaljournalonsoftwareengineeringandknowledgeengineering,IJSEKE,International Journal on Software Engineering and Knowledge Engineering,World Scientific,http://dblp.uni-trier.de/db/journals/ijseke/index.html,软件工程/系统软件/程序设计语言,C,ijseke
+internationaljournalonsoftwaretoolsfortechnologytransfer,STTT,International Journal on Software Tools for Technology Transfer,Springer,http://dblp.uni-trier.de/db/journals/sttt/,软件工程/系统软件/程序设计语言,C,sttt
+journaloflogicandalgebraicprogramming,JLAP,Journal of Logic and Algebraic Programming,Elsevier,http://dblp.uni-trier.de/db/journals/jlp/jlap.html,软件工程/系统软件/程序设计语言,C,jlp
+journalofwebengineering,JWE,Journal of Web Engineering,Rinton Press,http://dblp.uni-trier.de/db/journals/jwe/,软件工程/系统软件/程序设计语言,C,jwe
+serviceorientedcomputingandapplications,SOCA,Service Oriented Computing and Applications,Springer,http://dblp.uni-trier.de/db/journals/soca/,软件工程/系统软件/程序设计语言,C,soca
+softwarequalityjournal,SQJ,Software Quality Journal,Springer,http://dblp.uni-trier.de/db/journals/sqj/,软件工程/系统软件/程序设计语言,C,sqj
+theoryandpracticeoflogicprogramming,TPLP,Theory and Practice of Logic Programming,Cambridge University Press,http://dblp.uni-trier.de/db/journals/tplp/,软件工程/系统软件/程序设计语言,C,tplp
+acmsigsoftsymposiumonthefoundationofsoftwareengineeringeuropeansoftwareengineeringconference,FSE/ESEC,ACM SIGSOFT Symposium on the Foundation of Software Engineering/European Software Engineering Conference,ACM,http://dblp.uni-trier.de/db/conf/sigsoft/,软件工程/系统软件/程序设计语言,A,sigsoft
+conferenceonobjectorientedprogrammingsystemslanguagesandapplications,OOPSLA,"Conference on Object-Oriented Programming Systems, Languages, and Applications",ACM,http://dblp.uni-trier.de/db/conf/oopsla/,软件工程/系统软件/程序设计语言,A,oopsla
+internationalconferenceonsoftwareengineering,ICSE,International Conference on Software Engineering,ACM/IEEE,http://dblp.uni-trier.de/db/conf/icse/,软件工程/系统软件/程序设计语言,A,icse
+usenixsymposiumonoperatingsystemsdesignandimplementations,OSDI,USENIX Symposium on Operating Systems Design and Implementations,USENIX,http://dblp.uni-trier.de/db/conf/osdi/,软件工程/系统软件/程序设计语言,A,osdi
+acmsigplansymposiumonprogramminglanguagedesignimplementation,PLDI,ACM SIGPLAN Symposium on Programming Language Design & Implementation,ACM,http://dblp.uni-trier.de/db/conf/pldi/,软件工程/系统软件/程序设计语言,A,pldi
+acmsigplansigactsymposiumonprinciplesofprogramminglanguages,POPL,ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages,ACM,http://dblp.uni-trier.de/db/conf/popl/,软件工程/系统软件/程序设计语言,A,popl
+acmsymposiumonoperatingsystemsprinciples,SOSP,ACM Symposium on Operating Systems Principles,ACM,http://dblp.uni-trier.de/db/conf/sosp/,软件工程/系统软件/程序设计语言,A,sosp
+internationalconferenceonautomatedsoftwareengineering,ASE,International Conference on Automated Software Engineering,IEEE/ACM,http://dblp.uni-trier.de/db/conf/kbse/,软件工程/系统软件/程序设计语言,A,kbse
+europeanconferenceonobjectorientedprogramming,ECOOP,European Conference on Object-Oriented Programming,AITO,http://dblp.uni-trier.de/db/conf/ecoop/,软件工程/系统软件/程序设计语言,B,ecoop
+europeanjointconferencesontheoryandpracticeofsoftware,ETAPS,European Joint Conferences on Theory and Practice of Software,Springer,http://dblp.uni-trier.de/db/conf/etaps/,软件工程/系统软件/程序设计语言,B,etaps
+worldcongressonformalmethods,FM,World Congress on Formal Methods,FME,http://dblp.uni-trier.de/db/conf/fm/,软件工程/系统软件/程序设计语言,B,fm
+ieeeinternationalconferenceonprogramcomprehension,ICPC,IEEE International Conference on Program Comprehension,IEEE,http://dblp.uni-trier.de/db/conf/iwpc/,软件工程/系统软件/程序设计语言,B,iwpc
+ieeeinternationalrequirementengineeringconference,RE,IEEE International Requirement Engineering Conference,IEEE,http://dblp.uni-trier.de/db/conf/re/,软件工程/系统软件/程序设计语言,B,re
+internationalconferenceonadvancedinformationsystemsengineering,CAiSE,International Conference on Advanced Information Systems Engineering,Springer,http://dblp.uni-trier.de/db/conf/caise/,软件工程/系统软件/程序设计语言,B,caise
+internationalconferenceonfunctionprogramming,ICFP,International Conference on Function Programming,ACM,http://dblp.uni-trier.de/db/conf/icfp/,软件工程/系统软件/程序设计语言,B,icfp
+internationalconferenceonlanguagescompilerstoolsandtheoryforembeddedsystems,LCTES,"International Conference on Languages, Compilers, Tools and Theory for Embedded Systems",ACM,http://dblp.uni-trier.de/db/conf/lctrts/,软件工程/系统软件/程序设计语言,B,lctrts
+internationalconferenceonmodeldrivenengineeringlanguagesandsystems,MoDELS,International Conference on Model Driven Engineering Languages and Systems,"ACM, IEEE",http://dblp.uni-trier.de/db/conf/models/,软件工程/系统软件/程序设计语言,B,models
+internationalconferenceonprinciplesandpracticeofconstraintprogramming,CP,International Conference on Principles and Practice of Constraint Programming,Springer,http://dblp.uni-trier.de/db/conf/cp/,软件工程/系统软件/程序设计语言,B,cp
+internationalconferenceonserviceorientedcomputing,ICSOC,International Conference on Service Oriented Computing,Springer,http://dblp.uni-trier.de/db/conf/icsoc/,软件工程/系统软件/程序设计语言,B,icsoc
+internationalconferenceonsoftwaremaintenanceandevolution,ICSME,International Conference on Software Maintenance and Evolution,IEEE,http://dblp.uni-trier.de/db/conf/icsm/,软件工程/系统软件/程序设计语言,B,icsm
+internationalconferenceonverificationmodelcheckingandabstractinterpretation,VMCAI,"International Conference on Verification, Model Checking, and Abstract Interpretation",Springer,http://dblp.uni-trier.de/db/conf/vmcai/,软件工程/系统软件/程序设计语言,B,vmcai
+internationalconferenceonwebservicesresearchtrack,ICWS,International Conference on Web Services（Research Track）,IEEE,http://dblp.uni-trier.de/db/conf/icws/,软件工程/系统软件/程序设计语言,B,icws
+internationalstaticanalysissymposium,SAS,International Static Analysis Symposium,Springer,http://dblp.uni-trier.de/db/conf/sas/,软件工程/系统软件/程序设计语言,B,sas
+internationalsymposiumonsoftwarereliabilityengineering,ISSRE,International Symposium on Software Reliability Engineering,IEEE,http://dblp.uni-trier.de/db/conf/issre/,软件工程/系统软件/程序设计语言,B,issre
+internationalsymposiumonsoftwaretestingandanalysis,ISSTA,International Symposium on Software Testing and Analysis,ACM,http://dblp.uni-trier.de/db/conf/issta/,软件工程/系统软件/程序设计语言,B,issta
+conferenceonmiddleware,Middleware,Conference on middleware,ACM/IFIP/USENIX,http://dblp.uni-trier.de/db/conf/middleware/,软件工程/系统软件/程序设计语言,B,middleware
+internationalconferenceonsoftwareanalysisevolutionandreengineering,SANER,"International Conference on Software Analysis, Evolution, and Reengineering",IEEE,http://dblp.uni-trier.de/db/conf/wcre/,软件工程/系统软件/程序设计语言,B,wcre
+usenixworkshoponhottopicsinoperatingsystems,HotOS,USENIX Workshop on Hot Topics in Operating Systems,USENIX,http://dblp.uni-trier.de/db/conf/hotos/,软件工程/系统软件/程序设计语言,B,hotos
+internationalsymposiumonempiricalsoftwareengineeringandmeasurement,ESEM,International Symposium on Empirical Software Engineering and Measurement,ACM/IEEE,http://dblp.uni-trier.de/db/conf/esem/,软件工程/系统软件/程序设计语言,B,esem
+acmsigplansigsoftworkshoponprogramanalysisforsoftwaretoolsandengineering,PASTE,ACMSIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering,ACM,http://dblp.uni-trier.de/db/conf/paste/,软件工程/系统软件/程序设计语言,C,paste
+asiansymposiumonprogramminglanguagesandsystems,APLAS,Asian Symposium on Programming Languages and Systems,Springer,http://dblp.uni-trier.de/db/conf/aplas/,软件工程/系统软件/程序设计语言,C,aplas
+asiapacificsoftwareengineeringconference,APSEC,Asia-Pacific Software Engineering Conference,IEEE,http://dblp.uni-trier.de/db/conf/apsec/,软件工程/系统软件/程序设计语言,C,apsec
+internationalcomputersoftwareandapplicationsconference,COMPSAC,International Computer Software and Applications Conference,IEEE,http://dblp.uni-trier.de/db/conf/compsac/,软件工程/系统软件/程序设计语言,C,compsac
+ieeeinternationalconferenceonengineeringofcomplexcomputersystems,ICECCS,IEEE International Conference on Engineering of Complex Computer Systems,IEEE,http://dblp.uni-trier.de/db/conf/iceccs/,软件工程/系统软件/程序设计语言,C,iceccs
+ieeeinternationalworkingconferenceonsourcecodeanalysisandmanipulation,SCAM,IEEE International Working Conference on Source Code Analysis and Manipulation,IEEE,http://dblp.uni-trier.de/db/conf/scam/,软件工程/系统软件/程序设计语言,C,scam
+internationalconferenceonformalengineeringmethods,ICFEM,International Conference on Formal Engineering Methods,Springer,http://dblp.uni-trier.de/db/conf/icfem/,软件工程/系统软件/程序设计语言,C,icfem
+internationalconferenceonobjectsmodelscomponentspatterns,TOOLS,"International Conference on Objects, Models, Components, Patterns",Springer,http://dblp.uni-trier.de/db/conf/tools/index.html,软件工程/系统软件/程序设计语言,C,tools
+acmsigplansymposiumonpartialevaluationandsemanticsbasedprogrammingmanipulation,PEPM,ACM SIGPLAN Symposium on Partial Evaluation and Semantics Based Programming Manipulation,ACM,http://dblp.uni-trier.de/db/conf/pepm/,软件工程/系统软件/程序设计语言,C,pepm
+theieeeinternationalconferenceonsoftwarequalityreliabilityandsecurity,QRS,"The IEEE International Conference on Software Quality, Reliability and Security",IEEE,http://paris.utdallas.edu/qrs/,软件工程/系统软件/程序设计语言,C,
+internationalconferenceonsoftwareengineeringandknowledgeengineering,SEKE,International Conference on Software Engineering and Knowledge Engineering,KSI,http://dblp.uni-trier.de/db/conf/seke/,软件工程/系统软件/程序设计语言,C,seke
+internationalconferenceonsoftwarereuse,ICSR,International Conference on Software Reuse,Springer,http://dblp.uni-trier.de/db/conf/icsr/,软件工程/系统软件/程序设计语言,C,icsr
+internationalconferenceonwebengineering,ICWE,International Conference on Web Engineering,Springer,http://dblp.uni-trier.de/db/conf/icwe/,软件工程/系统软件/程序设计语言,C,icwe
+internationalspinworkshoponmodelcheckingofsoftware,SPIN,International SPIN Workshop on Model Checking of Software,Springer,http://dblp.uni-trier.de/db/conf/spin/index.html,软件工程/系统软件/程序设计语言,C,spin
+internationalsymposiumonlogicbasedprogramsynthesisandtransformation,LOPSTR,International Symposium on Logic-based Program Synthesis and Transformation,Springer,http://dblp.uni-trier.de/db/conf/lopstr/,软件工程/系统软件/程序设计语言,C,lopstr
+internationalsymposiumontheoreticalaspectsofsoftwareengineering,TASE,International Symposium on Theoretical Aspects of Software Engineering,IEEE,http://dblp.uni-trier.de/db/conf/tase/,软件工程/系统软件/程序设计语言,C,tase
+theieeeinternationalconferenceonsoftwaretestingverificationandvalidation,ICST,"The IEEE International Conference on Software Testing, Verification and Validation",IEEE,http://dblp.uni-trier.de/db/conf/icst/,软件工程/系统软件/程序设计语言,C,icst
+internationalsymposiumonautomatedtechnologyforverificationandanalysis,ATVA,International Symposium on Automated Technology for Verification and Analysis,Springer,http://dblp.uni-trier.de/db/conf/atva/,软件工程/系统软件/程序设计语言,C,atva
+ieeeinternationalsymposiumonperformanceanalysisofsystemsandsoftware,ISPASS,IEEE International Symposium on Performance Analysis of Systems and Software,IEEE,http://dblp.uni-trier.de/db/conf/ispass/,软件工程/系统软件/程序设计语言,C,ispass
+internationalconferenceonservicecomputing,SCC,International Conference on Service Computing,IEEE,http://dblp.uni-trier.de/db/conf/IEEEscc/,软件工程/系统软件/程序设计语言,C,IEEEscc
+internationalconferenceonsoftwareandsystemprocess,ICSSP,International Conference on Software and System Process,ISPA,http://dblp.uni-trier.de/db/conf/ispw/,软件工程/系统软件/程序设计语言,C,ispw
+workingconferenceonminingsoftwarerepositories,MSR,Working Conference on Mining Software Repositories,IEEE/ACM,http://dblp.uni-trier.de/db/conf/msr/,软件工程/系统软件/程序设计语言,C,msr
+requirementsengineeringfoundationforsoftwarequality,REFSQ,Requirements Engineering: Foundation for Software Quality,Springer,http://dblp.uni-trier.de/db/conf/refsq/,软件工程/系统软件/程序设计语言,C,refsq
+workingieeeifipconferenceonsoftwarearchitecture,WICSA,Working IEEE/IFIP Conference on Software Architecture,IEEE,http://dblp.uni-trier.de/db/conf/wicsa/,软件工程/系统软件/程序设计语言,C,wicsa
+evaluationandassessmentinsoftwareengineering,EASE,Evaluation and Assessment in Software Engineering,ACM,http://dblp.uni-trier.de/db/conf/ease/,软件工程/系统软件/程序设计语言,C,ease
+acmtransactionsondatabasesystems,TODS,ACM Transactions on Database Systems,ACM,http://dblp.uni-trier.de/db/journals/tods/,数据库/内容检索/数据挖掘,A,tods
+acmtransactionsoninformationsystems,TOIS,ACM Transactions on Information Systems,ACM,http://dblp.uni-trier.de/db/journals/tois/,数据库/内容检索/数据挖掘,A,tois
+ieeetransactionsonknowledgeanddataengineering,TKDE,IEEE Transactions on Knowledge and Data Engineering,IEEE,http://dblp.uni-trier.de/db/journals/tkde/,数据库/内容检索/数据挖掘,A,tkde
+vldbjournal,VLDBJ,VLDB Journal,Springer,http://dblp.uni-trier.de/db/journals/vldb/,数据库/内容检索/数据挖掘,A,vldb
+acmtransactionsonknowledgediscoveryfromdata,TKDD,ACM Transactions on Knowledge Discovery from Data,ACM,http://dblp.uni-trier.de/db/journals/tkdd/,数据库/内容检索/数据挖掘,B,tkdd
+advancedengineeringinformatics,AEI,Advanced Engineering Informatics,Elsevier,http://dblp.uni-trier.de/db/journals/aei/,数据库/内容检索/数据挖掘,B,aei
+dataandknowledgeengineering,DKE,Data and Knowledge Engineering,Elsevier,http://dblp.uni-trier.de/db/journals/dke/,数据库/内容检索/数据挖掘,B,dke
+dataminingandknowledgediscovery,DMKD,Data Mining and Knowledge Discovery,Springer,http://dblp.uni-trier.de/db/journals/datamine/,数据库/内容检索/数据挖掘,B,datamine
+europeanjournalofinformationsystems,EJIS,European Journal of Information Systems,The OR Society,http://dblp.uni-trier.de/db/journals/ejis/,数据库/内容检索/数据挖掘,B,ejis
+geoinformatica,,GeoInformatica,Springer,http://dblp.uni-trier.de/db/journals/geoinformatica/,数据库/内容检索/数据挖掘,B,geoinformatica
+informationprocessingandmanagement,IPM,Information Processing and Management,Elsevier,http://dblp.uni-trier.de/db/journals/ipm/,数据库/内容检索/数据挖掘,B,ipm
+informationsciences,,Information Sciences,Elsevier,http://dblp.uni-trier.de/db/journals/isci/,数据库/内容检索/数据挖掘,B,isci
+informationsystems,IS,Information Systems,Elsevier,http://dblp.uni-trier.de/db/journals/is/,数据库/内容检索/数据挖掘,B,is
+journaloftheamericansocietyforinformationscienceandtechnology,JASIST,Journal of the American Society for Information Science and Technology,American Society for Information Science and Technology,http://dblp.uni-trier.de/db/journals/jasis/,数据库/内容检索/数据挖掘,B,jasis
+journalofwebsemantics,JWS,Journal of Web Semantics,Elsevier,http://dblp.uni-trier.de/db/journals/ws/,数据库/内容检索/数据挖掘,B,ws
+knowledgeandinformationsystems,KIS,Knowledge and Information Systems,Springer,http://dblp.uni-trier.de/db/journals/kais/,数据库/内容检索/数据挖掘,B,kais
+acmtransactionsontheweb,TWEB,ACM Transactions on the Web,ACM,http://dblp.uni-trier.de/db/journals/tweb/,数据库/内容检索/数据挖掘,B,tweb
+distributedandparalleldatabases,DPD,Distributed and Parallel Databases,Springer,http://dblp.uni-trier.de/db/journals/dpd/,数据库/内容检索/数据挖掘,C,dpd
+informationandmanagement,I&M,Information and Management,Elsevier,http://dblp.uni-trier.de/db/journals/iam/,数据库/内容检索/数据挖掘,C,iam
+informationprocessingletters,IPL,Information Processing Letters,Elsevier,http://dblp.uni-trier.de/db/journals/ipl/,数据库/内容检索/数据挖掘,C,ipl
+informationretrieval,IR,Information Retrieval,Springer,http://dblp.uni-trier.de/db/journals/ir/,数据库/内容检索/数据挖掘,C,ir
+internationaljournalofcooperativeinformationsystems,IJCIS,International Journal of Cooperative Information Systems,World Scientific,http://dblp.uni-trier.de/db/journals/ijcis/,数据库/内容检索/数据挖掘,C,ijcis
+internationaljournalofgeographicalinformationscience,IJGIS,International Journal of Geographical Information Science,Taylor & Francis,http://dblp.uni-trier.de/db/journals/gis/,数据库/内容检索/数据挖掘,C,gis
+internationaljournalofintelligentsystems,IJIS,International Journal of Intelligent Systems,Wiley,http://dblp.uni-trier.de/db/journals/ijis/,数据库/内容检索/数据挖掘,C,ijis
+internationaljournalofknowledgemanagement,IJKM,International Journal of Knowledge Management,IGI,http://dblp.uni-trier.de/db/journals/ijkm/,数据库/内容检索/数据挖掘,C,ijkm
+internationaljournalonsemanticwebandinformationsystems,IJSWIS,International Journal on Semantic Web and Information Systems,IGI,http://dblp.uni-trier.de/db/journals/ijswis/,数据库/内容检索/数据挖掘,C,ijswis
+journalofcomputerinformationsystems,JCIS,Journal of Computer Information Systems,IACIS,http://dblp.uni-trier.de/db/journals/jcis/,数据库/内容检索/数据挖掘,C,jcis
+journalofdatabasemanagement,JDM,Journal of Database Management,IGI-Global,http://dblp.uni-trier.de/db/journals/jdm/,数据库/内容检索/数据挖掘,C,jdm
+journalofglobalinformationtechnologymanagement,JGITM,Journal of Global Information Technology Management,Ivy League Publishing,http://www.tandfonline.com/loi/ugit20#.Vnv35pN97rI,数据库/内容检索/数据挖掘,C,
+journalofintelligentinformationsystems,JIIS,Journal of Intelligent Information Systems,Springer,http://dblp.uni-trier.de/db/journals/jiis/,数据库/内容检索/数据挖掘,C,jiis
+journalofstrategicinformationsystems,JSIS,Journal of Strategic Information Systems,Elsevier,http://dblp.uni-trier.de/db/journals/jsis/,数据库/内容检索/数据挖掘,C,jsis
+acmconferenceonmanagementofdata,SIGMOD,ACM Conference on Management of Data,ACM,http://dblp.uni-trier.de/db/conf/sigmod/,数据库/内容检索/数据挖掘,A,sigmod
+acmknowledgediscoveryanddatamining,SIGKDD,ACM Knowledge Discovery and Data Mining,ACM,http://dblp.uni-trier.de/db/conf/kdd/,数据库/内容检索/数据挖掘,A,kdd
+internationalconferenceonresearchondevelopmentininformationretrieval,SIGIR,International Conference on Research on Development in Information Retrieval,ACM,http://dblp.uni-trier.de/db/conf/sigir/,数据库/内容检索/数据挖掘,A,sigir
+internationalconferenceonverylargedatabases,VLDB,International Conference on Very Large Data Bases,Morgan Kaufmann/ACM,http://dblp.uni-trier.de/db/conf/vldb/,数据库/内容检索/数据挖掘,A,vldb
+ieeeinternationalconferenceondataengineering,ICDE,IEEE International Conference on Data Engineering,IEEE,http://dblp.uni-trier.de/db/conf/icde/,数据库/内容检索/数据挖掘,A,icde
+acminternationalconferenceoninformationandknowledgemanagement,CIKM,ACM International Conference on Information and Knowledge Management,ACM,http://dblp.uni-trier.de/db/conf/cikm/,数据库/内容检索/数据挖掘,B,cikm
+acmsigmodconferenceonprinciplesofdbsystems,PODS,ACM SIGMOD Conference on Principles of DB Systems,ACM,http://dblp.uni-trier.de/db/conf/pods/,数据库/内容检索/数据挖掘,B,pods
+databasesystemsforadvancedapplications,DASFAA,Database Systems for Advanced Applications,Springer,http://dblp.uni-trier.de/db/conf/dasfaa/,数据库/内容检索/数据挖掘,B,dasfaa
+europeanconferenceonmachinelearningandprinciplesandpracticeofknowledgediscoveryindatabases,ECML-PKDD,European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases,Springer,http://dblp.uni-trier.de/db/conf/ecml/,数据库/内容检索/数据挖掘,B,ecml
+ieeeinternationalsemanticwebconference,ISWC,IEEE International Semantic Web Conference,IEEE,http://dblp.uni-trier.de/db/conf/semweb/,数据库/内容检索/数据挖掘,B,semweb
+internationalconferenceondatamining,ICDM,International Conference on Data Mining,IEEE,http://dblp.uni-trier.de/db/conf/icdm/,数据库/内容检索/数据挖掘,B,icdm
+internationalconferenceondatabasetheory,ICDT,International Conference on Database Theory,Springer,http://dblp.uni-trier.de/db/conf/icdt/,数据库/内容检索/数据挖掘,B,icdt
+internationalconferenceonextendingdbtechnology,EDBT,International Conference on Extending DB Technology,Springer,http://dblp.uni-trier.de/db/conf/edbt/,数据库/内容检索/数据挖掘,B,edbt
+internationalconferenceoninnovationdatabaseresearch,CIDR,International Conference on Innovation Database Research,Online Proceeding,http://dblp.uni-trier.de/db/conf/cidr/,数据库/内容检索/数据挖掘,B,cidr
+siaminternationalconferenceondatamining,SDM,SIAM International Conference on Data Mining,SIAM,http://dblp.uni-trier.de/db/conf/sdm/,数据库/内容检索/数据挖掘,B,sdm
+acminternationalconferenceonwebsearchanddatamining,WSDM,ACM International Conference on Web Search and Data Mining,ACM,http://dblp.uni-trier.de/db/conf/wsdm/,数据库/内容检索/数据挖掘,B,wsdm
+databaseandexpertsystemapplications,DEXA,Database and Expert System Applications,Springer,http://dblp.uni-trier.de/db/conf/dexa/,数据库/内容检索/数据挖掘,C,dexa
+europeanconferenceonirresearch,ECIR,European Conference on IR Research,Springer,http://dblp.uni-trier.de/db/conf/ecir/,数据库/内容检索/数据挖掘,C,ecir
+internationalacmworkshoponwebanddatabases,WebDB,International ACM Workshop on Web and Databases,ACM,http://dblp.uni-trier.de/db/conf/webdb/,数据库/内容检索/数据挖掘,C,webdb
+internationalconferenceonconceptualmodeling,ER,International Conference on Conceptual Modeling,Springer,http://dblp.uni-trier.de/db/conf/er/,数据库/内容检索/数据挖掘,C,er
+internationalconferenceonmobiledatamanagement,MDM,International Conference on Mobile Data Management,IEEE,http://dblp.uni-trier.de/db/conf/mdm/,数据库/内容检索/数据挖掘,C,mdm
+internationalconferenceonscientificandstatisticaldbmanagement,SSDBM,International Conference on Scientific and Statistical DB Management,IEEE,http://dblp.uni-trier.de/db/conf/ssdbm/,数据库/内容检索/数据挖掘,C,ssdbm
+internationalconferenceonwebageinformationmanagement,WAIM,International Conference on Web Age Information Management,Springer,http://dblp.uni-trier.de/db/conf/waim/,数据库/内容检索/数据挖掘,C,waim
+internationalsymposiumonspatialandtemporaldatabases,SSTD,International Symposium on Spatial and Temporal Databases,Springer,http://dblp.uni-trier.de/db/conf/ssd/,数据库/内容检索/数据挖掘,C,ssd
+pacificasiaconferenceonknowledgediscoveryanddatamining,PAKDD,Pacific-Asia Conference on Knowledge Discovery and Data Mining,Springer,http://dblp.uni-trier.de/db/conf/pakdd/,数据库/内容检索/数据挖掘,C,pakdd
+theasiapacificwebconference,APWeb,The Asia Pacific Web Conference,Springer,http://dblp.uni-trier.de/db/conf/apweb/,数据库/内容检索/数据挖掘,C,apweb
+webinformationsystemsengineering,WISE,Web Information Systems Engineering,Springer,http://dblp.uni-trier.de/db/conf/wise/,数据库/内容检索/数据挖掘,C,wise
+extendedsemanticwebconference,ESWC,Extended Semantic Web Conference,Elsevier,http://dblp.uni-trier.de/db/conf/esws/,数据库/内容检索/数据挖掘,C,esws
+informationandcomputation,IANDC,Information and Computation,Elsevier,http://dblp.uni-trier.de/db/journals/iandc/,计算机科学理论,A,iandc
+siamjournaloncomputing,SICOMP,SIAM Journal on Computing,SIAM,http://dblp.uni-trier.de/db/journals/siamcomp/,计算机科学理论,A,siamcomp
+ieeetransactionsoninformationtheory,TIT,IEEE Transactions on Information Theory,IEEE,http://dblp.uni-trier.de/db/journals/tit/,计算机科学理论,A,tit
+acmtransactionsonalgorithms,TALG,ACM Transactions on Algorithms,ACM,http://dblp.uni-trier.de/db/journals/talg/,计算机科学理论,B,talg
+acmtransactionsoncomputationallogic,TOCL,ACM Transactions on Computational Logic,ACM,http://dblp.uni-trier.de/db/journals/tocl/,计算机科学理论,B,tocl
+acmtransactionsonmathematicalsoftware,TOMS,ACM Transactions on Mathematical Software,ACM,http://dblp.uni-trier.de/db/journals/toms/,计算机科学理论,B,toms
+algorithmica,Algorithmica,Algorithmica,Springer,http://dblp.uni-trier.de/db/journals/algorithmica/,计算机科学理论,B,algorithmica
+computationalcomplexity,CC,Computational complexity,Springer,http://dblp.uni-trier.de/db/journals/cc/,计算机科学理论,B,cc
+formalaspectsofcomputing,FAC,Formal Aspects of Computing,Springer,http://dblp.uni-trier.de/db/journals/fac/,计算机科学理论,B,fac
+formalmethodsinsystemdesign,FMSD,Formal Methods in System Design,Springer,http://dblp.uni-trier.de/db/journals/fmsd/,计算机科学理论,B,fmsd
+informsjournaloncomputing,INFORMS,INFORMS Journal on Computing,INFORMS,http://dblp.uni-trier.de/db/journals/informs/,计算机科学理论,B,informs
+journalofcomputerandsystemsciences,JCSS,Journal of Computer and System Sciences,Elsevier,http://dblp.uni-trier.de/db/journals/jcss/,计算机科学理论,B,jcss
+journalofglobaloptimization,JGO,Journal of Global Optimization,Springer,http://dblp.uni-trier.de/db/journals/jgo/,计算机科学理论,B,jgo
+journalofsymboliccomputation,JSC,Journal of Symbolic Computation,Elsevier,http://dblp.uni-trier.de/db/journals/jsc/,计算机科学理论,B,jsc
+mathematicalstructuresincomputerscience,MSCS,Mathematical Structures in Computer Science,Cambridge University Press,http://dblp.uni-trier.de/db/journals/mscs/,计算机科学理论,B,mscs
+theoreticalcomputerscience,TCS,Theoretical Computer Science,Elsevier,http://dblp.uni-trier.de/db/journals/tcs/,计算机科学理论,B,tcs
+annalsofpureandappliedlogic,APAL,Annals of Pure and Applied Logic,Elsevier,http://dblp.uni-trier.de/db/journals/apal/,计算机科学理论,C,apal
+actainformatica,ACTA,Acta Informatica,Springer,http://dblp.uni-trier.de/db/journals/acta/,计算机科学理论,C,acta
+discreteappliedmathematics,DAM,Discrete Applied Mathematics,Elsevier,http://dblp.uni-trier.de/db/journals/dam/,计算机科学理论,C,dam
+fundamentainformaticae,FUIN,Fundamenta Informaticae,IOS Press,http://dblp.uni-trier.de/db/journals/fuin/,计算机科学理论,C,fuin
+higherorderandsymboliccomputation,LISP,Higher-Order and Symbolic Computation,Springer,http://dblp.uni-trier.de/db/journals/lisp/,计算机科学理论,C,lisp
+informationprocessingletters,IPL,Information Processing Letters,Elsevier,http://dblp.uni-trier.de/db/journals/ipl/,计算机科学理论,C,ipl
+journalofcomplexity,JCOMPLEXITY,Journal of Complexity,Elsevier,http://dblp.uni-trier.de/db/journals/jc/,计算机科学理论,C,jc
+journaloflogicandcomputation,LOGCOM,Journal of Logic and Computation,Oxford University Press,http://dblp.uni-trier.de/db/journals/logcom/,计算机科学理论,C,logcom
+journalofsymboliclogic,,Journal of Symbolic Logic,Association for Symbolic Logic,http://dblp.uni-trier.de/db/journals/jsyml/,计算机科学理论,C,jsyml
+logicalmethodsincomputerscience,LMCS,Logical Methods in Computer Science,LMCS,http://dblp.uni-trier.de/db/journals/lmcs/,计算机科学理论,C,lmcs
+siamjournalondiscretemathematics,SIDMA,SIAM Journal on Discrete Mathematics,SIAM,http://dblp.uni-trier.de/db/journals/siamdm/,计算机科学理论,C,siamdm
+theoryofcomputingsystems,,Theory of Computing Systems,Springer,http://dblp.uni-trier.de/db/journals/mst/,计算机科学理论,C,mst
+acmsymposiumontheoryofcomputing,STOC,ACM Symposium on Theory of Computing,ACM,http://dblp.uni-trier.de/db/conf/stoc/,计算机科学理论,A,stoc
+ieeesymposiumonfoundationsofcomputerscience,FOCS,IEEE Symposium on Foundations of Computer Science,IEEE,http://dblp.uni-trier.de/db/conf/focs/,计算机科学理论,A,focs
+ieeesymposiumonlogicincomputerscience,LICS,IEEE Symposium on Logic in Computer Science,IEEE,http://dblp.uni-trier.de/db/conf/lics/,计算机科学理论,A,lics
+computeraidedverification,CAV,Computer Aided Verification,Springer,http://dblp.uni-trier.de/db/conf/cav/,计算机科学理论,A,cav
+acmsymposiumoncomputationalgeometry,SoCG,ACM Symposium on Computational Geometry,ACM,http://dblp.uni-trier.de/db/conf/compgeom/,计算机科学理论,B,compgeom
+acmsiamsymposiumondiscretealgorithms,SODA,ACM-SIAM Symposium on Discrete Algorithms,SIAM,http://dblp.uni-trier.de/db/conf/soda/,计算机科学理论,A,soda
+conferenceonautomateddeductiontheinternationaljointconferenceonautomatedreasoning,CADE/IJCAR,Conference on Automated Deduction/The International Joint Conference on Automated Reasoning,Springer,http://dblp.uni-trier.de/db/conf/cade/,计算机科学理论,B,cade
+ieeeconferenceoncomputationalcomplexity,CCC,IEEE Conference on Computational Complexity,IEEE,http://dblp.uni-trier.de/db/conf/coco/,计算机科学理论,B,coco
+internationalcolloquiumonautomatalanguagesandprogramming,ICALP,"International Colloquium on Automata, Languages and Programming",Springer,http://dblp.uni-trier.de/db/conf/icalp/,计算机科学理论,B,icalp
+internationalconferenceonconcurrencytheory,CONCUR,International Conference on Concurrency Theory,Springer,http://dblp.uni-trier.de/db/conf/concur/,计算机科学理论,B,concur
+internationalconferenceonhybridsystems,HSCC,International Conference on Hybrid Systems:,Springer and ACM,http://dblp.uni-trier.de/db/conf/hybrid/,计算机科学理论,B,hybrid
+europeansymposiumonalgorithms,ESA,European Symposium on Algorithms,Springer,http://dblp.uni-trier.de/db/conf/esa/,计算机科学理论,B,esa
+computersciencelogic,CSL,Computer Science Logic,Springer,http://dblp.uni-trier.de/db/conf/csl/,计算机科学理论,C,csl
+foundationsofsoftwaretechnologyandtheoreticalcomputerscience,FSTTCS,Foundations of Software Technology and Theoretical Computer Science,Indian Association for Research in Computing Science,http://dblp.uni-trier.de/db/conf/fsttcs/,计算机科学理论,C,fsttcs
+internationalconferenceonintegerprogrammingandcombinatorialoptimization,IPCO,International Conference on Integer Programming and Combinatorial Optimization,Springer,http://dblp.uni-trier.de/db/conf/ipco/,计算机科学理论,C,ipco
+internationalconferenceonrewritingtechniquesandapplications,RTA,International Conference on Rewriting Techniques and Applications,Springer,http://dblp.uni-trier.de/db/conf/rta/,计算机科学理论,C,rta
+internationalsymposiumonalgorithmsandcomputation,ISAAC,International Symposium on Algorithms and Computation,Springer,http://dblp.uni-trier.de/db/conf/isaac/,计算机科学理论,C,isaac
+mathematicalfoundationsofcomputerscience,MFCS,Mathematical Foundations of Computer Science,Springer,http://dblp.uni-trier.de/db/conf/mfcs/,计算机科学理论,C,mfcs
+symposiumontheoreticalaspectsofcomputerscience,STACS,Symposium on Theoretical Aspects of Computer Science,Springer,http://dblp.uni-trier.de/db/conf/stacs/,计算机科学理论,C,stacs
+formalmethodincomputeraideddesign,FMCAD,Formal Method in Computer-Aided Design,ACM,http://dblp.uni-trier.de/db/conf/fmcad/,计算机科学理论,C,fmcad
+theoryandapplicationsofsatisfiabilitytesting,SAT,Theory and Applications of Satisfiability Testing,Springer,http://dblp.uni-trier.de/db/conf/sat/,计算机科学理论,C,sat
+internationalcolloquiumontheoreticalaspectsofcomputing,ICTAC,International Colloquium on Theoretical Aspects of Computing,Springer,http://dblp.uni-trier.de/db/conf/ictac/,计算机科学理论,C,ictac
+acmtransactionsongraphics,TOG,ACM Transactions on Graphics,ACM,http://dblp.uni-trier.de/db/journals/tog/,计算机图形与多媒体,A,tog
+ieeetransactionsonimageprocessing,TIP,IEEE Transactions on Image Processing,IEEE,http://dblp.uni-trier.de/db/journals/tip/,计算机图形与多媒体,A,tip
+ieeetransactionsonvisualizationandcomputergraphics,TVCG,IEEE Transactions on Visualization and Computer Graphics,IEEE,http://dblp.uni-trier.de/db/journals/tvcg/,计算机图形与多媒体,A,tvcg
+acmtransactionsonmultimediacomputingcommunicationsandapplication,TOMCCAP,"ACM Transactions on Multimedia Computing, Communications and Application",ACM,http://dblp.uni-trier.de/db/journals/tomccap/,计算机图形与多媒体,B,tomccap
+computeraideddesign,CAD,Computer-Aided Design,Elsevier,http://dblp.uni-trier.de/db/journals/cad/,计算机图形与多媒体,B,cad
+computeraidedgeometricdesign,CAGD,Computer Aided Geometric Design,Elsevier,http://dblp.uni-trier.de/db/journals/cagd/,计算机图形与多媒体,B,cagd
+computergraphicsforum,CGF,Computer Graphics Forum,Wiley,http://dblp.uni-trier.de/db/journals/cgf/,计算机图形与多媒体,B,cgf
+graphicalmodels,GM,Graphical Models,Elsevier,http://dblp.uni-trier.de/db/journals/cvgip/,计算机图形与多媒体,B,cvgip
+ieeetransactionsoncircuitsandsystemsforvideotechnology,TCSVT,IEEE Transactions on Circuits and Systems for Video Technology,IEEE,http://dblp.uni-trier.de/db/journals/tcsv/,计算机图形与多媒体,B,tcsv
+ieeetransactionsonmultimedia,TMM,IEEE Transactions on Multimedia,IEEE,http://dblp.uni-trier.de/db/journals/tmm/,计算机图形与多媒体,B,tmm
+journaloftheacousticalsocietyofamerica,JASA,Journal of The Acoustical Society of America,AIP,http://scitation.aip.org/content/asa/journal/jasa,计算机图形与多媒体,B,
+siamjournalonimagingsciences,SIIMS,SIAM Journal on Imaging Sciences,SIAM,http://dblp.uni-trier.de/db/journals/siamis/,计算机图形与多媒体,B,siamis
+speechcommunication,Speech Com,Speech Communication,Elsevier,http://dblp.uni-trier.de/db/journals/speech/,计算机图形与多媒体,B,speech
+computeranimationandvirtualworlds,CAVW,Computer Animation and Virtual Worlds,Wiley,http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1546-427X,计算机图形与多媒体,C,
+computersgraphicsuk,C&G,Computers & Graphics-UK,Elsevier,http://dblp.uni-trier.de/db/journals/cg/,计算机图形与多媒体,C,cg
+computationalgeometrytheoryandapplications,CGTA,Computational Geometry: Theory and Applications,Elsevier,http://dblp.uni-trier.de/db/journals/comgeo/,计算机图形与多媒体,C,comgeo
+discretecomputationalgeometry,DCG,Discrete & Computational Geometry,Springer,http://dblp.uni-trier.de/db/journals/dcg/,计算机图形与多媒体,C,dcg
+ietimageprocessing,IET-IPR,IET Image Processing,IET,http://dblp.uni-trier.de/db/journals/iet-ipr/,计算机图形与多媒体,C,iet-ipr
+ieeesignalprocessingletter,,IEEE Signal Processing Letter,IEEE,http://dblp.uni-trier.de/db/journals/spl/,计算机图形与多媒体,C,spl
+journalofvisualcommunicationandimagerepresentation,JVCIR,Journal of Visual Communication and Image Representation,Elsevier,http://dblp.uni-trier.de/db/journals/jvcir/,计算机图形与多媒体,C,jvcir
+multimediasystems,MS,Multimedia Systems,Springer,http://dblp.uni-trier.de/db/journals/mms/,计算机图形与多媒体,C,mms
+multimediatoolsandapplications,MTA,Multimedia Tools and Applications,Springer,http://dblp.uni-trier.de/db/journals/mta/,计算机图形与多媒体,C,mta
+signalprocessing,,Signal Processing,Elsevier,http://dblp.uni-trier.de/db/journals/sigpro/,计算机图形与多媒体,C,sigpro
+signalprocessingimagecommunication,SPIC,Signal processing : image communication,Elsevier,http://dblp.uni-trier.de/db/journals/spic/,计算机图形与多媒体,C,spic
+thevisualcomputer,TVC,The Visual Computer,Springer,http://dblp.uni-trier.de/db/journals/vc/,计算机图形与多媒体,C,vc
+acminternationalconferenceonmultimedia,ACM MM,ACM International Conference on Multimedia,ACM,http://dblp.uni-trier.de/db/conf/mm/,计算机图形与多媒体,A,mm
+acmsiggraphannualconference,SIGGRAPH,ACM SIGGRAPH Annual Conference,ACM,http://dblp.uni-trier.de/db/conf/siggraph/index.html,计算机图形与多媒体,A,siggraph
+ieeevisualizationconference,IEEE VIS,IEEE Visualization Conference,IEEE,http://dblp.uni-trier.de/db/conf/visualization/index.html,计算机图形与多媒体,A,visualization
+ieeevirtualreality,VR,IEEE Virtual Reality,IEEE,http://dblp.uni-trier.de/db/conf/vr/,计算机图形与多媒体,A,vr
+acmsigmminternationalconferenceonmultimediaretrieval,ICMR,ACM SIGMM International Conference on Multimedia Retrieval,ACM,http://dblp.uni-trier.de/db/conf/mir/,计算机图形与多媒体,B,mir
+acmsymposiumoninteractivedgraphics,i3D,ACM Symposium on Interactive 3D Graphics,ACM,http://dblp.uni-trier.de/db/conf/si3d/,计算机图形与多媒体,B,si3d
+acmeurographicssymposiumoncomputeranimation,SCA,ACM/Eurographics Symposium on Computer Animation,ACM,http://dblp.uni-trier.de/db/conf/sca/index.html,计算机图形与多媒体,B,sca
+datacompressionconference,DCC,Data Compression Conference,IEEE,http://dblp.uni-trier.de/db/conf/dcc/,计算机图形与多媒体,B,dcc
+eurographics,EG,Eurographics,Wiley/ Blackwell,http://dblp.uni-trier.de/db/conf/eurographics/,计算机图形与多媒体,B,eurographics
+eurographicsconferenceonvisualization,EuroVis,Eurographics Conference on Visualization,ACM,http://dblp.uni-trier.de/db/conf/vissym/,计算机图形与多媒体,B,vissym
+eurographicssymposiumongeometryprocessing,SGP,Eurographics Symposium on Geometry Processing,Wiley/Blackwell,http://dblp.uni-trier.de/db/conf/sgp/,计算机图形与多媒体,B,sgp
+eurographicssymposiumonrendering,EGSR,Eurographics Symposium on Rendering,Wiley/Blackwell,http://dblp.uni-trier.de/db/conf/rt/,计算机图形与多媒体,B,rt
+ieeeinternationalconferenceonmultimediaexpo,ICME,IEEE International Conference on Multimedia & Expo,IEEE,http://dblp.uni-trier.de/db/conf/icmcs/,计算机图形与多媒体,B,icmcs
+pacificgraphicsthepacificconferenceoncomputergraphicsandapplications,PG,Pacific Graphics: The Pacific Conference on Computer Graphics and Applications,Wiley/Blackwell,http://dblp.uni-trier.de/db/conf/pg/index.html,计算机图形与多媒体,B,pg
+symposiumonsolidandphysicalmodeling,SPM,Symposium on Solid and Physical Modeling,SMA/Elsevier,http://dblp.uni-trier.de/db/conf/sma/,计算机图形与多媒体,B,sma
+ieeeinternationalconferenceonacousticsspeechandsp,ICASSP,"IEEE International Conference on Acoustics, Speech and SP",IEEE,http://dblp.uni-trier.de/db/conf/icassp/,计算机图形与多媒体,B,icassp
+computeranimationandsocialagents,CASA,Computer Animation and Social Agents,Wiley,http://dblp.uni-trier.de/db/conf/ca/,计算机图形与多媒体,C,ca
+computergraphicsinternational,CGI,Computer Graphics International,Springer,http://dblp.uni-trier.de/db/conf/cgi/,计算机图形与多媒体,C,cgi
+internationalsymposiumonmixedandaugmentedreality,ISMAR,International Symposium on Mixed and Augmented Reality,IEEE/ACM,http://dblp.uni-trier.de/db/conf/ismar/,计算机图形与多媒体,C,ismar
+ieeepacificvisualizationsymposium,PacificVis,IEEE Pacific Visualization Symposium,IEEE,http://dblp.uni-trier.de/db/conf/apvis/,计算机图形与多媒体,C,apvis
+internationalconferenceonimageprocessing,ICIP,International Conference on Image Processing,IEEE,http://dblp.uni-trier.de/db/conf/icip/,计算机图形与多媒体,C,icip
+internationalconferenceonmultimedia,MMM,International Conference on Multimedia,Springer,http://dblp.uni-trier.de/db/conf/mmm/index.html,计算机图形与多媒体,C,mmm
+geometricmodelingandprocessing,GMP,Geometric Modeling and Processing,Elsevier,http://dblp.uni-trier.de/db/conf/gmp/,计算机图形与多媒体,C,gmp
+pacificrimconferenceonmultimedia,PCM,Pacific-Rim Conference on Multimedia,Springer,http://dblp.uni-trier.de/db/conf/pcm/,计算机图形与多媒体,C,pcm
+shapemodelinginternational,SMI,Shape Modeling International,IEEE,http://dblp.uni-trier.de/db/conf/smi/,计算机图形与多媒体,C,smi
+interspeech,,INTERSPEECH,Conference of the International Speech Communication Association,http://dblp.uni-trier.de/db/conf/interspeech/index.html,计算机图形与多媒体,C,interspeech
+acmsymposiumonvirtualrealitysoftwareandtechnology,,ACM Symposium on Virtual Reality Software and Technology,ACM,http://dblp2.uni-trier.de/db/conf/vrst/,计算机图形与多媒体,C,
+artificialintelligence,AI,Artificial Intelligence,Elsevier,http://dblp.uni-trier.de/db/journals/ai/,人工智能,A,ai
+ieeetransonpatternanalysisandmachineintelligence,TPAMI,IEEE Trans on Pattern Analysis and Machine Intelligence,IEEE,http://dblp.uni-trier.de/db/journals/pami/,人工智能,A,pami
+internationaljournalofcomputervision,IJCV,International Journal of Computer Vision,Springer,http://dblp.uni-trier.de/db/journals/ijcv/,人工智能,A,ijcv
+journalofmachinelearningresearch,JMLR,Journal of Machine Learning Research,MIT Press,http://dblp.uni-trier.de/db/journals/jmlr/,人工智能,A,jmlr
+acmtransactionsonappliedperception,TAP,ACM Transactions on Applied Perception,ACM,http://dblp.uni-trier.de/db/journals/tap/,人工智能,B,tap
+acmtransactionsonspeechandlanguageprocessing,TSLP,ACM Transactions on Speech and Language Processing,ACM,http://dblp.uni-trier.de/db/journals/tslp/,人工智能,B,tslp
+computationallinguistics,,Computational Linguistics,MIT Press,http://dblp.uni-trier.de/db/journals/coling/,人工智能,B,coling
+computervisionandimageunderstanding,CVIU,Computer Vision and Image Understanding,Elsevier,http://dblp.uni-trier.de/db/journals/cviu/,人工智能,B,cviu
+dataandknowledgeengineering,DKE,Data and Knowledge Engineering,Elsevier,http://dblp.uni-trier.de/db/journals/dke/index.html,人工智能,B,dke
+evolutionarycomputation,,Evolutionary Computation,MIT Press,http://dblp.uni-trier.de/db/journals/ec/,人工智能,B,ec
+ieeetransactionsonaffectivecomputing,TAC,IEEE Transactions on Affective Computing,IEEE,http://dblp.uni-trier.de/db/journals/taffco/,人工智能,B,taffco
+ieeetransactionsonaudiospeechandlanguageprocessing,TASLP,"IEEE Transactions on Audio, Speech, and Language Processing",IEEE,http://dblp.uni-trier.de/db/journals/taslp/,人工智能,B,taslp
+ieeetransactionsoncybernetics,,IEEE Transactions on Cybernetics,IEEE,http://dblp.uni-trier.de/db/journals/tcyb/,人工智能,B,tcyb
+ieeetransactionsonevolutionarycomputation,TEC,IEEE Transactions on Evolutionary Computation,IEEE,http://dblp.uni-trier.de/db/journals/tec/,人工智能,B,tec
+ieeetransactionsonfuzzysystems,TFS,IEEE Transactions on Fuzzy Systems,IEEE,http://dblp.uni-trier.de/db/journals/tfs/,人工智能,B,tfs
+ieeetransactionsonneuralnetworksandlearningsystems,TNNLS,IEEE Transactions on Neural Networks and learning systems,IEEE,http://dblp.uni-trier.de/db/journals/tnn/,人工智能,B,tnn
+internationaljournalofapproximatereasoning,IJAR,International Journal of Approximate Reasoning,Elsevier,http://dblp.uni-trier.de/db/journals/ijar/,人工智能,B,ijar
+journalofairesearch,JAIR,Journal of AI Research,AAAI,http://dblp.uni-trier.de/db/journals/jair/index.html,人工智能,B,jair
+journalofautomatedreasoning,,Journal of Automated Reasoning,Springer,http://dblp.uni-trier.de/db/journals/jar/,人工智能,B,jar
+journalofspeechlanguageandhearingresearch,JSLHR,"Journal of Speech, Language, and Hearing Research",American Speech-Language Hearing Association,http://jslhr.pubs.asha.org/,人工智能,B,
+machinelearning,,Machine Learning,Springer,http://dblp.uni-trier.de/db/journals/ml/,人工智能,B,ml
+neuralcomputation,,Neural Computation,MIT Press,http://dblp.uni-trier.de/db/journals/neco/,人工智能,B,neco
+neuralnetworks,,Neural Networks,Elsevier,http://dblp.uni-trier.de/db/journals/nn/,人工智能,B,nn
+patternrecognition,,Pattern Recognition,Elsevier,http://dblp.uni-trier.de/db/conf/par/,人工智能,B,par
+autonomousagentsandmultiagentsystems,AAMAS,Autonomous Agents and Multi-Agent Systems,Springer,http://dblp.uni-trier.de/db/journals/aamas/,人工智能,B,aamas
+acmtransactionsonasianlanguageinformationprocessing,TALIP,ACM Transactions on Asian Language Information Processing,ACM,http://dblp.uni-trier.de/db/journals/talip/,人工智能,C,talip
+appliedintelligence,,Applied Intelligence,Springer,http://dblp.uni-trier.de/db/journals/apin/,人工智能,C,apin
+artificialintelligenceinmedicine,AIM,Artificial Intelligence in Medicine,Elsevier,http://dblp.uni-trier.de/db/journals/artmed/,人工智能,C,artmed
+artificiallife,,Artificial Life,MIT Press,http://dblp.uni-trier.de/db/journals/alife/,人工智能,C,alife
+computationalintelligence,,Computational Intelligence,Wiley,http://dblp.uni-trier.de/db/journals/ci/,人工智能,C,ci
+computerspeechandlanguage,,Computer Speech and Language,Elsevier,http://dblp.uni-trier.de/db/journals/csl/,人工智能,C,csl
+connectionscience,,Connection Science,Taylor & Francis,http://dblp.uni-trier.de/db/journals/connection/,人工智能,C,connection
+decisionsupportsystems,DSS,Decision Support Systems,Elsevier,http://dblp.uni-trier.de/db/journals/dss/,人工智能,C,dss
+engineeringapplicationsofartificialintelligence,EAAI,Engineering Applications of Artificial Intelligence,Elsevier,http://dblp.uni-trier.de/db/journals/eaai/,人工智能,C,eaai
+expertsystems,,Expert Systems,Blackwell/Wiley,http://dblp.uni-trier.de/db/journals/es/,人工智能,C,es
+expertsystemswithapplications,ESWA,Expert Systems with Applications,Elsevier,http://dblp.uni-trier.de/db/journals/eswa/,人工智能,C,eswa
+fuzzysetsandsystems,,Fuzzy Sets and Systems,Elsevier,http://dblp.uni-trier.de/db/journals/fss/,人工智能,C,fss
+ieeetransactionsoncomputationalintelligenceandaiingames,T-CIAIG,IEEE Transactions on Computational Intelligence and AI in Games,IEEE,http://dblp.uni-trier.de/db/journals/tciaig/,人工智能,C,tciaig
+ietcomputervision,IET-CVI,IET Computer Vision,IET,http://digital-library.theiet.org/content/journals/iet-cvi,人工智能,C,
+ietsignalprocessing,,IET Signal Processing,IET,http://digital-library.theiet.org/content/journals/iet-spr,人工智能,C,
+imageandvisioncomputing,IVC,Image and Vision Computing,Elsevier,http://dblp.uni-trier.de/db/journals/ivc/,人工智能,C,ivc
+intelligentdataanalysis,IDA,Intelligent Data Analysis,Elsevier,http://dblp.uni-trier.de/db/journals/ida/,人工智能,C,ida
+internationaljournalofcomputationalintelligenceandapplications,IJCIA,International Journal of Computational Intelligence and Applications,World Scientific,http://dblp.uni-trier.de/db/journals/ijcia/,人工智能,C,ijcia
+internationaljournalondocumentanalysisandrecognition,IJDAR,International Journal on Document Analysis and Recognition,Springer,http://dblp.uni-trier.de/db/journals/ijdar/,人工智能,C,ijdar
+internationaljournalofintelligentsystems,IJIS,International Journal of Intelligent Systems,Wiley,http://dblp.uni-trier.de/db/journals/ijis/,人工智能,C,ijis
+internationaljournalofneuralsystems,IJNS,International Journal of Neural Systems,World Scientific,http://dblp.uni-trier.de/db/journals/ijns/,人工智能,C,ijns
+internationaljournalofpatternrecognitionandartificialintelligence,IJPRAI,International Journal of Pattern Recognition and Artificial Intelligence,World Scientific,http://dblp.uni-trier.de/db/journals/ijprai/,人工智能,C,ijprai
+internationaljournalofuncertaintyfuzzinessandknowledgebasedsystem,IJUFKS,"International Journal of Uncertainty, Fuzziness and Knowledge-Based System",World Scientific,https://dblp.uni-trier.de/db/journals/ijufks/,人工智能,C,
+journalofexperimentalandtheoreticalartificialintelligence,JETAI,Journal of Experimental and Theoretical Artificial Intelligence,Taylor & Francis,http://dblp.uni-trier.de/db/journals/jetai/,人工智能,C,jetai
+knowledgebasedsystems,KBS,Knowledge-Based Systems,Elsevier,http://dblp.uni-trier.de/db/journals/kbs/,人工智能,C,kbs
+machinetranslation,,Machine Translation,Springer,http://dblp.uni-trier.de/db/journals/mt/,人工智能,C,mt
+machinevisionandapplications,,Machine Vision and Applications,Springer,http://dblp.uni-trier.de/db/journals/mva/,人工智能,C,mva
+naturalcomputing,,Natural Computing,Springer,http://dblp.uni-trier.de/db/journals/nc/,人工智能,C,nc
+naturallanguageengineering,NLE,Natural Language Engineering,Cambridge University,http://dblp.uni-trier.de/db/journals/nle/,人工智能,C,nle
+neuralcomputingapplications,NCA,Neural Computing & Applications,Springer,http://dblp.uni-trier.de/db/journals/nca/,人工智能,C,nca
+neuralprocessingletters,NPL,Neural Processing Letters,Springer,http://dblp.uni-trier.de/db/journals/npl/,人工智能,C,npl
+neurocomputing,,Neurocomputing,Elsevier,http://dblp.uni-trier.de/db/journals/ijon/,人工智能,C,ijon
+patternanalysisandapplications,PAA,Pattern Analysis and Applications,Springer,http://dblp.uni-trier.de/db/journals/paa/,人工智能,C,paa
+patternrecognitionletters,PRL,Pattern Recognition Letters,Elsevier,http://dblp.uni-trier.de/db/journals/prl/,人工智能,C,prl
+softcomputing,,Soft Computing,Springer,http://dblp.uni-trier.de/db/journals/soco/,人工智能,C,soco
+webintelligenceandagentsystems,WIAS,Web Intelligence and Agent Systems,IOS Press,http://dblp.uni-trier.de/db/journals/wias/,人工智能,C,wias
+aaaiconferenceonartificialintelligence,AAAI,AAAI Conference on Artificial Intelligence,AAAI,http://dblp.uni-trier.de/db/conf/aaai/,人工智能,A,aaai
+ieeeconferenceoncomputervisionandpatternrecognition,CVPR,IEEE Conference on Computer Vision and Pattern Recognition,IEEE,http://dblp.uni-trier.de/db/conf/cvpr/,人工智能,A,cvpr
+internationalconferenceoncomputervision,ICCV,International Conference on Computer Vision,IEEE,http://dblp.uni-trier.de/db/conf/iccv/,人工智能,A,iccv
+internationalconferenceonmachinelearning,ICML,International Conference on Machine Learning,ACM,http://dblp.uni-trier.de/db/conf/icml/,人工智能,A,icml
+internationaljointconferenceonartificialintelligence,IJCAI,International Joint Conference on Artificial Intelligence,Morgan Kaufmann,http://dblp.uni-trier.de/db/conf/ijcai/,人工智能,A,ijcai
+annualconferenceonneuralinformationprocessingsystems,NIPS,Annual Conference on Neural Information Processing Systems,MIT Press,http://dblp.uni-trier.de/db/conf/nips/,人工智能,A,nips
+annualmeetingoftheassociationforcomputationallinguistics,ACL,Annual Meeting of the Association for Computational Linguistics,ACL,http://dblp.uni-trier.de/db/conf/acl/,人工智能,A,acl
+annualconferenceoncomputationallearningtheory,COLT,Annual Conference on Computational Learning Theory,Springer,http://dblp.uni-trier.de/db/conf/colt/,人工智能,B,colt
+conferenceonempiricalmethodsinnaturallanguageprocessing,EMNLP,Conference on Empirical Methods in Natural Language Processing,ACL,http://dblp.uni-trier.de/db/conf/emnlp/,人工智能,B,emnlp
+europeanconferenceonartificialintelligence,ECAI,European Conference on Artificial Intelligence,IOS Press,http://dblp.uni-trier.de/db/conf/ecai/,人工智能,B,ecai
+europeanconferenceoncomputervision,ECCV,European Conference on Computer Vision,Springer,http://dblp.uni-trier.de/db/conf/eccv/,人工智能,B,eccv
+ieeeinternationalconferenceonroboticsandautomation,ICRA,IEEE International Conference on Robotics and Automation,IEEE,http://dblp.uni-trier.de/db/conf/icra/,人工智能,B,icra
+internationalconferenceonautomatedplanningandscheduling,ICAPS,International Conference on Automated Planning and Scheduling,AAAI,http://dblp.uni-trier.de/db/conf/aips/,人工智能,B,aips
+internationalconferenceoncasebasedreasoning,ICCBR,International Conference on Case-Based Reasoning,Springer,http://dblp.uni-trier.de/db/conf/iccbr/,人工智能,B,iccbr
+internationalconferenceoncomputationallinguistics,COLING,International Conference on Computational Linguistics,ACM,http://dblp.uni-trier.de/db/conf/coling/,人工智能,B,coling
+internationalconferenceon,KR,International Conference on,Morgan Kaufmann,http://dblp.uni-trier.de/db/conf/kr/,人工智能,B,kr
+internationalconferenceonuncertaintyinartificialintelligence,UAI,International Conference on Uncertainty in Artificial Intelligence,AUAI,http://dblp.uni-trier.de/db/conf/uai/,人工智能,B,uai
+internationaljointconferenceonautonomousagentsandmultiagentsystems,AAMAS,International Joint Conference on Autonomous Agents and Multi-agent Systems,Springer,http://dblp.uni-trier.de/db/conf/atal/index.html,人工智能,B,atal
+parallelproblemsolvingfromnature,PPSN,Parallel Problem Solving from Nature,Springer,http://dblp.uni-trier.de/db/conf/ppsn/,人工智能,B,ppsn
+asianconferenceoncomputervision,ACCV,Asian Conference on Computer Vision,Springer,http://dblp.uni-trier.de/db/conf/accv/,人工智能,C,accv
+conferenceonnaturallanguagelearning,CoNLL,Conference on Natural Language Learning,CoNLL,http://dblp.uni-trier.de/db/conf/conll,人工智能,C,conll
+geneticandevolutionarycomputationconference,GECCO,Genetic and Evolutionary Computation Conference,ACM,http://dblp.uni-trier.de/db/conf/gecco/,人工智能,C,gecco
+ieeeinternationalconferenceontoolswithartificialintelligence,ICTAI,IEEE International Conference on Tools with Artificial Intelligence,IEEE,http://dblp.uni-trier.de/db/conf/ictai/,人工智能,C,ictai
+internationalconferenceonalgorithmiclearningtheory,ALT,International Conference on Algorithmic Learning Theory,Springer,http://dblp.uni-trier.de/db/conf/alt/,人工智能,C,alt
+internationalconferenceonartificialneuralnetworks,ICANN,International Conference on Artificial Neural Networks,Springer,http://dblp.uni-trier.de/db/conf/icann/,人工智能,C,icann
+internationalconferenceonautomaticfaceandgesturerecognition,FGR,International Conference on Automatic Face and Gesture Recognition,IEEE,http://dblp.uni-trier.de/db/conf/fgr/,人工智能,C,fgr
+internationalconferenceondocumentanalysisandrecognition,ICDAR,International Conference on Document Analysis and Recognition,IEEE,http://dblp.uni-trier.de/db/conf/icdar/,人工智能,C,icdar
+internationalconferenceoninductivelogicprogramming,ILP,International Conference on Inductive Logic Programming,Springer,http://dblp.uni-trier.de/db/conf/ilp/,人工智能,C,ilp
+internationalconferenceonknowledgescienceengineeringandmanagement,KSEM,"International conference on Knowledge Science,Engineering and Management",Springer,http://dblp.uni-trier.de/db/conf/ksem/,人工智能,C,ksem
+internationalconferenceonneuralinformationprocessing,ICONIP,International Conference on Neural Information Processing,Springer,http://dblp.uni-trier.de/db/conf/iconip/,人工智能,C,iconip
+internationalconferenceonpattern,ICPR,International Conference on Pattern,IEEE,http://dblp.uni-trier.de/db/conf/icpr/,人工智能,C,icpr
+internationaljointconferenceonbiometrics,ICB,International Joint Conference on Biometrics,IEEE,http://dblp.uni-trier.de/db/conf/icb/,人工智能,C,icb
+internationaljointconferenceonneuralnetworks,IJCNN,International Joint Conference on Neural Networks,IEEE,http://dblp.uni-trier.de/db/conf/ijcnn/,人工智能,C,ijcnn
+pacificriminternationalconferenceonartificialintelligence,PRICAI,Pacific Rim International Conference on Artificial Intelligence,Springer,http://dblp.uni-trier.de/db/conf/pricai/,人工智能,C,pricai
+theannualconferenceofthenorthamericanchapteroftheassociationforcomputationallinguistics,NAACL,The Annual Conference of the North American Chapter of the Association for Computational Linguistics,NAACL,http://dblp.uni-trier.de/db/conf/naacl/,人工智能,C,naacl
+britishmachinevisionconference,BMVC,British Machine Vision Conference,British Machine Vision Association,http://dblp.uni-trier.de/db/conf/bmvc/,人工智能,C,bmvc
+ieeersjinternationalconferenceonintelligentrobotsandsystems,IROS,IEEE\RSJ International Conference on Intelligent Robots and Systems,IEEE,http://dblp.uni-trier.de/db/conf/iros/,人工智能,C,iros
+artificialintelligenceandstatistics,AISTATS,Artificial Intelligence and Statistics,JMLR,http://dblp.uni-trier.de/db/conf/aistats/,人工智能,C,aistats
+asianconfonmachinelearning,ACML,Asian Conf. on Machine Learning,JMLR,http://dblp.uni-trier.de/db/conf/acml/,人工智能,C,acml
+acmtransactionsoncomputerhumaninteraction,TOCHI,ACM Transactions on Computer-Human Interaction,ACM,http://dblp.uni-trier.de/db/journals/tochi/,人机交互与普适计算,A,tochi
+internationaljournalofhumancomputerstudies,IJHCS,International Journal of Human Computer Studies,Elsevier,http://dblp.uni-trier.de/db/journals/ijmms/,人机交互与普适计算,A,ijmms
+computersupportedcooperativework,CSCW,Computer Supported Cooperative Work,Springer,http://dblp.uni-trier.de/db/journals/cscw/,人机交互与普适计算,B,cscw
+humancomputerinteraction,HCI,Human Computer Interaction,Taylor & Francis,http://dblp.uni-trier.de/db/journals/hhci/,人机交互与普适计算,B,hhci
+interactingwithcomputers,IWC,Interacting with Computers,Oxford University Press,http://dblp.uni-trier.de/db/journals/iwc/,人机交互与普适计算,B,iwc
+usermodelinganduseradaptedinteraction,UMUAI,User Modeling and User-Adapted Interaction,Springer,http://dblp.uni-trier.de/db/journals/umuai/,人机交互与普适计算,B,umuai
+internationaljournalofhumancomputerinteraction,IJHCI,International Journal of Human-Computer Interaction,Taylor & Francis,http://dblp.uni-trier.de/db/journals/ijhci/,人机交互与普适计算,B,ijhci
+ieeetransactionsonhumanmachinesystems,,IEEE Transactions on Human-Machine Systems,IEEE,http://dblp.uni-trier.de/db/journals/thms/,人机交互与普适计算,B,thms
+behaviourinformationtechnology,BIT,Behaviour & Information Technology,Taylor & Francis,http://dblp.uni-trier.de/db/journals/behaviourIT/,人机交互与普适计算,C,behaviourIT
+pervasiveandmobilecomputing,PMC,Pervasive and Mobile Computing,Elsevier,http://dblp.uni-trier.de/db/journals/percom/,人机交互与普适计算,C,percom
+personalandubiquitouscomputing,PUC,Personal and Ubiquitous Computing,Springer,http://dblp.uni-trier.de/db/journals/puc/,人机交互与普适计算,C,puc
+acmconferenceonhumanfactorsincomputingsystems,CHI,ACM Conference on Human Factors in Computing Systems,ACM,http://dblp.uni-trier.de/db/conf/chi,人机交互与普适计算,A,chi
+acminternationalconferenceonubiquitouscomputing,UbiComp,ACM International Conference on Ubiquitous Computing,ACM,http://dblp.uni-trier.de/db/conf/huc/,人机交互与普适计算,A,huc
+acmconferenceoncomputersupportedcooperativeworkandsocialcomputing,CSCW,ACM Conference on Computer Supported Cooperative Work and Social Computing,ACM,http://dblp.uni-trier.de/db/conf/cscw,人机交互与普适计算,A,cscw
+acminternationalconferenceonintelligentuserinterfaces,IUI,ACM International Conference on Intelligent User Interfaces,ACM,http://dblp.uni-trier.de/db/conf/iui/,人机交互与普适计算,B,iui
+acminternationalconferenceoninteractivetabletopsandsurfaces,ITS,ACM International Conference on Interactive Tabletops and Surfaces,ACM,http://dblp.uni-trier.de/db/conf/tabletop/,人机交互与普适计算,B,tabletop
+acmsymposiumonuserinterfacesoftwareandtechnology,UIST,ACM Symposium on User Interface Software and Technology,ACM,http://dblp.uni-trier.de/db/conf/uist/,人机交互与普适计算,B,uist
+europeancomputersupportedcooperativework,ECSCW,European Computer Supported Cooperative Work,Springer,http://dblp.uni-trier.de/db/conf/ecscw/,人机交互与普适计算,B,ecscw
+internationalconferenceonhumancomputerinteractionwithmobiledevicesandservices,MobileHCI,International Conference on Human Computer Interaction with Mobile Devices and Services,ACM,http://dblp.uni-trier.de/db/conf/mhci/,人机交互与普适计算,B,mhci
+ieeeinternationalconferenceonpervasivecomputingandcommunications,PERCOM,IEEE International Conference on Pervasive Computing and Communications,IEEE,http://dblp.uni-trier.de/db/conf/percom/,人机交互与普适计算,B,percom
+acmconferenceonsupportinggroupwork,GROUP,ACM Conference on Supporting Group Work,ACM,http://dblp.uni-trier.de/db/conf/group/,人机交互与普适计算,B,group
+acmsigaccessconferenceoncomputersandaccessibility,ASSETS,ACM SIGACCESS Conference on Computers and Accessibility,ACM,http://dblp.uni-trier.de/db/conf/assets,人机交互与普适计算,C,assets
+acmconferenceondesigninginteractivesystems,DIS,ACM Conference on Designing Interactive Systems,ACM,http://dblp.uni-trier.de/db/conf/ACMdis/,人机交互与普适计算,C,ACMdis
+graphicsinterfaceconference,GI,Graphics Interface conference,ACM,http://dblp.uni-trier.de/db/conf/graphicsinterface/,人机交互与普适计算,C,graphicsinterface
+internationalconferenceonmobileandubiquitoussystemscomputingnetworkingandservices,MobiQuitous,"International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services",Springer,http://dblp.uni-trier.de/db/conf/mobiquitous/,人机交互与普适计算,C,mobiquitous
+ifiptcconferenceonhumancomputerinteraction,INTERACT,IFIP TC13 Conference on Human-Computer Interaction,IFIP,http://dblp.uni-trier.de/db/conf/interact/,人机交互与普适计算,C,interact
+internationalconferenceoncooperativeinformationsystems,CoopIS,International Conference on Cooperative Information Systems,Springer,http://dblp.uni-trier.de/db/conf/coopis/,人机交互与普适计算,C,coopis
+acminternationalconferenceonmultimodalinteraction,ICMI,ACM International Conference on Multimodal Interaction,ACM,http://dblp.uni-trier.de/db/conf/icmi/,人机交互与普适计算,C,icmi
+interactiondesignandchildren,IDC,Interaction Design and Children,ACM,http://dblp.uni-trier.de/db/conf/acmidc/,人机交互与普适计算,C,acmidc
+internationalworkingconferenceonadvancedvisualinterfaces,AVI,International Working Conference on Advanced Visual Interfaces,ACM,http://dblp.uni-trier.de/db/conf/avi/,人机交互与普适计算,C,avi
+ieeeinternationalconferenceonubiquitousintelligenceandcomputing,UIC,IEEE International Conference on Ubiquitous Intelligence and Computing,IEEE,http://dblp.uni-trier.de/db/conf/uic/,人机交互与普适计算,C,uic
+acmconferenceondesigninginteractivesystems,DIS,ACM Conference on Designing Interactive Systems,ACM,http://dblp.uni-trier.de/db/conf/ACMdis,人机交互与普适计算,C,ACMdis
+ieeeworldhapticsconference,,IEEE World Haptics Conference,IEEE,http://dblp.uni-trier.de/db/conf/haptics/,人机交互与普适计算,C,haptics
+internationalconferenceoncomputersupportedcooperativeworkindesign,CSCWD,International Conference on Computer Supported Cooperative Work in Design,Springer,http://dblp.uni-trier.de/db/conf/cscwd/,人机交互与普适计算,C,cscwd
+internationalconferenceoncollaborativecomputing,CollaborateCom,International Conference on Collaborative Computing,Springer,http://collaboratecom.org,人机交互与普适计算,C,
+proceedingsoftheieee,Proc. IEEE,Proceedings of the IEEE,IEEE,http://dblp.uni-trier.de/db/journals/pieee/,交叉/综合/新兴,A,pieee
+journaloftheacm,JACM,Journal of the ACM,ACM,http://dblp.uni-trier.de/db/journals/jacm/,交叉/综合/新兴,A,jacm
+bioinformatics,,Bioinformatics,Oxford University Press,http://dblp.uni-trier.de/db/journals/bioinformatics/,交叉/综合/新兴,B,bioinformatics
+briefingsinbioinformatics,,Briefings in Bioinformatics,Oxford University Press,http://dblp.uni-trier.de/db/journals/bib/,交叉/综合/新兴,B,bib
+cognitioninternationaljournalofcognitivescience,Cognition,Cognition：International Journal of Cognitive Science,Elsevier,http://www.journals.elsevier.com/cognition/,交叉/综合/新兴,B,
+ploscomputationalbiology,,PLOS Computational Biology,Public Library of Science,http://dblp.uni-trier.de/db/journals/ploscb/,交叉/综合/新兴,B,ploscb
+ieeetransactionsonmedicalimaging,TMI,IEEE Transactions on Medical Imaging,IEEE,http://dblp.uni-trier.de/db/journals/tmi/,交叉/综合/新兴,B,tmi
+ieeetransactionsongeoscienceandremotesensing,TGARS,IEEE Transactions on Geoscience and Remote Sensing,IEEE,http://dblp.uni-trier.de/db/journals/tgrs/,交叉/综合/新兴,B,tgrs
+ieeetransactionsonintelligenttransportationsystems,TITS,IEEE Transactions on Intelligent Transportation Systems,IEEE,http://dblp.uni-trier.de/db/journals/tits/,交叉/综合/新兴,B,tits
+ieeetransactionsonrobotics,TR,IEEE Transactions on Robotics,IEEE,http://dblp.uni-trier.de/db/journals/trob/,交叉/综合/新兴,B,trob
+ieeetransactionsonautomationscienceandengineering,TASAE,IEEE Transactions on Automation Science and Engineering,IEEE,http://dblp.uni-trier.de/db/journals/tase/,交叉/综合/新兴,B,tase
+journalofcomputerscienceandtechnology,JCST,Journal of Computer Science and Technology,SCIENCE PRESS/Springer,http://dblp.uni-trier.de/db/journals/jcst/,交叉/综合/新兴,B,jcst
+journaloftheamericanmedicalinformaticsassociation,JAMIA,Journal of the American Medical Informatics Association,BMJ Journals,http://dblp.uni-trier.de/db/journals/jamia/,交叉/综合/新兴,B,jamia
+sciencechinainformationsciences,,Science China Information Sciences,Science in China Press/Springer,http://dblp.uni-trier.de/db/journals/chinaf/,交叉/综合/新兴,B,chinaf
+thecomputerjournal,,The Computer Journal,Oxford University Press,http://dblp.uni-trier.de/db/journals/cj/,交叉/综合/新兴,B,cj
+worldwidewebjournal,,World Wide Web Journal,Springer,http://dblp.uni-trier.de/db/journals/wwwj/,交叉/综合/新兴,B,wwwj
+bmcbioinformatics,,BMC Bioinformatics,BioMed Central,http://dblp.uni-trier.de/db/journals/bmcbi/,交叉/综合/新兴,C,bmcbi
+cyberneticsandsystems,,Cybernetics and Systems,Taylor & Francis,http://dblp.uni-trier.de/db/journals/cas/,交叉/综合/新兴,C,cas
+ieeegeoscienceandremotesensingletters,,IEEE Geoscience and Remote Sensing Letters,IEEE,http://dblp.uni-trier.de/db/journals/lgrs/,交叉/综合/新兴,C,lgrs
+ieeetransactionsoninformationtechnologyinbiomedicine,TITB,IEEE Transactions on Information Technology in Biomedicine,IEEE,http://dblp.uni-trier.de/db/journals/titb/,交叉/综合/新兴,C,titb
+ieeeacmtransactionsoncomputationalbiologyandbioinformatics,TCBB,IEEE-ACM Transactions on Computational Biology and Bioinformatics,IEEE/ACM,http://dblp.uni-trier.de/db/journals/tcbb/,交叉/综合/新兴,C,tcbb
+ietintelligenttransportsystems,,IET Intelligent Transport Systems,IET,http://digital-library.theiet.org/content/journals/iet-its,交叉/综合/新兴,C,
+medicalimageanalysis,,Medical Image Analysis,Elsevier,http://dblp.uni-trier.de/db/journals/mia/,交叉/综合/新兴,C,mia
+frontiersofcomputerscience,FCS,Frontiers of Computer Science,Higher Education Press,http://dblp.uni-trier.de/db/journals/fcsc/,交叉/综合/新兴,C,fcsc
+realtimesystemssymposium,RTSS,Real-Time Systems Symposium,IEEE,http://dblp.uni-trier.de/db/conf/rtss/,交叉/综合/新兴,A,rtss
+internationalworldwidewebconferences,WWW,International World Wide Web Conferences,ACM,http://dblp.uni-trier.de/db/conf/www/,交叉/综合/新兴,A,www
+internationalconferenceonembeddedsoftware,EMSOFT,International Conference on Embedded Software,ACM/IEEE/IFIP,http://dblp.uni-trier.de/db/conf/emsoft/,交叉/综合/新兴,B,emsoft
+internationalconferenceonintelligentsystemsformolecularbiology,ISMB,International conference on Intelligent Systems for Molecular Biology,Oxford Journals,http://www.iscb.org/about-ismb,交叉/综合/新兴,B,
+cognitivesciencesocietyannualconference,CogSci,Cognitive Science Society Annual Conference,Psychology Press,http://cognitivesciencesociety.org/conference2013/index.html,交叉/综合/新兴,B,
+internationalconferenceonresearchincomputationalmolecularbiology,RECOMB,International Conference on Research in Computational Molecular Biology,Springer,http://dblp.uni-trier.de/db/conf/recomb/,交叉/综合/新兴,B,recomb
+ieeeinternationalconferenceonbioinformaticsandbiomedicine,BIBM,IEEE International Conference on Bioinformatics and Biomedicine,IEEE,http://dblp.uni-trier.de/db/conf/bibm/,交叉/综合/新兴,B,bibm
+americanmedicalinformaticsassociationannualsymposium,AMIA,American Medical Informatics Association Annual Symposium,AMIA,http://dblp.uni-trier.de/db/conf/amia/,交叉/综合/新兴,C,amia
+asiapacificbioinformaticsconference,APBC,Asia Pacific Bioinformatics Conference,BioMed Central,http://dblp.uni-trier.de/db/conf/apbc/,交叉/综合/新兴,C,apbc
+internationalconferenceonspatialinformationtheory,COSIT,International Conference on Spatial Information Theory,ACM,http://dblp.uni-trier.de/db/conf/cosit/,交叉/综合/新兴,C,cosit
+ieeeinternationalconferenceoncloudcomputing,,IEEE International Conference on Cloud Computing,IEEE,http://dblp.uni-trier.de/db/conf/IEEEcloud/,交叉/综合/新兴,C,IEEEcloud
+acmtransactionsoncomputersystems,TOCS,ACM Transactions on Computer Systems,ACM,http://dblp.uni-trier.de/db/journals/tocs/,计算机体系结构/并行与分布计算/存储系统,A,tocs
+ieeetransactionsoncomputers,TOC,IEEE Transactions on Computers,IEEE,http://dblp.uni-trier.de/db/journals/tc/index.html,计算机体系结构/并行与分布计算/存储系统,A,tc
+ieeetransactionsonparallelanddistributedsystems,TPDS,IEEE Transactions on Parallel and Distributed Systems,IEEE,http://dblp.uni-trier.de/db/journals/tpds/,计算机体系结构/并行与分布计算/存储系统,A,tpds
+ieeetransactionsoncomputeraideddesignofintegratedcircuitsandsystem,TCAD,IEEE Transactions On Computer-Aided Design Of Integrated Circuits And System,IEEE,http://dblp.uni-trier.de/db/journals/tcad/,计算机体系结构/并行与分布计算/存储系统,A,tcad
+acmtransactionsonstorage,TOS,ACM Transactions on Storage,ACM,http://dblp.uni-trier.de/db/journals/tos/,计算机体系结构/并行与分布计算/存储系统,A,tos
+concurrencyandcomputationpracticeandexperience,,Concurrency and Computation: Practice and  Experience,Wiley,http://dblp.uni-trier.de/db/journals/concurrency/,计算机体系结构/并行与分布计算/存储系统,C,concurrency
+distributedcomputing,DC,Distributed Computing,Springer,http://dblp.uni-trier.de/db/journals/dc/,计算机体系结构/并行与分布计算/存储系统,C,dc
+futuregenerationcomputersystems,FGCS,Future Generation Computer Systems,Elsevier,http://dblp.uni-trier.de/db/journals/fgcs/,计算机体系结构/并行与分布计算/存储系统,C,fgcs
+integrationthevlsijournal,Integration,"Integration, the VLSI Journal",Elsevier,http://dblp.uni-trier.de/db/journals/integration/,计算机体系结构/并行与分布计算/存储系统,C,integration
+microprocessorsandmicrosystemsembeddedhardwaredesign,,Microprocessors and Microsystems: Embedded Hardware Design,Elsevier,http://dblp.uni-trier.de/db/journals/mam/,计算机体系结构/并行与分布计算/存储系统,C,mam
+thejournalofgridcomputing,JGC,The Journal of Grid computing,Springer,http://link.springer.com/journal/10723,计算机体系结构/并行与分布计算/存储系统,C,
+thejournalofsupercomputing,TJSC,The Journal of Supercomputing,Springer,http://dblp.uni-trier.de/db/journals/tjs/,计算机体系结构/并行与分布计算/存储系统,C,tjs
+theacmjournalonemergingtechnologiesincomputingsystems,JETC,The ACM Journal on Emerging Technologies in computing systems,ACM,http://dblp.uni-trier.de/db/journals/jetc/,计算机体系结构/并行与分布计算/存储系统,C,jetc
+journalofelectronictestingtheoryandapplications,JET,Journal of Electronic Testing-Theory and applications,Springer,http://link.springer.com/journal/10836,计算机体系结构/并行与分布计算/存储系统,C,
+realtimesystems,RTS,Real-Time Systems,Springer,http://dblp.uni-trier.de/db/journals/rts/,计算机体系结构/并行与分布计算/存储系统,C,rts
+acmtransactionsonarchitectureandcodeoptimization,TACO,ACM Transactions on Architecture and Code Optimization,ACM,http://dblp.uni-trier.de/db/journals/taco/,计算机体系结构/并行与分布计算/存储系统,B,taco
+acmtransactionsonautonomousandadaptivesystems,TAAS,ACM Transactions on Autonomous and Adaptive Systems,ACM,http://dblp.uni-trier.de/db/journals/taas/,计算机体系结构/并行与分布计算/存储系统,B,taas
+acmtransactionsondesignautomationofelectronicsystems,TODAES,ACM Transactions on Design Automation of Electronic Systems,ACM,http://dblp.uni-trier.de/db/journals/todaes/,计算机体系结构/并行与分布计算/存储系统,B,todaes
+acmtransactionsonembeddedcomputingsystems,TECS,ACM Transactions on Embedded Computing Systems,ACM,http://dblp.uni-trier.de/db/journals/tecs/,计算机体系结构/并行与分布计算/存储系统,B,tecs
+acmtransactionsonreconfigurabletechnologyandsystems,TRETS,ACM Transactions on Reconfigurable Technology and Systems,ACM,http://dblp.uni-trier.de/db/journals/trets/,计算机体系结构/并行与分布计算/存储系统,B,trets
+ieeetransactionsonvlsisystems,TVLSI,IEEE Transactions on VLSI Systems,IEEE,http://dblp.uni-trier.de/db/journals/tvlsi/,计算机体系结构/并行与分布计算/存储系统,B,tvlsi
+journalofparallelanddistributedcomputing,JPDC,Journal of Parallel and Distributed Computing,Elsevier,http://dblp.uni-trier.de/db/journals/jpdc/,计算机体系结构/并行与分布计算/存储系统,B,jpdc
+parallelcomputing,PARCO,Parallel Computing,Elsevier,http://dblp.uni-trier.de/db/conf/parco/,计算机体系结构/并行与分布计算/存储系统,B,parco
+performanceevaluationaninternationaljournal,,Performance Evaluation: An International Journal,Elsevier,http://www.journals.elsevier.com/performance-evaluation/,计算机体系结构/并行与分布计算/存储系统,B,
+journalofsystemsarchitecture,JSA,Journal of Systems Architecture,Elsevier,http://dblp.uni-trier.de/db/journals/jsa/,计算机体系结构/并行与分布计算/存储系统,B,jsa
+architecturalsupportforprogramminglanguagesandoperatingsystems,ASPLOS,Architectural Support for Programming Languages and Operating Systems,ACM,http://dblp.uni-trier.de/db/conf/asplos/,计算机体系结构/并行与分布计算/存储系统,A,asplos
+conferenceonfileandstoragetechnologies,FAST,Conference on File and Storage Technologies,USENIX,http://dblp.uni-trier.de/db/conf/fast/,计算机体系结构/并行与分布计算/存储系统,A,fast
+highperformancecomputerarchitecture,HPCA,High-Performance Computer Architecture,IEEE,http://dblp.uni-trier.de/db/conf/cnhpca/,计算机体系结构/并行与分布计算/存储系统,A,cnhpca
+internationalsymposiumoncomputerarchitecture,ISCA,International Symposium on Computer Architecture,ACM /IEEE,http://dblp.uni-trier.de/db/conf/isca/,计算机体系结构/并行与分布计算/存储系统,A,isca
+micro,MICRO,MICRO,IEEE/ACM,http://dblp.uni-trier.de/db/journals/micro/,计算机体系结构/并行与分布计算/存储系统,A,micro
+internationalconferenceforhighperformancecomputingnetworkingstorageandanalysis,SC,"International Conference for High Performance Computing, Networking, Storage, and Analysis",IEEE,http://dblp.uni-trier.de/db/conf/sc/,计算机体系结构/并行与分布计算/存储系统,A,sc
+usenixannultechnicalconference,USENIX ATC,USENIX Annul Technical Conference,USENIX,http://dblp.uni-trier.de/db/conf/usenix/index.html,计算机体系结构/并行与分布计算/存储系统,A,usenix
+principlesandpracticeofparallelprogramming,PPoPP,Principles and Practice of Parallel Programming,ACM,http://dblp.uni-trier.de/db/conf/ppopp/,计算机体系结构/并行与分布计算/存储系统,A,ppopp
+acmsymposiumonhighperformancechips,HOT CHIPS,ACM Symposium on High Performance Chips,IEEE,http://www.hotchips.org/,计算机体系结构/并行与分布计算/存储系统,B,
+acmsymposiumonparallelisminalgorithmsandarchitectures,SPAA,ACM Symposium on Parallelism in Algorithms and Architectures,ACM,http://dblp.uni-trier.de/db/conf/spaa/,计算机体系结构/并行与分布计算/存储系统,B,spaa
+acmsymposiumonprinciplesofdistributedcomputing,PODC,ACM Symposium on Principles of Distributed Computing,ACM,http://dblp.uni-trier.de/db/conf/podc/,计算机体系结构/并行与分布计算/存储系统,B,podc
+codegenerationandoptimization,CGO,Code Generation and Optimization,IEEE/ACM,http://dblp.uni-trier.de/db/conf/cgo/,计算机体系结构/并行与分布计算/存储系统,B,cgo
+designautomationconference,DAC,Design Automation Conference,ACM,http://dblp.uni-trier.de/db/conf/eurodac/,计算机体系结构/并行与分布计算/存储系统,B,eurodac
+designautomationtestineuropeconference,DATE,"Design, Automation & Test in Europe Conference",IEEE/ACM,http://dblp.uni-trier.de/db/conf/date/,计算机体系结构/并行与分布计算/存储系统,B,date
+eurosys,EuroSys,EuroSys,ACM,http://dblp.uni-trier.de/db/conf/eurosys/,计算机体系结构/并行与分布计算/存储系统,B,eurosys
+highperformancedistributedcomputing,HPDC,High-Performance Distributed Computing,IEEE,http://dblp.uni-trier.de/db/conf/hpdc/,计算机体系结构/并行与分布计算/存储系统,B,hpdc
+internationalconferenceoncomputerdesign,ICCD,International Conference on Computer Design,IEEE,http://dblp.uni-trier.de/db/conf/iccd/,计算机体系结构/并行与分布计算/存储系统,B,iccd
+internationalconferenceoncomputeraideddesign,ICCAD,International Conference on Computer-Aided Design,IEEE/ACM,http://dblp.uni-trier.de/db/conf/iccad/,计算机体系结构/并行与分布计算/存储系统,B,iccad
+internationalconferenceondistributedcomputingsystems,ICDCS,International Conference on Distributed Computing Systems,IEEE,http://dblp.uni-trier.de/db/conf/icdcs/,计算机体系结构/并行与分布计算/存储系统,B,icdcs
+internationalconferenceonhighperformanceandembeddedarchitecturesandcompilers,HiPEAC,International Conference on High Performance and Embedded Architectures and Compilers,ACM,http://dblp.uni-trier.de/db/conf/hipeac/,计算机体系结构/并行与分布计算/存储系统,B,hipeac
+internationalconferenceonmeasurementandmodelingofcomputersystems,SIGMETRICS,International Conference on Measurement and Modeling of Computer Systems,ACM,http://dblp.uni-trier.de/db/conf/sigmetrics/,计算机体系结构/并行与分布计算/存储系统,B,sigmetrics
+internationalconferenceonparallelprocessing,ICPP,International Conference on Parallel Processing,IEEE,http://dblp.uni-trier.de/db/conf/icpp/,计算机体系结构/并行与分布计算/存储系统,B,icpp
+internationalconferenceonsupercomputing,ICS,International Conference on Supercomputing,ACM,http://dblp.uni-trier.de/db/conf/ics/,计算机体系结构/并行与分布计算/存储系统,B,ics
+internationalparalleldistributedprocessingsymposium,IPDPS,International Parallel & Distributed Processing Symposium,IEEE,http://dblp.uni-trier.de/db/conf/ipps/,计算机体系结构/并行与分布计算/存储系统,B,ipps
+acmsigdainternationalsymposiumonfieldprogrammablegatearrays,FPGA,ACM/SIGDA International Symposium on Field-Programmable Gate Arrays,ACM,http://dblp.uni-trier.de/db/conf/fpga/,计算机体系结构/并行与分布计算/存储系统,B,fpga
+internationalsymposiumoncomputerperformancemodelingmeasurementsandevaluation,Performance,"International Symposium on Computer Performance, Modeling, Measurements and Evaluation",ACM,http://dblp.uni-trier.de/db/conf/performance/,计算机体系结构/并行与分布计算/存储系统,B,performance
+largeinstallationsystemadministrationconference,LISA,Large Installation system Administration Conference,USENIX,http://dblp.uni-trier.de/db/conf/lisa/,计算机体系结构/并行与分布计算/存储系统,B,lisa
+massstoragesystemsandtechnologies,MSST,Mass Storage Systems and Technologies,IEEE,http://dblp.uni-trier.de/db/conf/mss/,计算机体系结构/并行与分布计算/存储系统,B,mss
+parallelarchitecturesandcompilationtechniques,PACT,Parallel Architectures and Compilation Techniques,IEEE/ACM,http://dblp.uni-trier.de/db/conf/IEEEpact/,计算机体系结构/并行与分布计算/存储系统,B,IEEEpact
+realtimeandembeddedtechnologyandapplicationssymposium,RTAS,Real-Time and Embedded Technology and Applications Symposium,IEEE,http://dblp.uni-trier.de/db/conf/rtas/,计算机体系结构/并行与分布计算/存储系统,B,rtas
+virtualexecutionenvironments,VEE,Virtual Execution Environments,ACM,http://dblp.uni-trier.de/db/conf/vee/,计算机体系结构/并行与分布计算/存储系统,B,vee
+acmieeeconfhardwaresoftwarecodesignandsystemsynthesis,CODES+ISSS,ACM/IEEE Conf. Hardware/Software Co-design and System Synthesis,ACM/ IEEE,http://dblp.uni-trier.de/db/conf/codes/index.html,计算机体系结构/并行与分布计算/存储系统,B,codes
+internationaltestconference,ITC,International Test Conference,IEEE,http://dblp.uni-trier.de/db/conf/itc/,计算机体系结构/并行与分布计算/存储系统,B,itc
+acmsymposiumoncloudcomputing,SOCC,ACM Symposium on Cloud Computing,ACM,http://dblp.uni-trier.de/db/conf/cloud/,计算机体系结构/并行与分布计算/存储系统,B,cloud
+acminternationalconferenceoncomputingfrontiers,CF,ACM International Conference on Computing Frontiers,ACM,http://dblp.uni-trier.de/db/conf/cf,计算机体系结构/并行与分布计算/存储系统,C,cf
+acmieeeinternationalsymposiumonnetworksonchip,NOCS,ACM/IEEE International Symposium on Networks-on-Chip,ACM/IEEE,http://dblp.uni-trier.de/db/conf/nocs,计算机体系结构/并行与分布计算/存储系统,C,nocs
+asiaandsouthpacificdesignautomationconference,ASP-DAC,Asia and South Pacific Design Automation Conference,ACM/IEEE,http://dblp.uni-trier.de/db/conf/aspdac,计算机体系结构/并行与分布计算/存储系统,C,aspdac
+applicationspecificsystemsarchitecturesandprocessors,ASAP,"Application-Specific Systems, Architectures, and Processors",IEEE,http://dblp.uni-trier.de/db/conf/asap,计算机体系结构/并行与分布计算/存储系统,C,asap
+clustercomputing,CLUSTER,Cluster Computing,IEEE,http://dblp.uni-trier.de/db/journals/cluster/,计算机体系结构/并行与分布计算/存储系统,C,cluster
+clustercomputingandthegrid,CCGRID,Cluster Computing and the Grid,IEEE,http://dblp.uni-trier.de/db/conf/ccgrid/,计算机体系结构/并行与分布计算/存储系统,C,ccgrid
+europeanconferenceonparallelanddistributedcomputing,Euro-Par,European Conference on Parallel and Distributed Computing,Springer,http://dblp.uni-trier.de/db/conf/europar/,计算机体系结构/并行与分布计算/存储系统,C,europar
+europeantestsymposium,ETS,European Test Symposium,IEEE,http://dblp.uni-trier.de/db/conf/ets/,计算机体系结构/并行与分布计算/存储系统,C,ets
+fieldprogrammablelogicandapplications,FPL,Field Programmable Logic and Applications,IEEE,http://dblp.uni-trier.de/db/conf/fpl/,计算机体系结构/并行与分布计算/存储系统,C,fpl
+fieldprogrammablecustomcomputingmachines,FCCM,Field-Programmable Custom Computing Machines,IEEE,http://dblp.uni-trier.de/db/conf/fccm/,计算机体系结构/并行与分布计算/存储系统,C,fccm
+greatlakessymposiumonvlsisystems,GLSVLSI,Great Lakes Symposium on VLSI Systems,ACM/IEEE,http://dblp.uni-trier.de/db/conf/glvlsi/,计算机体系结构/并行与分布计算/存储系统,C,glvlsi
+ieeeinternationalconferenceonhighperformancecomputingandcommunications,HPCC,IEEE International Conference on High Performance Computing and Communications,IEEE,http://dblp.uni-trier.de/db/conf/hpcc/,计算机体系结构/并行与分布计算/存储系统,C,hpcc
+ieeeinternationalsymposiumonmodelinganalysisandsimulationofcomputerandtelecommunicationsystems,MASCOTS,"IEEE International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems",IEEE,http://dblp.uni-trier.de/db/conf/mascots/,计算机体系结构/并行与分布计算/存储系统,C,mascots
+ifipinternationalconferenceonnetworkandparallel,NPC,IFIP International Conference on Network and Parallel,Springer,http://dblp.uni-trier.de/db/conf/npc/,计算机体系结构/并行与分布计算/存储系统,C,npc
+internationalconferenceonalgorithmsandarchitecturesforparallelprocessing,ICA3PP,International Conference on Algorithms and Architectures for Parallel Processing,IEEE,http://dblp.uni-trier.de/db/conf/ica3pp/,计算机体系结构/并行与分布计算/存储系统,C,ica3pp
+internationalconferenceoncompilersarchitecturesandsynthesisforembeddedsystems,CASES,"International Conference on Compilers, Architectures, and Synthesis for Embedded Systems",ACM,http://dblp.uni-trier.de/db/conf/cases/index.html,计算机体系结构/并行与分布计算/存储系统,C,cases
+internationalconferenceonfieldprogrammabletechnology,FPT,International Conference on Field-Programmable Technology,IEEE,http://dblp.uni-trier.de/db/conf/fpt/,计算机体系结构/并行与分布计算/存储系统,C,fpt
+internationalconferenceonhighperformancecomputing,HPC,International Conference on High Performance Computing,IEEE/ ACM,http://dblp.uni-trier.de/db/conf/hipc/index.html,计算机体系结构/并行与分布计算/存储系统,C,hipc
+internationalconferenceonparallelanddistributedsystems,ICPADS,International Conference on Parallel and Distributed Systems,IEEE,http://dblp.uni-trier.de/db/conf/icpads/,计算机体系结构/并行与分布计算/存储系统,C,icpads
+internationalsymposiumoncircuitsandsystems,ISCAS,International Symposium on Circuits and Systems,IEEE,http://dblp.uni-trier.de/db/conf/iscas/,计算机体系结构/并行与分布计算/存储系统,C,iscas
+internationalsymposiumonlowpowerelectronicsanddesign,ISLPED,International Symposium on Low Power Electronics and Design,ACM/IEEE,http://dblp.uni-trier.de/db/conf/islped/,计算机体系结构/并行与分布计算/存储系统,C,islped
+internationalsymposiumonphysicaldesign,ISPD,International Symposium on Physical Design,ACM,http://dblp.uni-trier.de/db/conf/ispd/,计算机体系结构/并行与分布计算/存储系统,C,ispd
+symposiumonhighperformanceinterconnects,HotI,Symposium on High-Performance Interconnects,IEEE,http://dblp.uni-trier.de/db/conf/hoti/,计算机体系结构/并行与分布计算/存储系统,C,hoti
+vlsitestsymposium,VTS,VLSI Test Symposium,IEEE,http://dblp.uni-trier.de/db/conf/vts/,计算机体系结构/并行与分布计算/存储系统,C,vts
+ieeeinternationalsymposiumonparallelanddistributedprocessingwithapplications,ISPA,IEEE International Symposium on Parallel and Distributed Processing with Applications,IEEE,http://dblp.uni-trier.de/db/conf/ispa/,计算机体系结构/并行与分布计算/存储系统,C,ispa
+acmsigopsinternationalsystemsandstorageconference,SYSTOR,ACM SIGOPS International Systems and Storage Conference,ACM,http://dblp.uni-trier.de/db/conf/systor/index.html,计算机体系结构/并行与分布计算/存储系统,C,systor
+ieeeasiantestsymposium,ATS,IEEE Asian Test Symposium,IEEE,http://dblp.uni-trier.de/db/conf/ats/,计算机体系结构/并行与分布计算/存储系统,C,ats
