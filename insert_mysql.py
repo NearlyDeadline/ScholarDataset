@@ -9,18 +9,18 @@ import glob
 import pandas as pd
 import logging
 import json
+import argparse
 
 #  a = 'xplGlobal.document.metadata=\{.*\};' //提取IEEExplore元信息的正则表达式
 # 为sql语句中变量增加escape_string方法调用的正则表达式：
 # '\{([\S]*)\}'
 # '\{escape_string($1)\}'
-data_dirs = [r'E:\PythonProjects\ScholarDataset\data\test\input\计算机']
 need_disambiguation_pattern = '*_disambiguation_article.csv'
 dont_need_disambiguation_pattern = '*_undisambiguation_article.csv'
 
 logger = logging.getLogger(__name__)
 logger.setLevel(level=logging.INFO)
-handler = logging.FileHandler("./log.txt")
+handler = logging.FileHandler("./log.txt", encoding='utf8')
 handler.setLevel(logging.INFO)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 handler.setFormatter(formatter)
@@ -95,7 +95,8 @@ def insert_csv_into_mysql(csv_file: str, need_disambiguation: bool, author_title
             execute_insert_sql(connection, sql)
 
 
-def main():
+def main(args_):
+    data_dirs = args_.data_dirs
     connection_config = json.load(open('./ScholarDataset/config.json'))
     for data_dir in data_dirs:
         for university in os.listdir(data_dir):
@@ -118,4 +119,9 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--data_dirs', help='Input directory paths', dest='data_dirs', action="extend", nargs='+', type=str,
+                    required=True)
+    # args = ap.parse_args(['--data_dirs', r'C:\Users\12897\Documents\PythonProjects\ScholarDataset\data\input\计算机'])
+    args = ap.parse_args()
+    main(args)
