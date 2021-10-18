@@ -32,16 +32,17 @@ def update_wos(args_):
                          password=connection_config['password'],
                          database=connection_config['database']) as connection:
         with connection.cursor() as cursor:
-            for aid in author_id_list:
-                query_list = []
-                sql = f"SELECT title FROM paper WHERE id in (SELECT pid FROM author_paper WHERE aid={aid}) AND venue in (SELECT name FROM venue WHERE kind='journal');"
+            for author_id in author_id_list:
+                query_list = {}
+                sql = f"SELECT id, title FROM paper WHERE id in (SELECT pid FROM author_paper WHERE aid={author_id}) AND venue in (SELECT name FROM venue WHERE kind='journal');"
                 paper_count = cursor.execute(sql)
                 for i in range(0, paper_count):
-                    paper_title = cursor.fetchone()[0]
-                    logger.info(f'对于作者aid={aid}，查询到题目为{paper_title}')
-                    query_list.append(paper_title)
+                    result = cursor.fetchone()
+                    paper_id = result[0]
+                    paper_title = result[1]
+                    query_list[paper_id] = paper_title
                 try:
-                    yield runner.crawl('WebOfScience', query_list=query_list)
+                    yield runner.crawl('WebOfScience', query_list=query_list, author_id=author_id)
                 except SystemExit:
                     logger.error(f'发生了Web of Science爬虫错误，请检查该文件夹内爬虫日志文件')
     reactor.stop()
@@ -51,7 +52,9 @@ if __name__ == '__main__':
     ap = argparse.ArgumentParser(usage='根据Author ID在Web of science网站上更新该作者所有论文的信息\n参数：\n  --aid')
     ap.add_argument('--author_id_list', help='Author IDs', dest='author_id_list', action="extend", nargs='+', type=int,
                     required=True)
-    args = ap.parse_args(
-        ['--author_id_list', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '13', '15', '16', '17', '18', '19', '20', '23', '25', '26', '29', '30', '32', '33', '35'])
+    arg = ['--author_id_list']
+    for i in range(1, 36):
+        arg.append(str(i))
+    args = ap.parse_args(arg)
     update_wos(args)
     reactor.run()

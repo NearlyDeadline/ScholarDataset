@@ -15,7 +15,6 @@ logger = logging.getLogger(__name__)
 logger.setLevel(level=logging.INFO)
 
 
-
 class WebOfScienceSpider(scrapy.Spider):
     name = 'WebOfScience'
     allowed_domains = ['www.webofknowledge.com']
@@ -36,10 +35,11 @@ class WebOfScienceSpider(scrapy.Spider):
         """
         @description: Web Of Science爬虫
 
-        @param {query_list}: 保存所有查询式的文件的列表，要求列表内每个元素为一篇论文的题目
+        @param {query_list}: 保存所有查询式的文件的字典，要求列表内每个元素的键为id，值为论文的题目title
         """
         super().__init__(*args, **kwargs)
         self.query_list = kwargs['query_list']
+        self.author_id = kwargs['author_id']
         self.sid = None
         self.qid_list = []
 
@@ -54,14 +54,13 @@ class WebOfScienceSpider(scrapy.Spider):
         result = re.search(pattern, unquote(response.url))
         if result:
             self.sid = result.group(1)
-            logger.info(f'提取得到SID：{self.sid}')
         else:
-            logger.error('SID提取失败，请检查ip地址是否具有访问权限')
+            logger.critical('SID提取失败，请检查ip地址是否具有访问权限')
             exit(-1)
 
         # 提交post高级搜索请求
         adv_search_url = 'https://apps.webofknowledge.com/WOS_AdvancedSearch.do'
-        for q in self.query_list:
+        for paper_id, paper_title in self.query_list.items():
             query_form = {
                 "product": "WOS",
                 "search_mode": "AdvancedSearch",
@@ -71,7 +70,7 @@ class WebOfScienceSpider(scrapy.Spider):
                 "action": "search",
                 "replaceSetId": "",
                 "goToPageLoc": "SearchHistoryTableBanner",
-                "value(input1)": 'TI=(' + q + ')',
+                "value(input1)": 'TI=(' + paper_title + ')',
                 "value(searchOp)": "search",
                 "value(select2)": "LA",
                 "value(input2)": "",
@@ -95,7 +94,7 @@ class WebOfScienceSpider(scrapy.Spider):
 
             yield FormRequest(adv_search_url, method='POST', formdata=query_form, dont_filter=True,
                               callback=self.parse_query_response,
-                              meta={'sid': self.sid, 'query': q})
+                              meta={'sid': self.sid, 'query': paper_title, 'author_id': self.author_id, 'paper_id': paper_id})
 
     def parse_query_response(self, response):
         sid = response.meta['sid']
@@ -116,13 +115,11 @@ class WebOfScienceSpider(scrapy.Spider):
         if result:
             qid = result.group(1)
             if qid in self.qid_list:
-                logger.info(f"发现重复爬取现象，可能是因为'{query}'未找到任何内容")
+                logger.warning(f"发现重复爬取现象，可能是因为'{query}'未找到任何内容")
                 return
-            else:
-                logger.info(f'提取得到qid：{qid}，开始爬取"{query}"')
             self.qid_list.append(qid)
         else:
-            logger.error('qid提取失败')
+            logger.error(f'对于"{query}"，qid提取失败')
             exit(-1)
 
         # 爬第一篇
@@ -165,13 +162,14 @@ class WebOfScienceSpider(scrapy.Spider):
         output_url = 'https://apps.webofknowledge.com/OutboundService.do?action=go&&save_options=xls'
         yield FormRequest(output_url, method='POST', formdata=output_form, dont_filter=True,
                           callback=self.item_download,
-                          meta={'sid': sid, 'query': query, 'qid': qid})
+                          meta={'query': query, 'author_id': response.meta['author_id'], 'paper_id': response.meta['paper_id']})
 
     def item_download(self, response):
         item = ScholardatasetItem()
         item['content'] = response.body
         item['query'] = response.meta['query']
-        item['sid'] = response.meta['sid']
-        item['qid'] = response.meta['qid']
-        logger.info(f'成功生成"{item["query"]}"的查询结果，输入流水线')
+        # item['sid'] = response.meta['sid']
+        # item['qid'] = response.meta['qid']
+        item['author_id'] = response.meta['author_id']
+        item['paper_id'] = response.meta['paper_id']
         yield item

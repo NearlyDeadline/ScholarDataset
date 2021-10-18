@@ -5,12 +5,12 @@
 
 
 # useful for handling different item types with a single interface
+import re
 import pymysql
 import json
 import pandas as pd
 from pymysql.converters import escape_string
 from scrapy.exceptions import DropItem
-from ScholarDataset.items import ScholardatasetItem
 import logging
 
 logger = logging.getLogger(__name__)
@@ -34,6 +34,10 @@ class Author:
 def is_same_title(expect_title: str, got_title: str) -> bool:
     cond = lambda c: str.isalpha(c)
     return ''.join(list(filter(cond, expect_title.lower()))) == ''.join(list(filter(cond, got_title.lower())))
+
+
+def is_same_name(name1: str, name2: str) -> bool:
+    return name1 == name2 or ' '.join(name1.split(' ')[::-1]) == name2
 
 
 def get_author_address_tuple(addresses: str) -> [(str, str)]:
@@ -72,87 +76,78 @@ class ScholardatasetPipeline:
         self.__cursor = self.__conn.cursor()
 
     def process_item(self, item, spider):
-        if type(item) == ScholardatasetItem:
-            try:
-                xls_df = pd.read_excel(item['content'])
-                expect_title = item['query']
-                got_title = xls_df['Article Title'][0]
-                if not is_same_title(expect_title, got_title):
-                    raise DropItem(f"对于'{expect_title}'，未能在Web of Science上找到题目完全一样的论文，只找到了'{got_title}'")
+        try:
+            xls_df = pd.read_excel(item['content'])
+            expect_title = item['query']
+            got_title = xls_df['Article Title'][0]
+            if not is_same_title(expect_title, got_title):
+                raise DropItem(f"对于'{expect_title}'，未能在Web of Science上找到题目完全一样的论文，只找到了'{got_title}'")
 
-                sql = f"SELECT id FROM scholars.paper WHERE title = '{escape_string(expect_title)}';"
-                self.__cursor.execute(sql)
-                result = self.__cursor.fetchone()
-                if not result:
-                    raise DropItem(f"对于'{expect_title}'，执行'{sql}'语句时未在数据库中搜索到任何结果")
-                paperid = result[0]
-                # 根据paperid找出所有authorid，然后修改这些条目的contribution, email, affiliation, university等信息
+            abbr_name_list = [s.replace(',', '') for s in xls_df['Authors'][0].split('; ')]
+            full_name_list = [s.replace(',', '') for s in xls_df['Author Full Names'][0].split('; ')]
+            address_list = get_author_address_tuple(str(xls_df['Addresses'][0]))
+            email_list = [s for s in str(xls_df['Email Addresses'][0]).split('; ')]
 
-                abbr_name_list = [s.replace(',', '') for s in xls_df['Authors'][0].split('; ')]
-                full_name_list = [s.replace(',', '') for s in xls_df['Author Full Names'][0].split('; ')]
-                address_list = get_author_address_tuple(str(xls_df['Addresses'][0]))
-                email_list = [s for s in str(xls_df['Email Addresses'][0]).split('; ')]
+            len_an = len(abbr_name_list)
+            len_fn = len(full_name_list)
+            len_ad = len(address_list)
+            len_em = len(email_list)
+            max_length = max(len_an, len_fn, len_ad, len_em)
+            if len_ad < max_length:
+                for i in range(len_ad, max_length):
+                    address_list.append('')
+            if len_em < max_length:
+                for i in range(len_em, max_length):
+                    email_list.append('')
 
-                len_an = len(abbr_name_list)
-                len_fn = len(full_name_list)
-                len_ad = len(address_list)
-                len_em = len(email_list)
-                max_length = max(len_an, len_fn, len_ad, len_em)
-                if len_ad < max_length:
-                    for i in range(len_ad, max_length):
-                        address_list.append('')
-                if len_em < max_length:
-                    for i in range(len_em, max_length):
-                        email_list.append('')
+            corresponding_author_name = get_corresponding_author(xls_df['Reprint Addresses'][0])
 
-                corresponding_author_name = get_corresponding_author(xls_df['Reprint Addresses'][0])
+            author_list = []
+            for i in range(0, len(abbr_name_list)):
+                author = Author()
+                author.abbr_name = abbr_name_list[i]
+                author.full_name = full_name_list[i]
+                author.email = email_list[i]
+                if corresponding_author_name == author.abbr_name:
+                    author.contribution = 'CORRESPONDING_AUTHOR'
+                else:
+                    author.contribution = 'PAPER_AUTHOR'
+                for name_address in address_list:
+                    if name_address[0] == author.full_name:
+                        address_list__ = name_address[1].split(', ')
+                        author.university = address_list__[0]
+                        author.college = address_list__[1] if len(address_list__) > 3 else ''
+                author_list.append(author)
 
-                author_list = []
-                for i in range(0, len(abbr_name_list)):
-                    author = Author()
-                    author.abbr_name = abbr_name_list[i]
-                    author.full_name = full_name_list[i]
-                    author.email = email_list[i]
-                    if corresponding_author_name == author.abbr_name:
-                        author.contribution = 'CORRESPONDING_AUTHOR'
-                    else:
-                        author.contribution = 'PAPER_AUTHOR'
-                    for name_address in address_list:
-                        if name_address[0] == author.full_name:
-                            address_list__ = name_address[1].split(', ')
-                            author.university = address_list__[0]
-                            author.college = address_list__[1] if len(address_list__) > 3 else ''
-                    author_list.append(author)
+            author_id = item['author_id']
+            sql = f"SELECT name FROM author WHERE id = {author_id};"
+            self.__cursor.execute(sql)
+            target_author_name = self.__cursor.fetchone()[0]
+            # 如果作者姓名后面有个数字，把最后的数字部分去掉
+            if re.compile(r".*[0-9]$").match(target_author_name):
+                target_author_name = ' '.join(target_author_name.split(' ')[:-1])
+            target_author_index = 0
+            for author in author_list:
+                if is_same_name(author.full_name, target_author_name):
+                    break
+                target_author_index += 1
+            if target_author_index == len(author_list):
+                raise DropItem(f"对于{expect_title}，未在Web of Science爬取结果中寻找到作者信息，作者id为{author_id}")
 
-                for a in author_list:
-                    sql = f"SELECT aid FROM scholars.author_paper WHERE pid={paperid} and aid in (SELECT id from scholars.author WHERE name='{escape_string(a.full_name)}');"
-                    self.__cursor.execute(sql)
-                    result = self.__cursor.fetchone()
-                    if not result:
-                        names = a.full_name.split(' ')
-                        if len(names) != 2:
-                            continue
-                        new_name = names[1] + ' ' + names[0]
-                        sql = f"SELECT aid, contribution FROM scholars.author_paper WHERE pid={paperid} and aid in (SELECT id from scholars.author WHERE name='{escape_string(new_name)}');"
-                        self.__cursor.execute(sql)
-                        result2 = self.__cursor.fetchone()
-                        if not result2:
-                            logger.warning(f"未搜索到名字为'{new_name}'的作者，不会连锁更新其发表信息")
-                            continue
-                        else:
-                            result = result2
-                    authorid = result[0]
-                    current_contribution = result[1]
-                    if current_contribution != 'PAPER_AUTHOR':
-                        a.contribution = current_contribution
-                    sql = f"UPDATE author_paper SET contribution = '{escape_string(a.contribution)}', university = '{escape_string(a.university)}', college = '{escape_string(a.college)}', email = '{escape_string(a.email)}', need_disambiguation = 0 where aid = {authorid} and pid = {paperid};"
-                    self.__cursor.execute(sql)
-                    self.__conn.commit()
-                    logger.info(f'成功执行更新语句："{sql}"')
+            paper_id = item['paper_id']
+            sql = f"SELECT aid, contribution FROM author_paper WHERE aid = {author_id} AND pid={paper_id};"
+            self.__cursor.execute(sql)
+            current_contribution = self.__cursor.fetchone()[1]
+            if current_contribution != 'PAPER_AUTHOR':
+                author_list[target_author_index].contribution = current_contribution
+            sql = f"UPDATE author_paper SET contribution = '{escape_string(author_list[target_author_index].contribution)}', university = '{escape_string(author_list[target_author_index].university)}', college = '{escape_string(author_list[target_author_index].college)}', email = '{escape_string(author_list[target_author_index].email)}' WHERE aid = {author_id} AND pid = {paper_id};"
+            self.__cursor.execute(sql)
+            self.__conn.commit()
+            logger.info(f'成功执行更新语句："{sql}"')
 
-            except Exception as e:
-                logger.error(f"发生类型为{type(e)}的错误：'{e}'")
-                raise
+        except Exception as e:
+            logger.error(f"发生类型为{type(e)}的错误：'{e}'")
+            raise
 
         return item
 
