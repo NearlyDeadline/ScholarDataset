@@ -27,24 +27,24 @@ logger.addHandler(handler)
 def update_wos(args_):
     author_id_list = args_.author_id_list
     connection_config = json.load(open('./ScholarDataset/config.json'))
-    query_list = []
     with pymysql.connect(host=connection_config['host'],
                          user=connection_config['user'],
                          password=connection_config['password'],
                          database=connection_config['database']) as connection:
         with connection.cursor() as cursor:
             for aid in author_id_list:
+                query_list = []
                 sql = f"SELECT title FROM paper WHERE id in (SELECT pid FROM author_paper WHERE aid={aid});"
                 paper_count = cursor.execute(sql)
                 for i in range(0, paper_count):
                     paper_title = cursor.fetchone()[0]
                     logger.info(f'对于作者aid={aid}，查询到题目为{paper_title}')
                     query_list.append(paper_title)
-            try:
-                yield runner.crawl('WebOfScience', query_list=query_list)
-            except SystemExit:
-                logger.error(f'发生了Web of Science爬虫错误，请检查该文件夹内爬虫日志文件')
-            reactor.stop()
+                try:
+                    yield runner.crawl('WebOfScience', query_list=query_list)
+                except SystemExit:
+                    logger.error(f'发生了Web of Science爬虫错误，请检查该文件夹内爬虫日志文件')
+    reactor.stop()
 
 
 if __name__ == '__main__':
