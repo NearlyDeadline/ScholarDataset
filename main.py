@@ -34,7 +34,7 @@ def update_wos(args_):
         with connection.cursor() as cursor:
             for aid in author_id_list:
                 query_list = []
-                sql = f"SELECT title FROM paper WHERE id in (SELECT pid FROM author_paper WHERE aid={aid});"
+                sql = f"SELECT title FROM paper WHERE id in (SELECT pid FROM author_paper WHERE aid={aid}) AND venue in (SELECT name FROM venue WHERE kind='journal');"
                 paper_count = cursor.execute(sql)
                 for i in range(0, paper_count):
                     paper_title = cursor.fetchone()[0]
