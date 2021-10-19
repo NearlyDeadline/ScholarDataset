@@ -56,8 +56,9 @@ def insert_csv_into_mysql(csv_file: str, need_disambiguation: bool, author_title
                          password=mysql_connect['password'],
                          database=mysql_connect['database']) as connection:
         df = pd.read_csv(csv_file)
-
-        author_name = df.loc[1][0]
+        if df.empty:
+            return
+        author_name = df.loc[0][0]
         need_disambiguation = '1' if need_disambiguation else '0'
         sql = f"INSERT IGNORE INTO author(name, title) VALUES ('{escape_string(author_name)}', '{escape_string(author_title)}');"
         execute_insert_sql(connection, sql)
