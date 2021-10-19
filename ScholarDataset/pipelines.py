@@ -76,9 +76,11 @@ class ScholardatasetPipeline:
         self.__cursor = self.__conn.cursor()
 
     def process_item(self, item, spider):
+        expect_title = item['query']
+        author_id = item['author_id']
+        paper_id = item['paper_id']
         try:
             xls_df = pd.read_excel(item['content'])
-            expect_title = item['query']
             got_title = xls_df['Article Title'][0]
             if not is_same_title(expect_title, got_title):
                 raise DropItem(f"对于'{expect_title}'，未能在Web of Science上找到题目完全一样的论文，只找到了'{got_title}'")
@@ -119,7 +121,6 @@ class ScholardatasetPipeline:
                         author.college = address_list__[1] if len(address_list__) > 3 else ''
                 author_list.append(author)
 
-            author_id = item['author_id']
             sql = f"SELECT name FROM author WHERE id = {author_id};"
             self.__cursor.execute(sql)
             target_author_name = self.__cursor.fetchone()[0]
@@ -134,7 +135,6 @@ class ScholardatasetPipeline:
             if target_author_index == len(author_list):
                 raise DropItem(f"对于{expect_title}，未在Web of Science爬取结果中寻找到作者信息，作者id为{author_id}")
 
-            paper_id = item['paper_id']
             sql = f"SELECT aid, contribution FROM author_paper WHERE aid = {author_id} AND pid={paper_id};"
             self.__cursor.execute(sql)
             current_contribution = self.__cursor.fetchone()[1]
@@ -146,7 +146,7 @@ class ScholardatasetPipeline:
             logger.info(f'成功执行更新语句："{sql}"')
 
         except Exception as e:
-            logger.error(f"发生类型为{type(e)}的错误：'{e}'")
+            logger.error(f"发生类型为{type(e)}的错误：'{e}'。请检查aid={author_id}, pid={paper_id}，论文题目为{expect_title}")
             raise
 
         return item
