@@ -52,9 +52,11 @@ if __name__ == '__main__':
     ap = argparse.ArgumentParser(usage='根据Author ID在Web of science网站上更新该作者所有论文的信息\n参数：\n  --aid')
     ap.add_argument('--author_id_list', help='Author IDs', dest='author_id_list', action="extend", nargs='+', type=int,
                     required=True)
-    arg = ['--author_id_list']
-    for i in range(1, 36):
-        arg.append(str(i))
-    args = ap.parse_args(arg)
+    args = ap.parse_args()
+    # arg = ['--author_id_list']
+    # for i in range(1, 36):
+    #     arg.append(str(i))
+    # args = ap.parse_args(arg)
+    # 如果懒得在命令行输入太多aid参数，可以使用这种方式在代码里指定参数范围，将上边几行代码解除注释即可
     update_wos(args)
     reactor.run()

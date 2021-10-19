@@ -12,9 +12,6 @@ import json
 import argparse
 
 #  a = 'xplGlobal.document.metadata=\{.*\};' //提取IEEExplore元信息的正则表达式
-# 为sql语句中变量增加escape_string方法调用的正则表达式：
-# '\{([\S]*)\}'
-# '\{escape_string($1)\}'
 need_disambiguation_pattern = '*_disambiguation_article.csv'
 dont_need_disambiguation_pattern = '*_undisambiguation_article.csv'
 
@@ -118,10 +115,11 @@ def main(args_):
                         logger.warning(f'{author}找不到csv文件')
 
 
+# 参数示例： --data_dirs C:/Users/12897/Documents/PythonProjects/ScholarDataset/data/input/计算机
+# 文件结构示例：计算机/哈尔滨工业大学/AssociateProfessor/小明/*.csv
 if __name__ == '__main__':
     ap = argparse.ArgumentParser()
     ap.add_argument('--data_dirs', help='Input directory paths', dest='data_dirs', action="extend", nargs='+', type=str,
                     required=True)
-    # args = ap.parse_args(['--data_dirs', r'C:\Users\12897\Documents\PythonProjects\ScholarDataset\data\input\计算机'])
     args = ap.parse_args()
     main(args)
