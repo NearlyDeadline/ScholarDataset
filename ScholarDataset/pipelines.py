@@ -83,7 +83,7 @@ class ScholardatasetPipeline:
             xls_df = pd.read_excel(item['content'])
             got_title = xls_df['Article Title'][0]
             if not is_same_title(expect_title, got_title):
-                raise DropItem(f"对于'{expect_title}'，未能在Web of Science上找到题目完全一样的论文，只找到了'{got_title}'")
+                raise DropItem(f"未能在Web of Science上找到题目完全一样的论文，只找到了'{got_title}'。")
 
             abbr_name_list = [s.replace(',', '') for s in xls_df['Authors'][0].split('; ')]
             full_name_list = [s.replace(',', '') for s in xls_df['Author Full Names'][0].split('; ')]
@@ -133,7 +133,7 @@ class ScholardatasetPipeline:
                     break
                 target_author_index += 1
             if target_author_index == len(author_list):
-                raise DropItem(f"对于{expect_title}，未在Web of Science爬取结果中寻找到作者信息，作者id为{author_id}")
+                raise DropItem(f"未在Web of Science爬取结果中寻找到作者信息。")
 
             sql = f"SELECT aid, contribution FROM author_paper WHERE aid = {author_id} AND pid={paper_id};"
             self.__cursor.execute(sql)
