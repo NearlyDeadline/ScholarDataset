@@ -18,14 +18,14 @@ dont_need_disambiguation_pattern = '*_undisambiguation_article.csv'
 logger = logging.getLogger(__name__)
 logger.setLevel(level=logging.INFO)
 handler = logging.FileHandler("./log.txt", encoding='utf8')
-handler.setLevel(logging.INFO)
+handler.setLevel(logging.WARNING)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 handler.setFormatter(formatter)
 logger.addHandler(handler)
 
 
 def insert_csv_into_mysql(csv_file: str, need_disambiguation: bool, author_title: str,
-                          mysql_connect):
+                          university: str, mysql_connect):
     def get_venue_kind(kind: str) -> str:
         journal_pattern = '<journal>'
         crossref_pattern = '<crossref>'
@@ -60,10 +60,12 @@ def insert_csv_into_mysql(csv_file: str, need_disambiguation: bool, author_title
             return
         author_name = df.loc[0][0]
         need_disambiguation = '1' if need_disambiguation else '0'
-        sql = f"INSERT IGNORE INTO author(name, title) VALUES ('{escape_string(author_name)}', '{escape_string(author_title)}');"
+        sql = f"INSERT IGNORE INTO researcher(name, title, affiliation) VALUES ('{escape_string(author_name)}', '{escape_string(author_title)}', '{escape_string(university)}');"
         execute_insert_sql(connection, sql)
-
         author_id = select_last_insert_id(connection)
+
+        sql = f"INSERT IGNORE INTO author(id, need_disambiguation) VALUES ('{author_id}', '{need_disambiguation}');"
+        execute_insert_sql(connection, sql)
 
         for row in df.itertuples():
             venue_name = row[6]
@@ -89,7 +91,7 @@ def insert_csv_into_mysql(csv_file: str, need_disambiguation: bool, author_title
             is_first_author = row[8]
             contribution = 'FIRST_AUTHOR' if is_first_author else 'PAPER_AUTHOR'
 
-            sql = f"INSERT IGNORE INTO author_paper(aid, pid, contribution, need_disambiguation) VALUES ('{author_id}', '{paper_id}', '{escape_string(contribution)}', '{need_disambiguation}');"
+            sql = f"INSERT IGNORE INTO author_paper(aid, pid, contribution) VALUES ('{author_id}', '{paper_id}', '{escape_string(contribution)}');"
             execute_insert_sql(connection, sql)
 
 
@@ -107,10 +109,10 @@ def main(args_):
                     dis_arti = glob.glob(author_dir + '/' + need_disambiguation_pattern)
                     undis_arti = glob.glob(author_dir + '/' + dont_need_disambiguation_pattern)
                     if dis_arti:
-                        insert_csv_into_mysql(dis_arti[0], True, title, connection_config)
+                        insert_csv_into_mysql(dis_arti[0], True, title, university, connection_config)
                         logger.info(f'{author}需要消歧')
                     elif undis_arti:
-                        insert_csv_into_mysql(undis_arti[0], False, title, connection_config)
+                        insert_csv_into_mysql(undis_arti[0], False, title, university, connection_config)
                         logger.info(f'{author}不需要消歧')
                     else:
                         logger.warning(f'{author}找不到csv文件')
