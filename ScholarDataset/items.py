@@ -11,7 +11,5 @@ class ScholardatasetItem(scrapy.Item):
     # name = scrapy.Field()
     content = scrapy.Field()
     query = scrapy.Field()
-    # sid = scrapy.Field()
-    # qid = scrapy.Field()
-    author_id = scrapy.Field()
+    researcher_id = scrapy.Field()
     paper_id = scrapy.Field()

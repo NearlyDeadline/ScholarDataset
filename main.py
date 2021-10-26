@@ -25,16 +25,16 @@ logger.addHandler(handler)
 
 @defer.inlineCallbacks
 def update_wos(args_):
-    author_id_list = args_.author_id_list
+    researcher_id_list = args_.researcher_id_list
     connection_config = json.load(open('./ScholarDataset/config.json'))
     with pymysql.connect(host=connection_config['host'],
                          user=connection_config['user'],
                          password=connection_config['password'],
                          database=connection_config['database']) as connection:
         with connection.cursor() as cursor:
-            for author_id in author_id_list:
+            for researcher_id in researcher_id_list:
                 query_list = {}
-                sql = f"SELECT id, title FROM paper WHERE id in (SELECT pid FROM author_paper WHERE aid={author_id}) AND venue in (SELECT name FROM venue WHERE kind='journal');"
+                sql = f"SELECT id, title FROM paper WHERE id in (SELECT pid FROM author_paper WHERE aid={researcher_id}) AND venue in (SELECT name FROM venue WHERE kind='journal');"
                 paper_count = cursor.execute(sql)
                 for i in range(0, paper_count):
                     result = cursor.fetchone()
@@ -46,7 +46,7 @@ def update_wos(args_):
                 i = 0
                 while query_list[i * step: (i + 1) * step]:
                     try:
-                        yield runner.crawl('WebOfScience', query_list=query_list[i * step: (i + 1) * step], author_id=author_id)
+                        yield runner.crawl('WebOfScience', query_list=query_list[i * step: (i + 1) * step], researcher_id=researcher_id)
                     except SystemExit:
                         logger.error(f'发生了Web of Science爬虫错误，请检查该文件夹内爬虫日志文件')
                     i += 1
@@ -54,11 +54,11 @@ def update_wos(args_):
 
 
 if __name__ == '__main__':
-    ap = argparse.ArgumentParser(usage='根据Author ID在Web of science网站上更新该作者所有论文的信息\n参数：\n  --aid')
-    ap.add_argument('--author_id_list', help='Author IDs', dest='author_id_list', action="extend", nargs='+', type=int,
+    ap = argparse.ArgumentParser(usage='根据Researcher ID在Web of science网站上更新该作者所有论文的信息\n参数：\n  --aid')
+    ap.add_argument('--researcher_id_list', help='Researcher IDs', dest='researcher_id_list', action="extend", nargs='+', type=int,
                     required=True)
     args = ap.parse_args()
-    # arg = ['--author_id_list']
+    # arg = ['--researcher_id_list']
     # for i in range(1, 36):
     #     arg.append(str(i))
     # args = ap.parse_args(arg)

@@ -64,7 +64,7 @@ def insert_csv_into_mysql(csv_file: str, need_disambiguation: bool, author_title
         execute_insert_sql(connection, sql)
         author_id = select_last_insert_id(connection)
 
-        sql = f"INSERT IGNORE INTO author(id, need_disambiguation) VALUES ('{author_id}', '{need_disambiguation}');"
+        sql = f"INSERT IGNORE INTO author(rid, need_disambiguation) VALUES ('{author_id}', '{need_disambiguation}');"
         execute_insert_sql(connection, sql)
 
         for row in df.itertuples():

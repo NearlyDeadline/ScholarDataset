@@ -33,11 +33,23 @@ class Author:
 
 
 def is_same_title(expect_title: str, got_title: str) -> bool:
+    """
+    :param expect_title: 期待的目标题目
+    :param got_title: 实际得到的题目
+    :return: 如果其中一方以另一方为前缀，则返回True；否则返回False
+    """
     cond = lambda c: str.isalpha(c)
-    return ''.join(list(filter(cond, expect_title.lower()))) == ''.join(list(filter(cond, got_title.lower())))
+    expect_chars = ''.join(list(filter(cond, expect_title.lower())))
+    got_chars = ''.join(list(filter(cond, got_title.lower())))
+    return expect_chars.startswith(got_chars) or got_chars.startswith(expect_chars)
 
 
 def is_same_name(name1: str, name2: str) -> bool:
+    """
+    :param name1: 第一个名字
+    :param name2: 第二个名字
+    :return: 两名字相等返回True，否则False（注意姓和名的先后顺序不影响）
+    """
     return name1 == name2 or ' '.join(name1.split(' ')[::-1]) == name2
 
 
@@ -55,6 +67,10 @@ def get_author_address_tuple(addresses: str) -> [(str, str)]:
 
 
 def get_corresponding_author(reprint_addresses: str) -> str:
+    """
+    :param reprint_addresses: xls_data['Reprint Addresses'][0]
+    :return: 通讯作者的姓名
+    """
     ra = reprint_addresses.split('(corresponding author)')
     if len(ra) == 1:
         ra = reprint_addresses.split('(Corresponding author)')
@@ -78,7 +94,7 @@ class ScholardatasetPipeline:
 
     def process_item(self, item, spider):
         expect_title = item['query']
-        author_id = item['author_id']
+        researcher_id = item['researcher_id']
         paper_id = item['paper_id']
         try:
             xls_df = pd.read_excel(item['content'])
@@ -122,7 +138,7 @@ class ScholardatasetPipeline:
                         author.college = address_list__[1] if len(address_list__) > 3 else ''
                 author_list.append(author)
 
-            sql = f"SELECT name FROM author WHERE id = {author_id};"
+            sql = f"SELECT name FROM researcher WHERE id = {researcher_id};"
             self.__cursor.execute(sql)
             target_author_name = self.__cursor.fetchone()[0]
             # 如果作者姓名后面有个数字，把最后的数字部分去掉
@@ -136,18 +152,32 @@ class ScholardatasetPipeline:
             if target_author_index == len(author_list):
                 raise DropItem(f"未在Web of Science爬取结果中寻找到作者信息。")
 
-            sql = f"SELECT aid, contribution FROM author_paper WHERE aid = {author_id} AND pid={paper_id};"
+            sql = "SELECT id FROM author WHERE rid={} AND email='{}' AND university='{}' AND college='{}' AND lab='{}';".format(
+                researcher_id,
+                escape_string(author_list[target_author_index].email),
+                escape_string(author_list[target_author_index].university),
+                escape_string(author_list[target_author_index].college),
+                '')
+            self.__cursor.execute(sql)
+            result = self.__cursor.fetchone()
+            if not result:
+                sql = "INSERT INTO author(id, email, university, college, lab) VALUES(author_id) ;"
+            else:
+                pass
+
+
+            sql = f"SELECT aid, contribution FROM author_paper WHERE aid = {researcher_id} AND pid={paper_id};"
             self.__cursor.execute(sql)
             current_contribution = self.__cursor.fetchone()[1]
             if current_contribution != 'PAPER_AUTHOR':
                 author_list[target_author_index].contribution = current_contribution
-            sql = f"UPDATE author_paper SET contribution = '{escape_string(author_list[target_author_index].contribution)}', university = '{escape_string(author_list[target_author_index].university)}', college = '{escape_string(author_list[target_author_index].college)}', email = '{escape_string(author_list[target_author_index].email)}' WHERE aid = {author_id} AND pid = {paper_id};"
+            sql = f"UPDATE author_paper SET contribution = '{escape_string(author_list[target_author_index].contribution)}', university = '{escape_string(author_list[target_author_index].university)}', college = '{escape_string(author_list[target_author_index].college)}', email = '{escape_string(author_list[target_author_index].email)}' WHERE aid = {researcher_id} AND pid = {paper_id};"
             self.__cursor.execute(sql)
             self.__conn.commit()
             logger.info(f'成功执行更新语句："{sql}"')
 
         except Exception as e:
-            logger.error(f"发生类型为{type(e)}的错误：'{repr(e)}'。请检查aid={author_id}, pid={paper_id}，论文题目为{expect_title}。追踪位置：{traceback.format_exc()}。")
+            logger.error(f"发生类型为{type(e)}的错误：'{repr(e)}'。请检查aid={researcher_id}, pid={paper_id}，论文题目为{expect_title}。追踪位置：{traceback.format_exc()}。")
             raise
 
         return item
