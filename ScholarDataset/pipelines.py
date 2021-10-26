@@ -12,11 +12,12 @@ import pandas as pd
 from pymysql.converters import escape_string
 from scrapy.exceptions import DropItem
 import logging
+import traceback
 
 logger = logging.getLogger(__name__)
 logger.setLevel(level=logging.INFO)
 handler = logging.FileHandler("wos_pipeline_log.txt", encoding='utf-8')
-handler.setLevel(logging.INFO)
+handler.setLevel(logging.WARNING)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 handler.setFormatter(formatter)
 logger.addHandler(handler)
@@ -146,7 +147,7 @@ class ScholardatasetPipeline:
             logger.info(f'成功执行更新语句："{sql}"')
 
         except Exception as e:
-            logger.error(f"发生类型为{type(e)}的错误：'{e}'。请检查aid={author_id}, pid={paper_id}，论文题目为{expect_title}")
+            logger.error(f"发生类型为{type(e)}的错误：'{repr(e)}'。请检查aid={author_id}, pid={paper_id}，论文题目为{expect_title}。追踪位置：{traceback.format_exc()}。")
             raise
 
         return item
