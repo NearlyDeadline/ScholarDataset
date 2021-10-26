@@ -41,10 +41,15 @@ def update_wos(args_):
                     paper_id = result[0]
                     paper_title = result[1]
                     query_list[paper_id] = paper_title
-                try:
-                    yield runner.crawl('WebOfScience', query_list=query_list, author_id=author_id)
-                except SystemExit:
-                    logger.error(f'发生了Web of Science爬虫错误，请检查该文件夹内爬虫日志文件')
+
+                step = 150  # 每次爬150篇
+                i = 0
+                while query_list[i * step: (i + 1) * step]:
+                    try:
+                        yield runner.crawl('WebOfScience', query_list=query_list[i * step: (i + 1) * step], author_id=author_id)
+                    except SystemExit:
+                        logger.error(f'发生了Web of Science爬虫错误，请检查该文件夹内爬虫日志文件')
+                    i += 1
     reactor.stop()
 
 
