@@ -33,9 +33,10 @@ class WebOfScienceSpider(scrapy.Spider):
 
     def __init__(self, *args, **kwargs):
         """
-        @description: Web Of Science爬虫
-
-        @param {query_list}: 保存所有查询式的文件的字典，要求列表内每个元素的键为id，值为论文的题目title
+        Web Of Science爬虫
+        :param kwargs:
+            {query_list}: 保存所有查询式的文件的字典，要求列表内每个元素的键为paper_id，值为论文的题目paper_title
+            {author_id}: 作者author_id
         """
         super().__init__(*args, **kwargs)
         self.query_list = kwargs['query_list']
@@ -44,7 +45,7 @@ class WebOfScienceSpider(scrapy.Spider):
         self.qid_list = []
 
         handler = logging.FileHandler('wos_crawler_log.txt', encoding='utf-8')
-        handler.setLevel(logging.INFO)
+        handler.setLevel(logging.WARNING)
         formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
         handler.setFormatter(formatter)
         logger.addHandler(handler)
@@ -168,8 +169,6 @@ class WebOfScienceSpider(scrapy.Spider):
         item = ScholardatasetItem()
         item['content'] = response.body
         item['query'] = response.meta['query']
-        # item['sid'] = response.meta['sid']
-        # item['qid'] = response.meta['qid']
         item['author_id'] = response.meta['author_id']
         item['paper_id'] = response.meta['paper_id']
         yield item
