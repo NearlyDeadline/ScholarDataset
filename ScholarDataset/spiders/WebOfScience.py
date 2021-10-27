@@ -36,11 +36,9 @@ class WebOfScienceSpider(scrapy.Spider):
         Web Of Science爬虫
         :param kwargs:
             {query_list}: 保存所有查询式的文件的字典，要求列表内每个元素的键为paper_id，值为论文的题目paper_title
-            {researcher_id}: 作者researcher_id
         """
         super().__init__(*args, **kwargs)
         self.query_list = kwargs['query_list']
-        self.researcher_id = kwargs['researcher_id']
         self.sid = None
         self.qid_list = []
 
@@ -95,7 +93,7 @@ class WebOfScienceSpider(scrapy.Spider):
 
             yield FormRequest(adv_search_url, method='POST', formdata=query_form, dont_filter=True,
                               callback=self.parse_query_response,
-                              meta={'sid': self.sid, 'query': paper_title, 'researcher_id': self.researcher_id, 'paper_id': paper_id})
+                              meta={'sid': self.sid, 'query': paper_title, 'paper_id': paper_id})
 
     def parse_query_response(self, response):
         sid = response.meta['sid']
@@ -163,12 +161,11 @@ class WebOfScienceSpider(scrapy.Spider):
         output_url = 'https://apps.webofknowledge.com/OutboundService.do?action=go&&save_options=xls'
         yield FormRequest(output_url, method='POST', formdata=output_form, dont_filter=True,
                           callback=self.item_download,
-                          meta={'query': query, 'researcher_id': response.meta['researcher_id'], 'paper_id': response.meta['paper_id']})
+                          meta={'query': query, 'paper_id': response.meta['paper_id']})
 
     def item_download(self, response):
         item = ScholardatasetItem()
         item['content'] = response.body
         item['query'] = response.meta['query']
-        item['researcher_id'] = response.meta['researcher_id']
         item['paper_id'] = response.meta['paper_id']
         yield item
