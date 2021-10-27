@@ -29,7 +29,14 @@ def get_rank_dict(rid: int):
             sql = f"SELECT title, venue, year, author_count, contribution FROM paper LEFT JOIN author_paper ON paper.id = author_paper.pid WHERE aid in (SELECT id FROM author WHERE rid = {rid});"
             count = cursor.execute(sql)
             for i in range(0, count):
-                ac = {}
+                ac = {
+                    'Paper Title': '',
+                    'Contribution': '',
+                    'Venue': {},
+                    '汤森路透分区': {},
+                    '中科院分区': {},
+                    'CCF': {}
+                }
                 item = cursor.fetchone()
                 ac['Paper Title'] = item[0]
                 ac['Contribution'] = item[4]
