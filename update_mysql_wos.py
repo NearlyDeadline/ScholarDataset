@@ -31,7 +31,7 @@ def update_wos(args):
                          password=connection_config['password'],
                          database=connection_config['database']) as connection:
         with connection.cursor() as cursor:
-            sql = f"SELECT id, title FROM paper WHERE venue in (SELECT name FROM venue WHERE kind='journal');"
+            sql = "SELECT id, title FROM paper WHERE venue in (SELECT name FROM venue WHERE kind='journal') and id IN (SELECT pid FROM author_paper WHERE aid in (SELECT id FROM author WHERE email='' AND university='' AND college='' AND lab=''));"
             cursor.execute(sql)
             wos_crawler_paper_count = 150  # 一次取150篇文章，防止爬虫过载
             result = cursor.fetchmany(wos_crawler_paper_count)
