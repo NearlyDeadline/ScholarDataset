@@ -69,7 +69,8 @@ DEFAULT_REQUEST_HEADERS = {
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
     'ScholarDataset.pipelines.WebOfSciencePipeline': 300,
-    'ScholarDataset.pipelines.ACMPipeline': 400
+    'ScholarDataset.pipelines.ACMPipeline': 400,
+    'ScholarDataset.pipelines.IEEEPipeline': 500
 }
 LOG_LEVEL = 'WARNING'
 # Enable and configure the AutoThrottle extension (disabled by default)

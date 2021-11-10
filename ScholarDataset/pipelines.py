@@ -75,6 +75,8 @@ class ACMPipeline:
         paper_id = item['paper_id']
         try:
             soup = BeautifulSoup(item['content'], 'lxml')
+
+            # TODO: 比较expect_title与got_title是否相同
             author_list = []
             for i in soup.find_all('li', class_='loa__item'):
                 author = Author()
@@ -82,11 +84,35 @@ class ACMPipeline:
                 author.university = i.p.text  # 注意这个有可能过长：ACM网站包含了许多实验室、学院、大学、大学所在市、省、国家等信息
                 author_list.append(author)
 
-            #TODO: 精简author.university信息，更新到数据库中
+            # TODO: 精简author.university信息，更新到数据库中
         except Exception as e:
             logger.error(
                 f"发生类型为{type(e)}的错误：'{repr(e)}'。请检查pid={paper_id}，论文题目为{expect_title}。追踪位置：{traceback.format_exc()}。")
             raise
+        return item
+
+    def close_spider(self, spider):
+        self.__cursor.close()
+        self.__conn.close()
+
+
+class IEEEPipeline:
+    def __init__(self):
+        self.__connection_config = json.load(open('./ScholarDataset/config.json'))
+
+    def open_spider(self, spider):
+        self.__conn = pymysql.connect(user=self.__connection_config['user'],
+                                      password=self.__connection_config['password'],
+                                      host=self.__connection_config['host'],
+                                      database=self.__connection_config['database'],
+                                      charset='utf8mb4')
+        self.__cursor = self.__conn.cursor()
+
+    def process_item(self, item, spider):
+        if spider.name != 'IEEExplore':
+            return item
+
+        # TODO: pipeline。首先比较expect_title和got_title是否相同，然后对数据库进行更新
         return item
 
     def close_spider(self, spider):
