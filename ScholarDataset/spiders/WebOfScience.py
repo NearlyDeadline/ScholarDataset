@@ -19,7 +19,6 @@ class WebOfScienceSpider(scrapy.Spider):
     name = 'WebOfScience'
     allowed_domains = ['www.webofknowledge.com']
     start_urls = ['https://www.webofknowledge.com/']
-    timestamp = str(time.strftime('%Y-%m-%d-%H.%M.%S', time.localtime(time.time())))
     end_year = time.strftime('%Y')
 
     # 提取URL中的SID和QID所需要的正则表达式
@@ -54,7 +53,7 @@ class WebOfScienceSpider(scrapy.Spider):
         if result:
             self.sid = result.group(1)
         else:
-            logger.critical('SID提取失败，请检查ip地址是否具有访问权限')
+            logger.critical('在Web of Science上提取SID失败，请检查ip地址是否具有访问权限')
             exit(-1)
 
         # 提交post高级搜索请求
@@ -104,7 +103,7 @@ class WebOfScienceSpider(scrapy.Spider):
         entry = soup.find('a', attrs={'title': 'Click to view the results'})
 
         if not entry:
-            logger.warning(f"对于'{query}'，未找到任何内容")
+            logger.warning(f"对于'{query}'，未在Web of Science上找到任何内容")
             return
         entry_url = 'https://apps.webofknowledge.com' + entry.get('href')
 
@@ -114,11 +113,11 @@ class WebOfScienceSpider(scrapy.Spider):
         if result:
             qid = result.group(1)
             if qid in self.qid_list:
-                logger.warning(f"发现重复爬取现象，可能是因为'{query}'未找到任何内容")
+                logger.warning(f"发现重复爬取现象，可能是因为'{query}'未在Web of Science上找到任何内容")
                 return
             self.qid_list.append(qid)
         else:
-            logger.error(f'对于"{query}"，qid提取失败')
+            logger.error(f'对于"{query}"，在Web of Science上提取qid失败')
             exit(-1)
 
         # 爬第一篇

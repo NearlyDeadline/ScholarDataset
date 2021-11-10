@@ -13,10 +13,11 @@ from pymysql.converters import escape_string
 from scrapy.exceptions import DropItem
 import logging
 import traceback
+from bs4 import BeautifulSoup
 
 logger = logging.getLogger(__name__)
 logger.setLevel(level=logging.INFO)
-handler = logging.FileHandler("wos_pipeline_log.txt", encoding='utf-8')
+handler = logging.FileHandler("pipeline_log.txt", encoding='utf-8')
 handler.setLevel(logging.WARNING)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 handler.setFormatter(formatter)
@@ -55,34 +56,7 @@ def is_same_name(name1: str, name2: str) -> bool:
     return name1 == name2 or ' '.join(name1.split(' ')[::-1]) == name2
 
 
-def get_author_address_tuple(addresses: str) -> [(str, str)]:
-    """
-    :param addresses: str. Example: "[A, B; C, D; E, F] ADD1; [G, H] ADD2"
-    :return: [name, address]. Example: [("A B", "ADD1"), ("C D", "ADD1"), ("E F", "ADD1"), ("G H", "ADD2")]
-    """
-    result = []
-    name_addresses = [[names, address] for (names, address) in
-                      [(j[0], j[1]) for j in [i.split('] ') for i in addresses[1:].split('; [')]]]
-    for i in range(0, len(name_addresses)):
-        result.extend([name.replace(',', ''), name_addresses[i][1]] for name in name_addresses[i][0].split('; '))
-    return result
-
-
-def get_corresponding_author(reprint_addresses: str) -> str:
-    """
-    :param reprint_addresses: xls_data['Reprint Addresses'][0]
-    :return: 通讯作者的姓名
-    """
-    ra = reprint_addresses.split('(corresponding author)')
-    if len(ra) == 1:
-        ra = reprint_addresses.split('(Corresponding author)')
-    if len(ra) > 1:
-        return ra[0].replace(' ', '').replace(',', ' ')
-    else:
-        return ''
-
-
-class ScholardatasetPipeline:
+class ACMPipeline:
     def __init__(self):
         self.__connection_config = json.load(open('./ScholarDataset/config.json'))
 
@@ -95,6 +69,46 @@ class ScholardatasetPipeline:
         self.__cursor = self.__conn.cursor()
 
     def process_item(self, item, spider):
+        if spider.name != 'ACM':
+            return item
+        expect_title = item['query']
+        paper_id = item['paper_id']
+        try:
+            soup = BeautifulSoup(item['content'], 'lxml')
+            author_list = []
+            for i in soup.find_all('li', class_='loa__item'):
+                author = Author()
+                author.full_name = i.a['title']
+                author.university = i.p.text  # 注意这个有可能过长：ACM网站包含了许多实验室、学院、大学、大学所在市、省、国家等信息
+                author_list.append(author)
+
+            #TODO: 精简author.university信息，更新到数据库中
+        except Exception as e:
+            logger.error(
+                f"发生类型为{type(e)}的错误：'{repr(e)}'。请检查pid={paper_id}，论文题目为{expect_title}。追踪位置：{traceback.format_exc()}。")
+            raise
+        return item
+
+    def close_spider(self, spider):
+        self.__cursor.close()
+        self.__conn.close()
+
+
+class WebOfSciencePipeline:
+    def __init__(self):
+        self.__connection_config = json.load(open('./ScholarDataset/config.json'))
+
+    def open_spider(self, spider):
+        self.__conn = pymysql.connect(user=self.__connection_config['user'],
+                                      password=self.__connection_config['password'],
+                                      host=self.__connection_config['host'],
+                                      database=self.__connection_config['database'],
+                                      charset='utf8mb4')
+        self.__cursor = self.__conn.cursor()
+
+    def process_item(self, item, spider):
+        if spider.name != 'WebOfScience':
+            return item
         expect_title = item['query']
         paper_id = item['paper_id']
         try:
@@ -106,7 +120,7 @@ class ScholardatasetPipeline:
             # 计算姓名简称列表，全名列表，地址列表，邮箱列表
             abbr_name_list = [s.replace(',', '') for s in xls_df['Authors'][0].split('; ')]
             full_name_list = [s.replace(',', '') for s in xls_df['Author Full Names'][0].split('; ')]
-            address_list = get_author_address_tuple(str(xls_df['Addresses'][0]))
+            address_list = self.get_author_address_tuple(str(xls_df['Addresses'][0]))
             email_list = [s for s in str(xls_df['Email Addresses'][0]).split('; ')]
 
             # 在大多数论文中，这四个表一一对应，但少数情况下不是，因此需要下面的补全操作
@@ -122,7 +136,7 @@ class ScholardatasetPipeline:
                 for i in range(len_em, max_length):
                     email_list.append('')
 
-            corresponding_author_name = get_corresponding_author(xls_df['Reprint Addresses'][0])
+            corresponding_author_name = self.get_corresponding_author(xls_df['Reprint Addresses'][0])
 
             # 为每个Author填充姓名，机构，邮箱等基本信息；并识别通讯作者
             author_list = []
@@ -224,3 +238,28 @@ class ScholardatasetPipeline:
     def close_spider(self, spider):
         self.__cursor.close()
         self.__conn.close()
+
+    def get_author_address_tuple(self, addresses: str) -> [(str, str)]:
+        """
+        :param addresses: str. Example: "[A, B; C, D; E, F] ADD1; [G, H] ADD2"
+        :return: [name, address]. Example: [("A B", "ADD1"), ("C D", "ADD1"), ("E F", "ADD1"), ("G H", "ADD2")]
+        """
+        result = []
+        name_addresses = [[names, address] for (names, address) in
+                          [(j[0], j[1]) for j in [i.split('] ') for i in addresses[1:].split('; [')]]]
+        for i in range(0, len(name_addresses)):
+            result.extend([name.replace(',', ''), name_addresses[i][1]] for name in name_addresses[i][0].split('; '))
+        return result
+
+    def get_corresponding_author(self, reprint_addresses: str) -> str:
+        """
+        :param reprint_addresses: xls_data['Reprint Addresses'][0]
+        :return: 通讯作者的姓名
+        """
+        ra = reprint_addresses.split('(corresponding author)')
+        if len(ra) == 1:
+            ra = reprint_addresses.split('(Corresponding author)')
+        if len(ra) > 1:
+            return ra[0].replace(' ', '').replace(',', ' ')
+        else:
+            return ''
