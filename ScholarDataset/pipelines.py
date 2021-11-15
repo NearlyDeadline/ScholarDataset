@@ -194,7 +194,7 @@ class IEEEPipeline:
                 author.full_name = i['name']
                 try:
                     segs = i['affiliation'][0].split(',')
-                    if len(segs < 4):
+                    if len(segs) < 4:
                         # 4：学院,大学,城市,国家。小于4说明缺了学院，大学第一个
                         author.university = segs[0]
                     else:
