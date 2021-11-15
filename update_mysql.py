@@ -25,8 +25,8 @@ logger.addHandler(handler)
 
 @defer.inlineCallbacks
 def update_mysql(args):
-    crawler_paper_count = args['crawler_paper_count']
-    crawler_name = args['crawler_name']
+    crawler_paper_count = args.crawler_paper_count
+    crawler_name = args.crawler_name
     connection_config = json.load(open('./ScholarDataset/config.json'))
     with pymysql.connect(host=connection_config['host'],
                          user=connection_config['user'],

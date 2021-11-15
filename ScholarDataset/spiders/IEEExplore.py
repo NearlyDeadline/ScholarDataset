@@ -9,6 +9,7 @@ from ScholarDataset.items import ScholardatasetItem
 import json
 import re
 import logging
+import requests
 
 logger = logging.getLogger(__name__)
 logger.setLevel(level=logging.INFO)
@@ -22,6 +23,7 @@ class IEEExploreSpider(scrapy.Spider):
     pattern = 'xplGlobal.document.metadata=\{.*\};'
 
     def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
         self.query_list = kwargs['query_list']
 
         handler = logging.FileHandler('ieee_crawler_log.txt', encoding='utf-8')
@@ -48,7 +50,7 @@ class IEEExploreSpider(scrapy.Spider):
                 'newsearch': 'true',
                 'queryText': paper_title,
             }
-            yield FormRequest(search_url, method='POST', formdata=json.dumps(query_form), dont_filter=True,
+            yield FormRequest(search_url, method='POST', formdata=query_form, dont_filter=True,
                               callback=self.parse_query_response, headers=headers,
                               meta={'query': paper_title, 'paper_id': paper_id})
 

@@ -18,6 +18,7 @@ class ACMDigitalLibrarySpider(scrapy.Spider):
     start_urls = ['https://dl.acm.org/']
 
     def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
         self.query_list = kwargs['query_list']
 
         handler = logging.FileHandler('acm_crawler_log.txt', encoding='utf-8')
