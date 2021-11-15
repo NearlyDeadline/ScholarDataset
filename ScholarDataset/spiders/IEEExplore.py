@@ -4,7 +4,6 @@
 # @File    : IEEExplore.py
 from urllib.parse import quote
 import scrapy
-from scrapy import FormRequest, Request
 from ScholarDataset.items import ScholardatasetItem
 import json
 import re
@@ -50,25 +49,21 @@ class IEEExploreSpider(scrapy.Spider):
                 'newsearch': 'true',
                 'queryText': paper_title,
             }
-            yield FormRequest(search_url, method='POST', formdata=query_form, dont_filter=True,
-                              callback=self.parse_query_response, headers=headers,
-                              meta={'query': paper_title, 'paper_id': paper_id})
 
-    def parse_query_response(self, response):
-        query = response.meta['query']
-        result = json.loads(response.text)
-        if result.get('records') is None:
-            logger.warning(f"对于'{query}'，未在IEEExplore网站上找到任何内容")
-            return
-        entry_url = f"https://ieeexplore.ieee.org{result['records'][0]['htmlLink']}"  # 只选择第一篇论文
-        yield Request(url=entry_url, callback=self.item_download, dont_filter=True,
-                      meta={'query': response.meta['query'], 'paper_id': response.meta['paper_id']}
-                      )
-
-    def item_download(self, response):
-        item = ScholardatasetItem()
-        content = re.search(self.pattern, response.text)
-        item['content'] = json.loads(content[len('xplGlobal.document.metadata='): -1])  # 最后有个分号，去掉。前面这些变量名也去掉，形成字典
-        item['query'] = response.meta['query']
-        item['paper_id'] = response.meta['paper_id']
-        yield item
+            search_response = requests.post(url=search_url, data=json.dumps(query_form), headers=headers)
+            search_result = json.loads(search_response.text)
+            papers = search_result.get('records')
+            if papers is None:
+                logger.warning(f"对于'{paper_title}'，未在IEEExplore网站上找到任何内容")
+                return
+            html_link = papers[0]['htmlLink']
+            document_url = f'https://ieeexplore.ieee.org{html_link}'
+            document_response = requests.get(url=document_url)
+            data = re.search(self.pattern, document_response.text)
+            s = data.group()
+            content = json.loads(s[len('xplGlobal.document.metadata='): -1])
+            item = ScholardatasetItem()
+            item['content'] = content
+            item['query'] = paper_title
+            item['paper_id'] = paper_id
+            yield item
