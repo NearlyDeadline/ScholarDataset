@@ -75,16 +75,85 @@ class ACMPipeline:
         paper_id = item['paper_id']
         try:
             soup = BeautifulSoup(item['content'], 'lxml')
+            got_title = soup.find('ol', class_='rlist organizational-chart').li.h6.text
+            if not is_same_title(expect_title, got_title):
+                raise DropItem(f"未能在ACM上找到题目完全一样的论文，只找到了'{got_title}'。")
 
-            # TODO: 比较expect_title与got_title是否相同
             author_list = []
             for i in soup.find_all('li', class_='loa__item'):
                 author = Author()
                 author.full_name = i.a['title']
-                author.university = i.p.text  # 注意这个有可能过长：ACM网站包含了许多实验室、学院、大学、大学所在市、省、国家等信息
+                author.university = i.p.text.split(',')[-1]
                 author_list.append(author)
 
-            # TODO: 精简author.university信息，更新到数据库中
+                # 为每个Author填充researcher_id
+            sql = f"SELECT id, name FROM researcher WHERE id in (SELECT rid FROM author WHERE id in (SELECT aid FROM author_paper WHERE pid = {paper_id}));"
+            self.__cursor.execute(sql)
+            result = self.__cursor.fetchall()
+            for item in result:
+                rid = item[0]
+                # 如果作者姓名后面有个数字，把最后的数字部分去掉
+                target_researcher_name = item[1] if not re.compile(r".*[0-9]$").match(item[1]) else ' '.join(
+                    item[1].split(' ')[:-1])
+                for author in author_list:
+                    if is_same_name(author.full_name, target_researcher_name):
+                        author.researcher_id = rid
+
+            # UPDATE有rid的Author，INSERT无rid的Author
+            for author in author_list:
+                if author.researcher_id:
+                    # 寻找已有的作者信息：包括邮箱、机构等，是否在表中
+                    sql = "SELECT id FROM author WHERE rid={} AND email='{}' AND university='{}' AND college='{}' AND lab='{}';".format(
+                        author.researcher_id,
+                        escape_string(author.email),
+                        escape_string(author.university),
+                        escape_string(author.college),
+                        escape_string(author.lab))
+                    self.__cursor.execute(sql)
+                    result = self.__cursor.fetchone()
+
+                    if not result:  # 没有该作者信息，需要插入，并与researcher表建立联系
+                        # 如果已有的数据无需消歧，新生成的作者自然也无需消歧，他们只是邮箱、机构信息不同而已。反之同理
+                        sql = f"SELECT need_disambiguation from author WHERE rid ={author.researcher_id};"
+                        self.__cursor.execute(sql)
+                        need_disambiguation = self.__cursor.fetchone()[0]
+
+                        sql = "INSERT INTO author(rid, email, university, college, lab, need_disambiguation) VALUES('{}', '{}', '{}', '{}', '{}', {});".format(
+                            author.researcher_id,
+                            escape_string(author.email),
+                            escape_string(author.university),
+                            escape_string(author.college),
+                            escape_string(author.lab),
+                            need_disambiguation
+                        )
+                        self.__cursor.execute(sql)
+                        self.__conn.commit()
+                        logger.info(f'成功建立新的Author：{sql}')
+                        self.__cursor.execute('SELECT last_insert_id();')
+                        author_id = self.__cursor.fetchone()[0]
+                    else:  # 已有作者信息，直接取id并更新Author信息即可
+                        author_id = result[0]
+                        sql = "UPDATE author SET email= '{}', university = '{}', college = '{}', lab = '{}' WHERE id = {};".format(
+                            escape_string(author.email),
+                            escape_string(author.university),
+                            escape_string(author.college),
+                            escape_string(author.lab),
+                            author_id
+                        )
+                        self.__cursor.execute(sql)
+                        self.__conn.commit()
+                        logger.info(f'成功执行更新语句："{sql}"')
+
+                    # 更新author_id与贡献，初始情况aid的值为researcher_id，已有作者信息数据时aid为author_id
+                    sql = f"SELECT contribution FROM author_paper WHERE (aid = {author.researcher_id} OR aid = {author_id}) AND pid={paper_id};"
+                    self.__cursor.execute(sql)
+                    current_contribution = self.__cursor.fetchone()[0]
+                    if current_contribution != 'PAPER_AUTHOR':
+                        author.contribution = current_contribution
+                    sql = f"UPDATE author_paper SET aid = {author_id}, contribution = '{escape_string(author.contribution)}' WHERE aid = {author.researcher_id} AND pid = {paper_id};"
+                    self.__cursor.execute(sql)
+                    self.__conn.commit()
+                    logger.info(f'成功执行更新语句："{sql}"')
         except Exception as e:
             logger.error(
                 f"发生类型为{type(e)}的错误：'{repr(e)}'。请检查pid={paper_id}，论文题目为{expect_title}。追踪位置：{traceback.format_exc()}。")
@@ -112,7 +181,100 @@ class IEEEPipeline:
         if spider.name != 'IEEExplore':
             return item
 
-        # TODO: pipeline。首先比较expect_title和got_title是否相同，然后对数据库进行更新
+        expect_title = item['query']
+        paper_id = item['paper_id']
+        try:
+            got_title = item['content']['formulaStrippedArticleTitle']
+            if not is_same_title(expect_title, got_title):
+                raise DropItem(f"未能在ACM上找到题目完全一样的论文，只找到了'{got_title}'。")
+
+            author_list = []
+            for i in item['content']['authors']:
+                author = Author()
+                author.full_name = i['name']
+                try:
+                    segs = i['affiliation'][0].split(',')
+                    if len(segs < 4):
+                        # 4：学院,大学,城市,国家。小于4说明缺了学院，大学第一个
+                        author.university = segs[0]
+                    else:
+                        author.university = segs[1]
+                except IndexError:
+                    author.university = ''
+                author_list.append(author)
+
+                # 为每个Author填充researcher_id
+            sql = f"SELECT id, name FROM researcher WHERE id in (SELECT rid FROM author WHERE id in (SELECT aid FROM author_paper WHERE pid = {paper_id}));"
+            self.__cursor.execute(sql)
+            result = self.__cursor.fetchall()
+            for item in result:
+                rid = item[0]
+                # 如果作者姓名后面有个数字，把最后的数字部分去掉
+                target_researcher_name = item[1] if not re.compile(r".*[0-9]$").match(item[1]) else ' '.join(
+                    item[1].split(' ')[:-1])
+                for author in author_list:
+                    if is_same_name(author.full_name, target_researcher_name):
+                        author.researcher_id = rid
+
+            # UPDATE有rid的Author，INSERT无rid的Author
+            for author in author_list:
+                if author.researcher_id:
+                    # 寻找已有的作者信息：包括邮箱、机构等，是否在表中
+                    sql = "SELECT id FROM author WHERE rid={} AND email='{}' AND university='{}' AND college='{}' AND lab='{}';".format(
+                        author.researcher_id,
+                        escape_string(author.email),
+                        escape_string(author.university),
+                        escape_string(author.college),
+                        escape_string(author.lab))
+                    self.__cursor.execute(sql)
+                    result = self.__cursor.fetchone()
+
+                    if not result:  # 没有该作者信息，需要插入，并与researcher表建立联系
+                        # 如果已有的数据无需消歧，新生成的作者自然也无需消歧，他们只是邮箱、机构信息不同而已。反之同理
+                        sql = f"SELECT need_disambiguation from author WHERE rid ={author.researcher_id};"
+                        self.__cursor.execute(sql)
+                        need_disambiguation = self.__cursor.fetchone()[0]
+
+                        sql = "INSERT INTO author(rid, email, university, college, lab, need_disambiguation) VALUES('{}', '{}', '{}', '{}', '{}', {});".format(
+                            author.researcher_id,
+                            escape_string(author.email),
+                            escape_string(author.university),
+                            escape_string(author.college),
+                            escape_string(author.lab),
+                            need_disambiguation
+                        )
+                        self.__cursor.execute(sql)
+                        self.__conn.commit()
+                        logger.info(f'成功建立新的Author：{sql}')
+                        self.__cursor.execute('SELECT last_insert_id();')
+                        author_id = self.__cursor.fetchone()[0]
+                    else:  # 已有作者信息，直接取id并更新Author信息即可
+                        author_id = result[0]
+                        sql = "UPDATE author SET email= '{}', university = '{}', college = '{}', lab = '{}' WHERE id = {};".format(
+                            escape_string(author.email),
+                            escape_string(author.university),
+                            escape_string(author.college),
+                            escape_string(author.lab),
+                            author_id
+                        )
+                        self.__cursor.execute(sql)
+                        self.__conn.commit()
+                        logger.info(f'成功执行更新语句："{sql}"')
+
+                    # 更新author_id与贡献，初始情况aid的值为researcher_id，已有作者信息数据时aid为author_id
+                    sql = f"SELECT contribution FROM author_paper WHERE (aid = {author.researcher_id} OR aid = {author_id}) AND pid={paper_id};"
+                    self.__cursor.execute(sql)
+                    current_contribution = self.__cursor.fetchone()[0]
+                    if current_contribution != 'PAPER_AUTHOR':
+                        author.contribution = current_contribution
+                    sql = f"UPDATE author_paper SET aid = {author_id}, contribution = '{escape_string(author.contribution)}' WHERE aid = {author.researcher_id} AND pid = {paper_id};"
+                    self.__cursor.execute(sql)
+                    self.__conn.commit()
+                    logger.info(f'成功执行更新语句："{sql}"')
+        except Exception as e:
+            logger.error(
+                f"发生类型为{type(e)}的错误：'{repr(e)}'。请检查pid={paper_id}，论文题目为{expect_title}。追踪位置：{traceback.format_exc()}。")
+            raise
         return item
 
     def close_spider(self, spider):
