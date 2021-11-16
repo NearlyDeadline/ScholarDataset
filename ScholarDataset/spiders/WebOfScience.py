@@ -13,6 +13,7 @@ from ScholarDataset.items import ScholardatasetItem
 
 logger = logging.getLogger(__name__)
 logger.setLevel(level=logging.INFO)
+logger.propagate = False
 
 
 class WebOfScienceSpider(scrapy.Spider):

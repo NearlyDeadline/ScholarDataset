@@ -12,6 +12,7 @@ import requests
 
 logger = logging.getLogger(__name__)
 logger.setLevel(level=logging.INFO)
+logger.propagate = False
 
 
 class IEEExploreSpider(scrapy.Spider):

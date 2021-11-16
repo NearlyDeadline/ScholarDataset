@@ -10,6 +10,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 logger.setLevel(level=logging.INFO)
+logger.propagate = False
 
 
 class ACMDigitalLibrarySpider(scrapy.Spider):
@@ -48,7 +49,10 @@ class ACMDigitalLibrarySpider(scrapy.Spider):
             entry_url = 'https://dl.acm.org' + entry.find('a').get('href')
 
             item = ScholardatasetItem()
-            item['content'] = requests.get(url=entry_url).text
+            item['content'] = (requests.get(url=entry_url)).text
             item['query'] = paper_title
             item['paper_id'] = paper_id
             yield item
+
+    def parse(self, response, **kwargs):
+        pass
