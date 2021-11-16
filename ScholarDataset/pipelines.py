@@ -98,18 +98,8 @@ def update_sql_from_author_list(conn: pymysql.connections.Connection, author_lis
                     logger.info(f'成功建立新的Author：{sql}')
                     cursor.execute('SELECT last_insert_id();')
                     author_id = cursor.fetchone()[0]
-                else:  # 已有作者信息，直接取id并更新Author信息即可
+                else:  # 已有作者信息，直接取id即可
                     author_id = result[0]
-                    sql = "UPDATE author SET email= '{}', university = '{}', college = '{}', lab = '{}' WHERE id = {};".format(
-                        escape_string(author.email),
-                        escape_string(author.university),
-                        escape_string(author.college),
-                        escape_string(author.lab),
-                        author_id
-                    )
-                    cursor.execute(sql)
-                    conn.commit()
-                    logger.info(f'成功执行更新语句："{sql}"')
 
                 # 更新author_id与贡献，初始情况aid的值为researcher_id，已有作者信息数据时aid为author_id
                 sql = f"SELECT contribution FROM author_paper WHERE (aid = {author.researcher_id} OR aid = {author_id}) AND pid={paper_id};"
