@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 import requests
 from ScholarDataset.items import ScholardatasetItem
 import logging
+from scrapy import Request
 
 logger = logging.getLogger(__name__)
 logger.setLevel(level=logging.INFO)
@@ -40,19 +41,24 @@ class ACMDigitalLibrarySpider(scrapy.Spider):
         search_url = 'https://dl.acm.org/action/doSearch?AllField='
 
         for paper_id, paper_title in self.query_list.items():
-            search_response = requests.get(url=search_url + paper_title.replace(' ', '+'), headers=self.headers)
-            soup = BeautifulSoup(search_response.text, 'lxml')
-            entry = soup.find('li', class_='search__item issue-item-container')
-            if entry is None:
-                logger.warning(f"对于'{paper_title}'，未在ACM网站上找到任何内容")
-                return
-            entry_url = 'https://dl.acm.org' + entry.find('a').get('href')
-
-            item = ScholardatasetItem()
-            item['content'] = (requests.get(url=entry_url)).text
-            item['query'] = paper_title
-            item['paper_id'] = paper_id
-            yield item
+            yield Request(url=search_url + paper_title.replace(' ', '+'),
+                          headers=self.headers,
+                          dont_filter=True,
+                          callback=self.parse,
+                          meta={'query': paper_title, 'paper_id': paper_id})
 
     def parse(self, response, **kwargs):
-        pass
+        paper_title = response.meta['query']
+        paper_id = response.meta['paper_id']
+        soup = BeautifulSoup(response.text, 'lxml')
+        entry = soup.find('li', class_='search__item issue-item-container')
+        if entry is None:
+            logger.warning(f"对于'{paper_title}'，未在ACM网站上找到任何内容")
+            return
+        entry_url = 'https://dl.acm.org' + entry.find('a').get('href')
+
+        item = ScholardatasetItem()
+        item['content'] = (requests.get(url=entry_url)).text
+        item['query'] = paper_title
+        item['paper_id'] = paper_id
+        yield item
