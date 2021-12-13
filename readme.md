@@ -31,9 +31,9 @@
 
 如有多个输入文件夹，依此法，将文件夹名称附加在```example_folder```之后即可（记得加空格）
 
-### 使用Web of Science爬虫
+### 使用WebOfScience/ACM/IEEExplore爬虫
 1. 确保IP拥有网站访问权限
 2. 执行如下指令：
 
-```python update_mysql_wos.py```
+```python update_mysql.py --crawler_name WebOfScience```
 
