@@ -11,7 +11,6 @@ import logging
 import json
 import argparse
 
-#  a = 'xplGlobal.document.metadata=\{.*\};' //提取IEEExplore元信息的正则表达式
 need_disambiguation_pattern = '*_disambiguation_article.csv'
 dont_need_disambiguation_pattern = '*_undisambiguation_article.csv'
 
@@ -26,6 +25,16 @@ logger.addHandler(handler)
 
 def insert_csv_into_mysql(csv_file: str, need_disambiguation: bool, author_title: str,
                           university: str, mysql_connect):
+    """
+    :param csv_file: csv文件路径，对应某个researcher
+    :param need_disambiguation: 这个researcher是否需要消歧（从DBLP网站上就能看出来）
+    :param author_title: 这个researcher的职称（副教授/教授等）
+    :param university: 这个researcher的大学
+    :param mysql_connect: 连接mysql数据库的参数字典
+    :return: None
+
+    csv文件格式请参照DBLP爬虫部分
+    """
     def get_venue_kind(kind: str) -> str:
         journal_pattern = '<journal>'
         crossref_pattern = '<crossref>'
@@ -67,7 +76,7 @@ def insert_csv_into_mysql(csv_file: str, need_disambiguation: bool, author_title
         sql = f"INSERT IGNORE INTO author(rid, need_disambiguation) VALUES ('{author_id}', '{need_disambiguation}');"
         execute_insert_sql(connection, sql)
 
-        for row in df.itertuples():
+        for row in df.itertuples():  # 插入所有论文，建立author_paper关系
             venue_name = row[6]
             venue_kind = get_venue_kind(row[5])
             sql = f"INSERT IGNORE INTO venue(name, kind) VALUES ('{escape_string(venue_name)}', '{escape_string(venue_kind)}');"
@@ -98,6 +107,7 @@ def insert_csv_into_mysql(csv_file: str, need_disambiguation: bool, author_title
 def main(args_):
     data_dirs = args_.data_dirs
     connection_config = json.load(open('./ScholarDataset/config.json'))
+    # 文件结构示例：计算机/哈尔滨工业大学/AssociateProfessor/小明/*.csv
     for data_dir in data_dirs:
         for university in os.listdir(data_dir):
             university_dir = data_dir + '/' + university
@@ -119,7 +129,6 @@ def main(args_):
 
 
 # 参数示例： --data_dirs C:/Users/12897/Documents/PythonProjects/ScholarDataset/data/input/计算机
-# 文件结构示例：计算机/哈尔滨工业大学/AssociateProfessor/小明/*.csv
 if __name__ == '__main__':
     ap = argparse.ArgumentParser()
     ap.add_argument('--data_dirs', help='Input directory paths', dest='data_dirs', action="extend", nargs='+', type=str,

@@ -121,7 +121,7 @@ def fill_rid(cursor: pymysql.connections.Cursor, author_list: List[Author], pape
     :param cursor: 数据库游标，该函数不需要更新操作
     :param author_list: 作者列表
     :param paper_id: 论文id
-    :return: author_list: 作者列表，只修改了researcher_id的属性
+    :return: author_list: 作者列表，只修改了researcher_id的值
     """
     # 为每个Author填充researcher_id
     sql = f"SELECT id, name FROM researcher WHERE id in (SELECT rid FROM author WHERE id in (SELECT aid FROM author_paper WHERE pid = {paper_id}));"

@@ -10,6 +10,10 @@ from pymysql.converters import escape_string
 
 
 def get_rank_dict(rid: int):
+    """
+    :param rid researcher的id
+    :return 该researcher的所有学术成果的字典
+    """
     connection_config = json.load(open('../ScholarDataset/config.json'))
     result = {}
     with pymysql.connect(host=connection_config['host'],

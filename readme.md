@@ -37,3 +37,5 @@
 
 ```python update_mysql.py --crawler_name WebOfScience```
 
+其中的```WebofScience```可替换为```ACM```或```IEEExplore```。
+

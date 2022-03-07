@@ -17,6 +17,9 @@ logger.propagate = False
 
 
 class WebOfScienceSpider(scrapy.Spider):
+    """
+    Web of Science爬虫，由于网站改版，本爬虫已不可用
+    """
     name = 'WebOfScience'
     allowed_domains = ['www.webofknowledge.com']
     start_urls = ['https://www.webofknowledge.com/']
@@ -35,7 +38,7 @@ class WebOfScienceSpider(scrapy.Spider):
         """
         Web Of Science爬虫
         :param kwargs:
-            {query_list}: 保存所有查询式的文件的字典，要求列表内每个元素的键为paper_id，值为论文的题目paper_title
+            {query_list}: 保存所有查询式的文件的字典，要求列表内每个元素的键为paper_id，值为论文的题目paper_title（均为str格式）
         """
         super().__init__(*args, **kwargs)
         self.query_list = kwargs['query_list']

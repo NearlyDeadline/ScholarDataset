@@ -15,6 +15,9 @@ logger.propagate = False
 
 
 class ACMDigitalLibrarySpider(scrapy.Spider):
+    """
+    ACM数字图书馆爬虫，适用于https://dl.acm.org/
+    """
     name = 'ACM'
     allowed_domains = ['dl.acm.org']
     start_urls = ['https://dl.acm.org/']

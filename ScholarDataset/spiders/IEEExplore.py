@@ -16,6 +16,9 @@ logger.propagate = False
 
 
 class IEEExploreSpider(scrapy.Spider):
+    """
+    IEEExplore爬虫，适用于https://ieeexplore.ieee.org/
+    """
     name = 'IEEExplore'
     allowed_domains = ['ieeexplore.ieee.org']
     start_urls = ['https://ieeexplore.ieee.org/']
